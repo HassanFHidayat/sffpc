@@ -1,33 +1,60 @@
 @extends('layouts.main')
 @section('container')
-    <h1>Halaman Hitung!</h1>
-    <table class="table mt-3">
+    <h1 class="text-center">Halaman Hitung</h1>
+    <h3 class="mt-5">Bobot Lokal</h3>
+    <table class="table mt-3 text-center">
         <thead class="table-dark">
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">CPU</th>
+                <th scope="col">GPU</th>
+                <th scope="col">RAM</th>
+                <th scope="col">Penyimpanan</th>
+                <th scope="col">SSD</th>
+                <th scope="col">HDD</th>
+                <th scope="col">Harga</th>
             </tr>
         </thead>
         <tbody>
+            @foreach ($tks as $tk)
             <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <th scope="row">{{ $tk->id }}</th>
+                <td>{{ $tk->Lcpu }}</td>
+                <td>{{ $tk->Lgpu }}</td>
+                <td>{{ $tk->Lram }}</td>
+                <td>{{ $tk->Lstorage }}</td>
+                <td>{{ $tk->Lssd }}</td>
+                <td>{{ $tk->Lhdd }}</td>
+                <td>{{ $tk->Lharga }}</td>
             </tr>
+            @endforeach
+        </tbody>
+    </table>
+    <h3 class="mt-5">Bobot Global</h3>
+    <table class="table mt-3 text-center">
+        <thead class="table-dark">
             <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <th scope="col">#</th>
+                <th scope="col">CPU</th>
+                <th scope="col">GPU</th>
+                <th scope="col">RAM</th>
+                <th scope="col">SSD</th>
+                <th scope="col">HDD</th>
+                <th scope="col">Harga</th>
             </tr>
+        </thead>
+        <tbody>
+            @foreach ($tks as $tk)
             <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
+                <th scope="row">{{ $tk->id }}</th>
+                <td>{{ $tk->Gcpu }}</td>
+                <td>{{ $tk->Ggpu }}</td>
+                <td>{{ $tk->Gram }}</td>
+                <td>{{ $tk->Gssd }}</td>
+                <td>{{ $tk->Ghdd }}</td>
+                <td>{{ $tk->Gharga }}</td>
             </tr>
+            @endforeach
         </tbody>
     </table>
 @endsection

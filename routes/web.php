@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TingkatKepentinganController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,18 +16,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home', [
-        "title" => "Home"
+        "title" => "SPK SFF-PC | Home"
     ]);
 });
 
 Route::get('/list', function () {
     return view('list', [
-        "title" => "List"
+        "title" => "SPK SFF-PC | List"
     ]);
 });
 
-Route::get('/hitung', function () {
-    return view('hitung', [
-        "title" => "Rekomendasi"
-    ]);
-});
+Route::get('/hitung', [TingkatKepentinganController::class, 'index']);
