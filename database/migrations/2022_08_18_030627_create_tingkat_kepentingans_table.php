@@ -15,20 +15,20 @@ return new class extends Migration
     {
         Schema::create('tingkat_kepentingans', function (Blueprint $table) {
             $table->id();
-            $table->integer('Lcpu');
-            $table->integer('Lgpu');
-            $table->integer('Lram');
-            $table->integer('Lstorage');
-            $table->integer('Lssd');
-            $table->integer('Lhdd');
-            $table->integer('Lharga');
-            $table->float('Gcpu');
-            $table->float('Ggpu');
-            $table->float('Gram');
-            $table->float('Gssd');
-            $table->float('Ghdd');
-            $table->float('Gharga');
-            $table->integer('idUser');
+            $table->foreignId('pembeli_id');
+            $table->integer('cpu_lokal');
+            $table->integer('gpu_lokal');
+            $table->integer('ram_lokal');
+            $table->integer('storage_lokal');
+            $table->integer('ssd_lokal');
+            $table->integer('hdd_lokal');
+            $table->integer('harga_lokal');
+            $table->float('cpu_global');
+            $table->float('gpu_global');
+            $table->float('ram_global');
+            $table->float('ssd_global');
+            $table->float('hdd_global');
+            $table->float('harga_global');
             $table->timestamps();
         });
     }
