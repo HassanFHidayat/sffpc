@@ -19,13 +19,13 @@
             @foreach ($tks as $tk)
             <tr>
                 <th scope="row">{{ $tk->id }}</th>
-                <td>{{ $tk->Lcpu }}</td>
-                <td>{{ $tk->Lgpu }}</td>
-                <td>{{ $tk->Lram }}</td>
-                <td>{{ $tk->Lstorage }}</td>
-                <td>{{ $tk->Lssd }}</td>
-                <td>{{ $tk->Lhdd }}</td>
-                <td>{{ $tk->Lharga }}</td>
+                <td>{{ $tk->cpu_lokal }}</td>
+                <td>{{ $tk->gpu_lokal }}</td>
+                <td>{{ $tk->ram_lokal }}</td>
+                <td>{{ $tk->storage_lokal }}</td>
+                <td>{{ $tk->ssd_lokal }}</td>
+                <td>{{ $tk->hdd_lokal }}</td>
+                <td>{{ $tk->harga_lokal }}</td>
             </tr>
             @endforeach
         </tbody>
@@ -47,12 +47,12 @@
             @foreach ($tks as $tk)
             <tr>
                 <th scope="row">{{ $tk->id }}</th>
-                <td>{{ $tk->Gcpu }}</td>
-                <td>{{ $tk->Ggpu }}</td>
-                <td>{{ $tk->Gram }}</td>
-                <td>{{ $tk->Gssd }}</td>
-                <td>{{ $tk->Ghdd }}</td>
-                <td>{{ $tk->Gharga }}</td>
+                <td>{{ $tk->cpu_global }}</td>
+                <td>{{ $tk->gpu_global }}</td>
+                <td>{{ $tk->ram_global }}</td>
+                <td>{{ $tk->ssd_global }}</td>
+                <td>{{ $tk->hdd_global }}</td>
+                <td>{{ $tk->harga_global }}</td>
             </tr>
             @endforeach
         </tbody>

@@ -23,12 +23,12 @@ return new class extends Migration
             $table->integer('ssd_lokal');
             $table->integer('hdd_lokal');
             $table->integer('harga_lokal');
-            $table->float('cpu_global');
-            $table->float('gpu_global');
-            $table->float('ram_global');
-            $table->float('ssd_global');
-            $table->float('hdd_global');
-            $table->float('harga_global');
+            $table->decimal('cpu_global');
+            $table->decimal('gpu_global');
+            $table->decimal('ram_global');
+            $table->decimal('ssd_global');
+            $table->decimal('hdd_global');
+            $table->decimal('harga_global');
             $table->timestamps();
         });
     }
