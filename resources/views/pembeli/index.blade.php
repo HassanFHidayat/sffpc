@@ -1,7 +1,13 @@
-@extends('layouts.main')
+@extends('../layouts.main')
 @section('container')
-    <h1 class="text-center">Halaman Hitung</h1>
+    <h1 class="text-center">Halaman Rekomendasi</h1>
+    @if(session()->has('success'))
+        <div class="alert alert-success" role="alert">
+            {{ session('success') }}
+        </div>
+    @endif
     <h3 class="mt-5">Bobot Lokal</h3>
+    <a href="/rekomendasi/create" class="btn btn-primary">Create</a>
     <table class="table mt-3 text-center">
         <thead class="table-dark">
             <tr>
@@ -13,6 +19,7 @@
                 <th scope="col">SSD</th>
                 <th scope="col">HDD</th>
                 <th scope="col">Harga</th>
+                <th scope="col">Action</th>
             </tr>
         </thead>
         <tbody>
@@ -26,6 +33,16 @@
                 <td>{{ $tk->ssd_lokal }}</td>
                 <td>{{ $tk->hdd_lokal }}</td>
                 <td>{{ $tk->harga_lokal }}</td>
+                <td>
+                    <a href="/rekomendasi/{{ $tk->id }}/edit" class="btn btn-warning border-0">Edit</a>
+                    <form action="/rekomendasi/{{ $tk->id }}" method="post" class="d-inline">
+                        @method('delete')
+                        @csrf
+                        <button class="btn btn-danger border-0" onclick="return confirm('Apakah anda yakin?')">
+                            <span data-feather="x-circle">Hapus</span>
+                        </button>
+                    </form>
+                </td>
             </tr>
             @endforeach
         </tbody>

@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Skala;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -38,6 +39,31 @@ class DatabaseSeeder extends Seeder
             'ssd_global' => '0.074074074',
             'hdd_global' => '0.037037037',
             'harga_global' => '0.277777778'
+        ]);
+
+        Skala::Create([
+            'value' => 1,
+            'description' => 'Tidak Baik'
+        ]);
+
+        Skala::Create([
+            'value' => 2,
+            'description' => 'Kurang Baik'
+        ]);
+
+        Skala::Create([
+            'value' => 3,
+            'description' => 'Cukup Baik'
+        ]);
+
+        Skala::Create([
+            'value' => 4,
+            'description' => 'Baik'
+        ]);
+        
+        Skala::Create([
+            'value' => 5,
+            'description' => 'Sangat Baik'
         ]);
     }
 }

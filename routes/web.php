@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\TingkatKepentinganController;
+use App\Models\TingkatKepentingan;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,9 +22,11 @@ Route::get('/', function () {
 });
 
 Route::get('/list', function () {
-    return view('list', [
+    return view('pembeli.list', [
         "title" => "SPK SFF-PC | List"
     ]);
 });
 
-Route::get('/hitung', [TingkatKepentinganController::class, 'index']);
+// Route::get('/hitung', [TingkatKepentinganController::class, 'index']);
+
+Route::resource('/rekomendasi', TingkatKepentinganController::class);
