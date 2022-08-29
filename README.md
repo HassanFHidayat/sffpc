@@ -10,7 +10,7 @@
 ## Cara Installasi
 
 - Buka Terminal / CMD
-- Clone project <code>https://github.com/wildanfuady/sffpc.git</code>
+- Clone project <code>https://github.com/HassanFHidayat/sffpc.git</code>
 - cd sffpc
 - Ketik <code>composer install</code>
 - Kemudian ketik <code>cp .env.example .env</code>
