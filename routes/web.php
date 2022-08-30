@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\TingkatKepentinganController;
+use App\Http\Controllers\AlternatifController;
 use App\Models\TingkatKepentingan;
 use Illuminate\Support\Facades\Route;
 
@@ -30,3 +31,11 @@ Route::get('/list', function () {
 // Route::get('/hitung', [TingkatKepentinganController::class, 'index']);
 
 Route::resource('/rekomendasi', TingkatKepentinganController::class);
+
+Route::get('/penjual', function () {
+    return view('penjual.index', [
+        "title" => "SPK SFF-PC | Home"
+    ]);
+});
+
+Route::resource('/alternatif', AlternatifController::class);

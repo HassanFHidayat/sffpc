@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\Skala;
 use App\Models\CPU;
 use App\Models\GPU;
+use App\Models\Alternatif;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -68,6534 +69,14025 @@ class DatabaseSeeder extends Seeder
             'description' => 'Sangat Baik'
         ]);
 
-        CPU::Create([
-            'nama' => 'AMD Threadripper 3990X 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-4650 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2698 V3 2.3 GHz',
-            'base_clock' => 2.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Threadripper 3970X 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Threadripper 2990WX 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2687W V3 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-7960X 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2643 V3 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2687W V4 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2690 V2 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2687W V3 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Threadripper 3960X 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2680 V4 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9980XE 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2683 V4 2.1 GHz',
-            'base_clock' => 2.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9900KS 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2670 V2 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4960X Extreme Edition 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4930K 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2470V2 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 9 3950X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX9775 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2667 V3 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9960X 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-7900X 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9980XE 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2699 V4 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-7980XE 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9900X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1660 V2 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-980X Extreme Edition 3.33 GHz',
-            'base_clock' => 3.33
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-980 3.333 GHz',
-            'base_clock' => 3.333
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Threadripper 2970WX 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2278G 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2146G 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-10980XE 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX6800 2.93 GHz',
-            'base_clock' => 2.93
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2640 V4 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-965 Extreme Edition 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2690 V4 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-5775C 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Threadripper 2950X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Opteron 6378 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9940X 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9900K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2695 V3 2.3 GHz',
-            'base_clock' => 2.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX6850 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6950X 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 940 Black 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2609 V4 1.7 GHz',
-            'base_clock' => 1.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-2600K 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-9370 4.4 GHz',
-            'base_clock' => 4.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-7960X 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-3960X Extreme Edition 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-10940X 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9900 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8150 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1270 V6 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-7920X 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 9 3900XT 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 9 3950X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-9800X 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-10920X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2286G 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1240 V6 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-12900KS 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-8086K 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Threadripper 1950X 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1220 V6 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX6700 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8350 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1230 V6 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1245 V6 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1245 V6 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9900K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9900K (Standard Folding Box) 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4670S 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2104G 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-12900K 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2687W 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6800K 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-7900X 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-12900KF 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1285 V6 4.1 GHz',
-            'base_clock' => 4.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-10900X 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 9 5950X 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2176G 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1225 V6 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1280 V6 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-12900 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-12900F 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1630 V4 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-3970X Extreme Edition 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1230 V5 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Extreme X6800 2.93 GHz',
-            'base_clock' => 2.93
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1230 V5 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7820X 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1240 V6 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2176G 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2630 V4 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2236 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-9700KF 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8370 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2640 V3 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 5800X3D 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2174G 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 3800XT 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9900KF 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2274G 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-6800K 4.1 GHz',
-            'base_clock' => 4.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2630L V3 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-9700F 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1660 V3 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-11900F 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2695 V2 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6900K 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-9700K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2643 V2 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1220 V3 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-750 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2174G 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q6600 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7700T 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 9 5900X 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1220 V6 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-2600S 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1275 V2 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-10900 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1275 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2620 V4 2.1 GHz',
-            'base_clock' => 2.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 1800X 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-8700K 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-875K 2.93 GHz',
-            'base_clock' => 2.93
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-12700KF 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-12700K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 9 3900X 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A12-9800E 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1245 V2 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-10900F 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7700K 4.2 GHz',
-            'base_clock' => 4.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2144G 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7700 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2146G 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1275 V6 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2136 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-11700 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2665 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-9700 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-3930K 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Opteron 6344 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1270 V3 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1270 V2 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1270 V3 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6700 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-8700 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1240 V2 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6950X 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-12700 2.1 GHz',
-            'base_clock' => 2.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-3550 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7700T 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-8700T 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-8700K 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4770K 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-8600 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Threadripper 1920X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-3225 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2236 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2126G 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-10850K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9550 2.83 GHz',
-            'base_clock' => 2.83
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1230 V6 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2136 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-12700F 2.1 GHz',
-            'base_clock' => 2.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-8700 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-8400 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-940 2.93 GHz',
-            'base_clock' => 2.93
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1245 V5 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7800X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4790K 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9600KF 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7640X 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 5800X 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-10900K 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1230 V3 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1241 V3 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1230 V2 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9450 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 1700 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 2400G 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 1700X 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4770S 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1225 V5 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-6100T 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-11900 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2695 V3 2.3 GHz',
-            'base_clock' => 2.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 3700X 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD 5350 2.05 GHz',
-            'base_clock' => 2.05
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-950 3.06 GHz',
-            'base_clock' => 3.06
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 2700 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6800K 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-6600T 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-11700F 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2134 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-7870K 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1225 V6 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6700K 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6700 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-11700K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-11900K 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-11900KF 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-3340 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 1600 (14nm) 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 3400G 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-8600K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-3770K 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1270 V5 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-10900KF 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-930 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2124G 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-860 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7700 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Opteron 6320 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-10700 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-8100T 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 3600X 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-8500 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1240 V5 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-8500 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-12600K 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6850K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7820X 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 5700G 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 5700X 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2660 V4 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9650 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-9300 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-10700K 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 3800X 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2623 V3 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 2700X 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A8-6500 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1230 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9600 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 3 3300X 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 1500X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7500T 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-3250 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-2320 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6850 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9505 2.83 GHz',
-            'base_clock' => 2.83
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1240 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Opteron 6320 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X6 1090T Black 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2697 V3 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-8500 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-3450 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4790K 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4790K 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1245 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-10700F 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1650 V2 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-11700KF 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4790 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-8600 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2124 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-920 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-870 2.93 GHz',
-            'base_clock' => 2.93
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-2500K 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-8100 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-7100 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-10700KF 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2124G 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-12600 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G4600 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G4620 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7640X 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 1400 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7800X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-11600 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-12600KF 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4820K 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7740X 4.3 GHz',
-            'base_clock' => 4.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 1600 (12nm) 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-960 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1235 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-10600 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8350 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G4560 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 2600 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9500F 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-11600KF 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4770K 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-3330S 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-10600K 4.1 GHz',
-            'base_clock' => 4.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-2400 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-12500 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2603 V4 1.7 GHz',
-            'base_clock' => 1.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7400T 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 3600 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Threadripper 1900X 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9500 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7740X 4.3 GHz',
-            'base_clock' => 4.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4790T 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4770K 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-3220T 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 5600X 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E4600 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6320 1.86 GHz',
-            'base_clock' => 1.86
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7500T 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9600K 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7500 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1230 V2 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-6600K 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6700 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-12400 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-10500 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-8400 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 3 2200G 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-3770S 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-560 3.333 GHz',
-            'base_clock' => 3.333
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-920 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7400T 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4770 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1620 V4 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 5600 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A6-7470K 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4440 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-11500 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G3930 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-6100 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2660 V3 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-11600K 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-10600KF 4.1 GHz',
-            'base_clock' => 4.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9600KF 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-12400F 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 5600G 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7400 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-540 3.06 GHz',
-            'base_clock' => 3.06
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2650 V4 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-550 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6900K 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G6600 4.2 GHz',
-            'base_clock' => 4.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9300 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-8100 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E7600 3.06 GHz',
-            'base_clock' => 3.06
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E7400 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1225 V3 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9400 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 975 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-11400 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7400 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7600K 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 3 1200 (14nm) 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-9100 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1225 V2 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-9700 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon 240GE 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon 220GE 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-750 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8320 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2670 V3 2.3 GHz',
-            'base_clock' => 2.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-6500 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 1600X 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-10300 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2640 V3 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7600 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-2700K 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q8400 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-7100T 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4690K 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2124 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7600T 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Sempron 145 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-11400F 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-2125 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 3 3200G 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-2400S 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G4900 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-2380P 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1620 V4 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-3245 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 3 3100 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6420 2.13 GHz',
-            'base_clock' => 2.13
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Pro A10-7850B 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1220 V5 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1650 V3 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-760 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 4600G 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-660 3.33 GHz',
-            'base_clock' => 3.33
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4690 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1220 V5 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-3770 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-5775C 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8400 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 3600 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2660 V3 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2620 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-7850K 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 5500 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9400F 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2690 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-7100 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-3400 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-8350K 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-4350 4.2 GHz',
-            'base_clock' => 4.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-4350 4.2 GHz',
-            'base_clock' => 4.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E7200 2.53 GHz',
-            'base_clock' => 2.53
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-10305 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q6600 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6400 2.13 GHz',
-            'base_clock' => 2.13
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6750 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6850 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E2180 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-10400F 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-2600 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G5420 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-4130T 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4440S 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-12100 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-10320 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2630 V3 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2650 V3 2.3 GHz',
-            'base_clock' => 2.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-4340 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G4930 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-9100F 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-860S 2.53 GHz',
-            'base_clock' => 2.53
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-2120T 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E6300 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8300 2.83 GHz',
-            'base_clock' => 2.83
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4460 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon 200GE 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX9650 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1220 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-7350K 4.2 GHz',
-            'base_clock' => 4.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4570S 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-6402P 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E4500 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-10400 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-6300 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 3 4100 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G5400 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3470 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-7320 4.1 GHz',
-            'base_clock' => 4.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2643 V4 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6550 2.33 GHz',
-            'base_clock' => 2.33
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-10105 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-3570K 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 4500 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E4400 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-12100F 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-3470 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2650L 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2603 V3 1.6 GHz',
-            'base_clock' => 1.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G6600 4.2 GHz',
-            'base_clock' => 4.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-6100 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-2105 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3460 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E2140 1.6 GHz',
-            'base_clock' => 1.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4670K 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6550 2.33 GHz',
-            'base_clock' => 2.33
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-6320 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G6605 4.3 GHz',
-            'base_clock' => 4.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E7500 2.93 GHz',
-            'base_clock' => 2.93
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G5400T 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6400 2.13 GHz',
-            'base_clock' => 2.13
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2660 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E4300 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4690 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E6500 2.93 GHz',
-            'base_clock' => 2.93
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4670 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-3450S 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-10100 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G645 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G5400 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-6300 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-3240 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3420 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G6500 4.1 GHz',
-            'base_clock' => 4.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon 3000G (14nm) 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A6-9500 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-6300T 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E2160 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2620 V3 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G6950 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6420 2.13 GHz',
-            'base_clock' => 2.13
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-4150 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-3300 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G640T 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-5800K 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-6120 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2680 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4570 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E7200 2.53 GHz',
-            'base_clock' => 2.53
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G3930 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1620 V3 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E5300 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E5300 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G4400 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G870 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-4130 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G3900 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2650L V2 1.7 GHz',
-            'base_clock' => 1.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3250 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-6098P 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G630T 2.3 GHz',
-            'base_clock' => 2.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G2120 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G4900T 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 640 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 820 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3258 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G4920 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-3470S 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-2120 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-10105F 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G860 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2603 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G7400 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-3210 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G540 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2620 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 640 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G4400 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G3900 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G530 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron E3300 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2620 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 635 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2620 V3 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G630 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G4500 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-10100F 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-4620 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 830 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 620 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E5300 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2609 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 840 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2650 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2640 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G4900 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E2200 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q8200 2.33 GHz',
-            'base_clock' => 2.33
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2630 2.3 GHz',
-            'base_clock' => 2.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9550 2.83 GHz',
-            'base_clock' => 2.83
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G6405 4.1 GHz',
-            'base_clock' => 4.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G2020 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G5920 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron 430 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron 440 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron 420 1.6 GHz',
-            'base_clock' => 1.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-6300B 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-2100 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2650 V2 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 630 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G2140 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E2220 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3420 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G6400 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9300 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9400 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-6300 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron E3400 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G6900 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E7300 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G1610 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E5700 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E7300 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G440 1.6 GHz',
-            'base_clock' => 1.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G640 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 240 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G5925 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8400 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2630 2.3 GHz',
-            'base_clock' => 2.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G5900 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron E3500 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron E1400 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 2600X 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 3600 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 3600XT 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-9700F 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 3700X 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-9700 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 3500X 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-6300 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4590 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-9590 4.7 GHz',
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'Intel NUC5i3RYH Mini PC',
+            'kecepatan_cpu' => 2104,
+            'kecepatan_gpu' => 2047,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 5705379,
+        ]);
+
+        CPU::Create([
+            'nama' => 'AMD FX-9590',
             'base_clock' => 4.7
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i5-6400 2.7 GHz',
-            'base_clock' => 2.7
+            'nama' => 'AMD Ryzen 5 7600X',
+            'base_clock' => 4.7
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Ryzen 5 3500 3.6 GHz',
-            'base_clock' => 3.6
+            'nama' => 'AMD Ryzen 9 7900X',
+            'base_clock' => 4.7
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i7-5820K 3.3 GHz',
-            'base_clock' => 3.3
+            'nama' => 'AMD Ryzen 7 7700X',
+            'base_clock' => 4.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium E2200 2.2 GHz',
-            'base_clock' => 2.2
+            'nama' => 'AMD Ryzen 9 7950X',
+            'base_clock' => 4.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i5-6600 3.3 GHz',
-            'base_clock' => 3.3
+            'nama' => 'AMD FX-9370',
+            'base_clock' => 4.4
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i7-4790 3.6 GHz',
-            'base_clock' => 3.6
+            'nama' => 'Intel Xeon X5698',
+            'base_clock' => 4.4
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i5-3570 3.4 GHz',
-            'base_clock' => 3.4
+            'nama' => 'Intel Core i3-7360X',
+            'base_clock' => 4.3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Ryzen 5 3600X 3.8 GHz',
-            'base_clock' => 3.8
+            'nama' => 'Intel Core i7-7740X',
+            'base_clock' => 4.3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Ryzen 3 1300X 3.5 GHz',
-            'base_clock' => 3.5
+            'nama' => 'Intel Pentium Gold G6605',
+            'base_clock' => 4.3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Ryzen 7 3800X 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 9 3900X 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8500 3.16 GHz',
-            'base_clock' => 3.16
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8320 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 950 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 2600 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 3 3200G 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G5905 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-6500 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-2500 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A6-6400K 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 3 1200 (12nm) 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2697 V2 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-3220 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-3330 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7700K 4.2 GHz',
+            'nama' => 'AMD FX-4170',
             'base_clock' => 4.2
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i7-5930K 3.5 GHz',
-            'base_clock' => 3.5
+            'nama' => 'AMD FX-4350',
+            'base_clock' => 4.2
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Ryzen 5 2600X 3.6 GHz',
-            'base_clock' => 3.6
+            'nama' => 'Intel Core i3-7340',
+            'base_clock' => 4.2
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i5-9400F 2.9 GHz',
-            'base_clock' => 2.9
+            'nama' => 'Intel Core i3-7350K',
+            'base_clock' => 4.2
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD FX-4300 3.8 GHz',
-            'base_clock' => 3.8
+            'nama' => 'Intel Core i7-7700K',
+            'base_clock' => 4.2
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Ryzen 5 2400G 3.6 GHz',
-            'base_clock' => 3.6
+            'nama' => 'Intel Pentium Gold G6505',
+            'base_clock' => 4.2
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD FX-8300 3.3 GHz',
-            'base_clock' => 3.3
+            'nama' => 'Intel Pentium Gold G6600',
+            'base_clock' => 4.2
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon 3000G (14nm) 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 5 3400G 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 1700X 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon 200GE 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-4160 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-5960X 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6700K 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A8-9600 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-9700K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-870 2.93 GHz',
-            'base_clock' => 2.93
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 2700 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Threadripper 2920X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 860K 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 3 1200 (12nm) 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-3820 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 3 2200G 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-650 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A8-7600 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2687W V2 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-3570 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-4170 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4790S 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2699 V3 2.3 GHz',
-            'base_clock' => 2.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4430 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-10900K 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A8-6600K 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-10600K 4.1 GHz',
+            'nama' => 'AMD A10-6800K',
             'base_clock' => 4.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i9-10850K 3.6 GHz',
-            'base_clock' => 3.6
+            'nama' => 'AMD Ryzen Threadripper PRO 5945WX',
+            'base_clock' => 4.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Xeon E5-2698 V4 2.2 GHz',
-            'base_clock' => 2.2
+            'nama' => 'Intel Core i3-10350K',
+            'base_clock' => 4.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i5-9600K 3.7 GHz',
-            'base_clock' => 3.7
+            'nama' => 'Intel Core i3-7320',
+            'base_clock' => 4.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i5-7500 3.4 GHz',
-            'base_clock' => 3.4
+            'nama' => 'Intel Core i5-10600K',
+            'base_clock' => 4.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i9-9900T 2.1 GHz',
-            'base_clock' => 2.1
+            'nama' => 'Intel Core i5-10600KF',
+            'base_clock' => 4.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD FX-8120 3.1 GHz',
-            'base_clock' => 3.1
+            'nama' => 'Intel Pentium Gold G6405',
+            'base_clock' => 4.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Xeon E3-1231 V3 3.4 GHz',
-            'base_clock' => 3.4
+            'nama' => 'Intel Pentium Gold G6500',
+            'base_clock' => 4.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i5-6400 2.7 GHz',
-            'base_clock' => 2.7
+            'nama' => 'Intel Xeon E3-1285 v6',
+            'base_clock' => 4.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD FX-6350 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8320E 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8350 4 GHz',
+            'nama' => 'AMD A10-6790B',
             'base_clock' => 4
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Xeon E5-1620 V2 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-10850KA Avengers Limited Edition 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 965 Black 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E5800 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-6100 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-7800 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-8600K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-10325 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-4100 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD 3850 1.3 GHz',
-            'base_clock' => 1.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6700T 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2697 V4 2.3 GHz',
-            'base_clock' => 2.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4590S 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II 160u 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1240L V5 2.1 GHz',
-            'base_clock' => 2.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-6500T 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-3350P 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4570T 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-8400T 1.7 GHz',
-            'base_clock' => 1.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-9100T 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2670 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 220 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9400 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4690K 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A8-7650K 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-6400T 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G4600 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A8-5500 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-8500T 2.1 GHz',
-            'base_clock' => 2.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9900X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 955 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD 2650 1.45 GHz',
-            'base_clock' => 1.45
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A8-5600K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9500T 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-530 2.93 GHz',
-            'base_clock' => 2.93
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X6 1100T Black 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4690K 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9960X 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-7940X 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron 430 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1620 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-2300 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4771 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A8-7680 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-4330 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-9350KF 4 GHz',
+            'nama' => 'AMD A10-6790K',
             'base_clock' => 4
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX9770 3.2 GHz',
-            'base_clock' => 3.2
+            'nama' => 'AMD A10-7890K',
+            'base_clock' => 4
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i7-990X Extreme Edition 3.467 GHz',
+            'nama' => 'AMD A6-6420K',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X4 880K',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-4320',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-8350',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-8370',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 5300G',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 PRO 5350G',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper PRO 3945WX',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper PRO 5955WX',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-7120',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-7300',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-8350K',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-9350K',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-9350KF',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4790K',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-6700K',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8086K',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-10990XE',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-9900KS',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-9990XE',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Gold G5620',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Gold G6400',
+            'base_clock' => 4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A10-7870K',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-6400B',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-6400K',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-6600K',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X4 870K',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-4120',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-6350',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-8170',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A10-8850B',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 5600G',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 5650G',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 3800X',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 3900XT',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper PRO 3955WX',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-10325',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-6320',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-7100',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-11600K',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-11600KF',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-7640X',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Gold G5600',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8356H',
+            'base_clock' => 3.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A10-5800B',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A10-5800K',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A12-9800',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4 PRO-7300B',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-6320',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-6320B',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-7300',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-9550',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X4 760K',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X4 970',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FirePro A320',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-4130',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-4150',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-4300',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-6200',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A12-9800',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 3300X',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 4100',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 4300G',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 PRO 4350G',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 3600X',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 3600XT',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 3800XT',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 5700G',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 5800G',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 5800X',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 PRO 5750G',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 3900X',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper 1900X',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper 3960X',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper PRO 5965WX',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-10305',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-10320',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4370',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4370',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-6300',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-7600K',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-10700K',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-10700KF',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-9800X',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 570',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 571',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 670',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 672',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Gold G5500',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8256',
+            'base_clock' => 3.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT EE 3.73',
+            'base_clock' => 3.733
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 965 EE',
+            'base_clock' => 3.73
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 5080',
+            'base_clock' => 3.73
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A10 PRO-7850B',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A10-6700',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A10-7850K',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-6300',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-6300B',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-7470K',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X4 860K',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 72F3',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7F32',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 980 BE',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A12-8870',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 3400G',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 4600G',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 5500',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 5600X',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 4650G',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 2700X',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 2700X 50th Anniversary',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 5900X',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper 3970X',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-10105',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-10105F',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-10300',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4360',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-6100',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-8020',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-8120',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-8300',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-9000',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-9100',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-9300',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-9320',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12600K',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12600KF',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8650K',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-9600K',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-9600KF',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4820K',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8700K',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-10900K',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-10900KF',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-10900X',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G4620',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Gold G5400',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Gold G7400',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E-2374G',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1280 v5',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1290 v2',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1620 v2',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1630 V3',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1660 v2',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W-1290P',
+            'base_clock' => 3.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 3.66',
+            'base_clock' => 3.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A10-7860K',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-5400B',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-5400K',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-5600K',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-7670K',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X2 280',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-4100',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-6120',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-6130',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-6330',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-8150',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 975 BE',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A10-8750B',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 3100',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 3200G',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 PRO 5350GE',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 1600X',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 2400G',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 2500X',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 2600X',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 3500X',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 3600',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 4500',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 2400G',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 1800X',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 3700X',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 4700G',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 PRO 2700X',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 PRO 4750G',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper PRO 5975WX',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-10100',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4160',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4340',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4350',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-7120T',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-7320T',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-8000',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-9100F',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-680',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8600K',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-11700K',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-11700KF',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-12700K',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-12700KF',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3820',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4790',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4960X',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-6850K',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-7700',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-7820X',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-9700K',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-9700KF',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-10850K',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-9900K',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-9900KF',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 3.6E',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 560',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 561',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 660',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 661',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 662',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 960',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G4520',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G4600',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Gold G6505T',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Gold G7400E',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 3.6',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 3.6',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1280 v2',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1280 v3',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1285 v3',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1290',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1620',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6334',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon X5687',
+            'base_clock' => 3.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A10 PRO-7800B',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A10-7800',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A10-9700',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6 PRO-7400B',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-7400K',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-7480',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-9500',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-6500',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-6500B',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-7680',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 240GE',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 3000G',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon Gold 3150G',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon Gold 3150GE',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon Gold PRO 3150G',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon Gold PRO 3150GE',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 450',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X4 845',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X4 950',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 73F3',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7F52',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-6300',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-770K',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-8320',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 4340',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X2 570 BE',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 970 BE',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 970 BE',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A10-8770',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A10-9700',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A4-8350B',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A6-8550B',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A6-8570',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A6-9500',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 2200G',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 2300X',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 4300GE',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 PRO 1300',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 PRO 4350GE',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 1500X',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 5600',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 1500',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 3950X',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper 1920X',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper 1940X',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper 2920X',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper 2950X',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper 3980X',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper PRO 3975WX',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G5920',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-12300',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4330',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-7300T',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-13600K',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-13600KF',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4690K',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-6600K',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-7600',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2700K',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3770K',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3970X',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4770K',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4771',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-5930K',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-7800X',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-10920X',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-11900K',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-11900KF',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-9900X',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-9920X',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G3460',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G4500',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G4560',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Gold G6405T',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 7150N',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E-2386G',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1270 v2',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1270 v3',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1275 v2',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1275 v3',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1280',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1285 v4',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1620 V3',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1650 v2',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1650 V3',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2637 v2',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2637 V3',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2643 v2',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 3.50',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W-3323',
+            'base_clock' => 3.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Mobile Pentium 4 HT 552',
             'base_clock' => 3.467
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i5-7600K 3.8 GHz',
-            'base_clock' => 3.8
+            'nama' => 'Intel Core i5-670',
+            'base_clock' => 3.466
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i9-9820X 3.3 GHz',
-            'base_clock' => 3.3
+            'nama' => 'Intel Core i7-990X',
+            'base_clock' => 3.466
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i3-2130 3.4 GHz',
-            'base_clock' => 3.4
+            'nama' => 'Intel Xeon W3690',
+            'base_clock' => 3.466
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i5-4460S 2.9 GHz',
-            'base_clock' => 2.9
+            'nama' => 'Intel Xeon X5677',
+            'base_clock' => 3.466
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Ryzen 7 1800X 3.6 GHz',
-            'base_clock' => 3.6
+            'nama' => 'Intel Xeon X5690',
+            'base_clock' => 3.466
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Xeon E5-2670 V3 2.3 GHz',
-            'base_clock' => 2.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2680 V3 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2660 V2 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-7700K 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8600 3.33 GHz',
-            'base_clock' => 3.33
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 760K 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-9590 4.7 GHz',
-            'base_clock' => 4.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G2030 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2670 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 860K 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A6-7480 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X6 1055T 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-2310 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3220 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-8300 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-9700T 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2288G 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-970 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1240 V3 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 955 Black 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-9590 4.7 GHz',
-            'base_clock' => 4.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G1840 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A6-7400K 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-7890K 4.1 GHz',
-            'base_clock' => 4.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2620 V2 2.1 GHz',
-            'base_clock' => 2.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2697 V3 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A6-5400K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1220 V2 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-4300 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-5675C 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-9700E 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A12-9800 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1650 V4 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Threadripper 2990WX 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Threadripper 2970WX 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G620 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-6700 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8370 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon 220GE 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon 240GE 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9900 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9600K 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2683 V4 2.1 GHz',
-            'base_clock' => 2.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2680 V2 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1235L V5 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2650L V4 1.7 GHz',
-            'base_clock' => 1.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-2550K 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-5800K 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 880K 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Ryzen 7 1800X 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3240 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E5400 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 250 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A6-3500 2.1 GHz',
-            'base_clock' => 2.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1265L V3 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-7860k 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A6-9500E 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-3570S 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9500 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2246G 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2637 V3 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A8-3850 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-4170 4.2 GHz',
-            'base_clock' => 4.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1246 V3 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2667 V2 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-5820K 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2690 V3 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-6600 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3260 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-7980XE 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Threadripper 2950X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-9350K 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2650 V3 2.3 GHz',
-            'base_clock' => 2.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9400T 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X3 450 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A8-3870K 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-6200 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-3240 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9400 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4590T 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-10100T 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2640 V2 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-5300 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1265L V2 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-4130 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G2010 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1271 V3 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-6350 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 970 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2630 V3 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E4300 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E5200 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8600 3.33 GHz',
-            'base_clock' => 3.33
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-4370 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9600T 2.3 GHz',
-            'base_clock' => 2.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1260L V5 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Threadripper 2920X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G5925 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G5905T 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X2 555 Black 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9400 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X6 1045T 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 750K 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1650 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8370E 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1225 V5 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 845 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2630 V2 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X3 720 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 945 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-880 3.06 GHz',
-            'base_clock' => 3.06
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X6 1075T 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8120 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8150 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-5700 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4690S 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-7300 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-7100T 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2420V2 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9920X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 215 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q8400 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-2100T 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1245 V3 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-6790K 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-4100 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-4160 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-3770T 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8310 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-6100T 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G5600 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X2 550 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E4500 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-975 Extreme Edition 3.33 GHz',
-            'base_clock' => 3.33
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q8300 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 610e 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 970 Black 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E6700 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD 5150 1.6 GHz',
-            'base_clock' => 1.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-5930K 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7600 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G5500 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X3 435 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 920 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-860 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-930 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q6700 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 965 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A6-3650 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 270 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 740 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G1820 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-5960X 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon 5370 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2683 V3 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G4620 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G4560 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A8-7670K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-8600T 2.3 GHz',
-            'base_clock' => 2.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-9800X 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9500F 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9400 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9600 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2660 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 925 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X6 1055T 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E6600 3.06 GHz',
-            'base_clock' => 3.06
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 645 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X6 1035T 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1275 V3 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1660 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD E2-3200 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1276 V3 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 860K 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1630 V3 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Pro A10-7800B 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-4770T 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6700T 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6850K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G4560T 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-8350K 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2244G 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Sempron 140 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 250u 1.6 GHz',
-            'base_clock' => 1.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9550 2.83 GHz',
-            'base_clock' => 2.83
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9650 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 975 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 980 Black 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A8-3850 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1270 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD 5150 1.6 GHz',
-            'base_clock' => 1.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 651 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1680 V3 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 840 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-6400T 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2695 V4 2.1 GHz',
-            'base_clock' => 2.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-7300 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G465 1.9 GHz',
-            'base_clock' => 1.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X2 B59 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 250 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E2220 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-655K 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-661 3.33 GHz',
-            'base_clock' => 3.33
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-680 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9550S 2.83 GHz',
-            'base_clock' => 2.83
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 641 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-9370 4.4 GHz',
-            'base_clock' => 4.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-4350 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-4360 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-4160T 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1226 V3 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1660 V2 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2637 V2 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8370 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2609 V3 1.9 GHz',
-            'base_clock' => 1.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1270 V5 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-1650 V4 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-7900X 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7740X 4.3 GHz',
-            'base_clock' => 4.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-7920X 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-9500F 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2630L V2 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron 420 1.6 GHz',
-            'base_clock' => 1.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron 450 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 630 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 810 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 910e 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E5500 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6750 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8200 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 245 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 631 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 645 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 260 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 651K 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1275 V2 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1280 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G1630 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A6-6420K 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Sempron 150 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-7800 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-4000 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G470 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 B99 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2680 V3 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G4520 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6900K 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-7350K 4.2 GHz',
-            'base_clock' => 4.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7800X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7640X 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 940 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-9320 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 960T Black 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G2130 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-9370 4.4 GHz',
-            'base_clock' => 4.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2660 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 260 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 945 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 240e 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Extreme X6800 2.93 GHz',
-            'base_clock' => 2.93
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 255 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E5500 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 955 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A6-3670K 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 970 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-2450P 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 250 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8300 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1225 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1270 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G1620 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-3340S 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2690 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2609 V2 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Sempron 145 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-6800K 4.1 GHz',
-            'base_clock' => 4.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-6800B 4.1 GHz',
-            'base_clock' => 4.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-4320 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1230 V3 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A8-7600 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2685 V3 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-7870K 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-5675C 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-6320 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1240 V5 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1280 V5 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1275 V5 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Opteron 6328 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 845 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon 5370 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 870K 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-7101TE 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7500T 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7820X 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2430V2 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1270 V6 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 970 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A6-9550 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 940 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-3550S 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G4920 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-8300 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G5600 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-7940X 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9940X 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9920X 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2665 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G3920 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-9300 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-9320 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-9350K 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2276G 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4570S 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i9-9820X 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 255 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron 420 1.6 GHz',
-            'base_clock' => 1.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron 440 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X3 445 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 620 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X3 710 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 245e 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 260u 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X3 705e 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X3 720 Black 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X3 740 Black 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 905e 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron E1400 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium E2140 1.6 GHz',
-            'base_clock' => 1.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E4400 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E7500 2.93 GHz',
-            'base_clock' => 2.93
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8400 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8400 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8500 3.16 GHz',
-            'base_clock' => 3.16
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8500 3.16 GHz',
-            'base_clock' => 3.16
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-670 3.46 GHz',
+            'nama' => 'Intel Pentium 4 HT EE 3.46',
             'base_clock' => 3.46
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q8200 2.33 GHz',
-            'base_clock' => 2.33
+            'nama' => 'Intel Pentium D 955 EE',
+            'base_clock' => 3.46
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9505 2.83 GHz',
-            'base_clock' => 2.83
+            'nama' => 'AMD A10-5700',
+            'base_clock' => 3.4
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX6850 3 GHz',
-            'base_clock' => 3
+            'nama' => 'AMD A10-7700K',
+            'base_clock' => 3.4
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X4 940 Black 3 GHz',
-            'base_clock' => 3
+            'nama' => 'AMD A4 PRO-7350B',
+            'base_clock' => 3.4
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X3 455 3.3 GHz',
-            'base_clock' => 3.3
+            'nama' => 'AMD A4-5300',
+            'base_clock' => 3.4
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X2 545 3 GHz',
-            'base_clock' => 3
+            'nama' => 'AMD A4-5300B',
+            'base_clock' => 3.4
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium E6800 3.333 GHz',
+            'nama' => 'AMD A6-9400',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 220GE',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X2 270',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X3 460',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon Silver 3050GE',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon Silver PRO 3125GE',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X4 750',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X4 750K',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FirePro A300',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X2 565 BE',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 965 BE (125W)',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 965 BE (140W)',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 1300X',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 2600',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 2600',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 5650GE',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 1700X',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 2800H',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 5700X',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 5800',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 5800X3D',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 PRO 1700X',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 5950X',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper 1950X',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G5900',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G6900',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2130',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3240',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4130',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-7100T',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2550K',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3570',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3570K',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4670',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4670K',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4690',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-7500',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-13700K',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-13700KF',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2600',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2600K',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3770',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4770',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4930K',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-6700',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-6800K',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-12900KS',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 3.40',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 3.4E',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 550',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 551',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 650',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 651',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT EE 3.40',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT EE 3.40',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 945',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 950',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 3.4',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 3.4',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 7140M',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E-2124',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E-2124G',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E-2334',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1240 v2',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1240 v3',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1245 v2',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1245 v3',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1270',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1275',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1285L v4',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2643 V3',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2687W v2',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W-3335',
+            'base_clock' => 3.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Embedded V1807B',
+            'base_clock' => 3.35
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Mobile Pentium 4 HT 548',
+            'base_clock' => 3.334
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 3.33',
+            'base_clock' => 3.334
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E8600',
             'base_clock' => 3.333
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X4 925 2.8 GHz',
-            'base_clock' => 2.8
+            'nama' => 'Intel Core i3-560',
+            'base_clock' => 3.333
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X3 460 3.4 GHz',
-            'base_clock' => 3.4
+            'nama' => 'Intel Core i5-660',
+            'base_clock' => 3.333
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium G840 2.8 GHz',
-            'base_clock' => 2.8
+            'nama' => 'Intel Core i5-661',
+            'base_clock' => 3.333
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Sempron 130 2.6 GHz',
-            'base_clock' => 2.6
+            'nama' => 'Intel Core i7-975',
+            'base_clock' => 3.333
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium G620T 2.2 GHz',
-            'base_clock' => 2.2
+            'nama' => 'Intel Core i7-980',
+            'base_clock' => 3.333
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD FX-8100 2.8 GHz',
-            'base_clock' => 2.8
+            'nama' => 'Intel Core i7-980X',
+            'base_clock' => 3.333
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X6 1100T Black 3.3 GHz',
+            'nama' => 'Intel Pentium E6800',
+            'base_clock' => 3.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 7140N',
+            'base_clock' => 3.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 3.33',
+            'base_clock' => 3.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 3.33',
+            'base_clock' => 3.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W3580',
+            'base_clock' => 3.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W3680',
+            'base_clock' => 3.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W5590',
+            'base_clock' => 3.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon X5680',
+            'base_clock' => 3.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-7650K',
             'base_clock' => 3.3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Xeon E3-1280 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X2 370K 4.2 GHz',
-            'base_clock' => 4.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G1830 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2603 V2 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-4020 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-4130 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G1850 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-6700T 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-7700K 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-6320 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-3300 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-3420 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-4200 3.3 GHz',
+            'nama' => 'AMD Athlon II X2 265',
             'base_clock' => 3.3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD FX-6200 3.8 GHz',
-            'base_clock' => 3.8
+            'nama' => 'AMD Athlon II X3 455',
+            'base_clock' => 3.3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X2 221 2.8 GHz',
-            'base_clock' => 2.8
+            'nama' => 'AMD FX-6100',
+            'base_clock' => 3.3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X4 638 2.7 GHz',
-            'base_clock' => 2.7
+            'nama' => 'AMD FX-8300',
+            'base_clock' => 3.3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i3-4370 3.8 GHz',
-            'base_clock' => 3.8
+            'nama' => 'AMD FX-8370E',
+            'base_clock' => 3.3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD FX-8320E 3.2 GHz',
+            'nama' => 'AMD Phenom II X2 560 BE',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 850',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X6 1100T BE',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 3200GE',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 2600H',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 4600GE',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 6600H',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 6600HS',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 4650GE',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 6650H',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 6650HS',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 4900H',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 5900HX',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 6900HS',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 6900HX',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 6980HS',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 6980HX',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 PRO 6950H',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 PRO 6950HS',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-12100',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-12100F',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2120',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2125',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3220',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3225',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-10600',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12600',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2500',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2500K',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3550',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4590',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-6600',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-12700',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-12700F',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3960X',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-5775C',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-5775R',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-5820K',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-10940X',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-11900KB',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-7900X',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-9820X',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-9940X',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G3430',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G3440',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G3450',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G4400',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1230 v2',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1230 v3',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1240',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1245',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1660',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2643',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2667 v2',
+            'base_clock' => 3.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Embedded V1756B',
+            'base_clock' => 3.25
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-4020',
             'base_clock' => 3.2
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon X4 550 2.2 GHz',
-            'base_clock' => 2.2
+            'nama' => 'AMD A8-5500',
+            'base_clock' => 3.2
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Pro A8-7600B 3.1 GHz',
+            'nama' => 'AMD A8-5500B',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 200GE',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 FX-76',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 6400+ BE',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X2 260',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X3 450',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon PRO 200GE',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 340',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X4 740',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X4 850',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X4 940',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7343',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7F72',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-8140',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-8320E',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X2 555 BE',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X2 B57',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X3 B77',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 840',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 955 (125W)',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 955 (95W)',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 955 BE',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 B97',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X6 1090T BE',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A8-8650B',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 1300',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 1400',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 1600',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 1600AF',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 1600',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 2700',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 5800H',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 6800H',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 6800HS',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 PRO 2700',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 PRO 5750GE',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 PRO 6850H',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 PRO 6850HS',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper 1920',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper 1940',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper 1950',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron D 350',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron D 352',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G4920',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Extreme QX9770',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Extreme QX9775',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-12100E',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3210',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4360T',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-550',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-8300T',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2450P',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3470',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4570',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-650',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-6500',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-655K',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3930K',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4770R',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4790S',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-6900K',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8700',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-960',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-965',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-970',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-12900K',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-12900KF',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Mobile Pentium 4 HT 3.20',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Mobile Pentium 4 HT 538',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 3.20',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 3.2E',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 540',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 541',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 640',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 641',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT EE 3.20',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 840',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 840 EE',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 935',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 940',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium E5800',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium E6700',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G2130',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G3250',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G3258',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G3420',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 3.2',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 3.2',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 3.20',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 3.20',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 5060',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 5063',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 7130M',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E-2356G',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E-2388G',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1225 v2',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1225 v3',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1230',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1235',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1650',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1680 V3',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2667 V3',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-8893 v3',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 5315Y',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W-11855M',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W-1290',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W3565',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W3570',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W3670',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W5580',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon X5672',
+            'base_clock' => 3.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 3.16',
+            'base_clock' => 3.167
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 3.16',
+            'base_clock' => 3.167
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 3.16',
+            'base_clock' => 3.167
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E8500',
+            'base_clock' => 3.166
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 7130N',
+            'base_clock' => 3.166
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A12-9800E',
             'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Pro A6-7400B 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X2 450 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3250 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3460 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2609 V3 1.9 GHz',
-            'base_clock' => 1.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2650L V3 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2609 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X6 1065T 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-6300T 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-6500T 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-6600T 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G4500 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G4400T 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1275 V5 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3260 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 880K 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6800K 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6850K 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-6950X 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-7320 4.1 GHz',
-            'base_clock' => 4.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G3950 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-7300T 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7400T 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-7600T 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i7-7700T 2.9 GHz',
-            'base_clock' => 2.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1275 V6 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A6-9550 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-8300T 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium Gold G5500T 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-4360 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E-2274G 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3240 3.1 GHz',
+            'nama' => 'AMD A8 PRO-7600B',
             'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Celeron E3400 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2630 V2 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G4600T 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2660 2.2 GHz',
-            'base_clock' => 2.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 240 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X3 425 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X2 550 Black 3.1 GHz',
+            'nama' => 'AMD A8-7600',
             'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X4 805 2.5 GHz',
-            'base_clock' => 2.5
+            'nama' => 'AMD A8-9600',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X4 910 2.6 GHz',
-            'base_clock' => 2.6
+            'nama' => 'AMD A9-9425 SoC',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X4 925 2.8 GHz',
-            'base_clock' => 2.8
+            'nama' => 'AMD Athlon 64 X2 6000+',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X4 945 3 GHz',
-            'base_clock' => 3
+            'nama' => 'AMD Athlon II X2 255',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X2 235e 2.7 GHz',
-            'base_clock' => 2.7
+            'nama' => 'AMD Athlon II X3 445',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X3 400e 2.2 GHz',
-            'base_clock' => 2.2
+            'nama' => 'AMD Athlon II X4 645',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X3 405e 2.3 GHz',
-            'base_clock' => 2.3
+            'nama' => 'AMD Athlon X4 840',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X3 405e 2.3 GHz',
-            'base_clock' => 2.3
+            'nama' => 'AMD EPYC 7232P',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X3 415e 2.5 GHz',
-            'base_clock' => 2.5
+            'nama' => 'AMD EPYC 7262',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X4 600e 2.2 GHz',
-            'base_clock' => 2.2
+            'nama' => 'AMD EPYC 7371',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X4 605e 2.3 GHz',
-            'base_clock' => 2.3
+            'nama' => 'AMD FX-8120',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X4 610e 2.4 GHz',
-            'base_clock' => 2.4
+            'nama' => 'AMD Opteron 4334',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X4 955 Black 3.2 GHz',
-            'base_clock' => 3.2
+            'nama' => 'AMD Opteron 4386',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X4 965 Black (140W) 3.4 GHz',
-            'base_clock' => 3.4
+            'nama' => 'AMD Phenom II X2 550',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Celeron E1200 1.6 GHz',
-            'base_clock' => 1.6
+            'nama' => 'AMD Phenom II X2 550 BE',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium E2160 1.8 GHz',
-            'base_clock' => 1.8
+            'nama' => 'AMD PRO A12-9800E',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium E2160 1.8 GHz',
-            'base_clock' => 1.8
+            'nama' => 'AMD PRO A8-9600',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Celeron E3200 2.4 GHz',
-            'base_clock' => 2.4
+            'nama' => 'AMD Ryzen 3 1200',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E4600 2.4 GHz',
-            'base_clock' => 2.4
+            'nama' => 'AMD Ryzen 3 PRO 1200',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium E5400 2.7 GHz',
-            'base_clock' => 2.7
+            'nama' => 'AMD Ryzen 5 2600E',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium E6300 2.8 GHz',
-            'base_clock' => 2.8
+            'nama' => 'AMD Ryzen 7 4700GE',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6320 1.86 GHz',
-            'base_clock' => 1.86
+            'nama' => 'AMD Ryzen 7 PRO 4750GE',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6400 2.13 GHz',
-            'base_clock' => 2.13
+            'nama' => 'AMD Ryzen Threadripper 1900',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6550 2.33 GHz',
-            'base_clock' => 2.33
+            'nama' => 'Intel Celeron G4900',
+            'base_clock' => 3.1
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium E6600 3.06 GHz',
+            'nama' => 'Intel Core i3-2100',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2102',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2105',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4160T',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-8100T',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-10500',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2380P',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2400',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3350P',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3450',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3570S',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4440',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4670S',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-5350H',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-5675C',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-5675R',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8600',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8650',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-9600',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3770S',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4770S',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4940MX',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-5557U',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8670',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8705G',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8706G',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8709G',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8809G',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-7940X',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-9900',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-9960X',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G2120',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G870',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Gold G7400T',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E-2324G',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1220',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1220 v2',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1220 v3',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1225',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1285L v3',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1607 V3',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2687W',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2687W V3',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6346',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8354H',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W-3175X',
+            'base_clock' => 3.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E7600',
+            'base_clock' => 3.067
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E8435',
+            'base_clock' => 3.067
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T9900',
+            'base_clock' => 3.067
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Extreme X9100',
+            'base_clock' => 3.067
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Mobile Pentium 4 3.06',
+            'base_clock' => 3.067
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Mobile Pentium 4 HT 3.06',
+            'base_clock' => 3.067
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Mobile Pentium 4 HT 532',
+            'base_clock' => 3.067
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium E6600',
+            'base_clock' => 3.067
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-540',
+            'base_clock' => 3.066
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-880',
+            'base_clock' => 3.066
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-950',
+            'base_clock' => 3.066
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 3.06',
+            'base_clock' => 3.066
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 3.06',
+            'base_clock' => 3.066
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 3.06',
+            'base_clock' => 3.066
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W3550',
+            'base_clock' => 3.066
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon X5667',
+            'base_clock' => 3.066
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon X5675',
+            'base_clock' => 3.066
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron D 346',
             'base_clock' => 3.06
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6700 2.66 GHz',
-            'base_clock' => 2.66
+            'nama' => 'Intel Pentium 4 519',
+            'base_clock' => 3.06
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6700 2.66 GHz',
-            'base_clock' => 2.66
+            'nama' => 'Intel Pentium 4 519K',
+            'base_clock' => 3.06
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E7400 2.8 GHz',
-            'base_clock' => 2.8
+            'nama' => 'Intel Pentium 4 519K',
+            'base_clock' => 3.06
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8200 2.66 GHz',
-            'base_clock' => 2.66
+            'nama' => 'Intel Pentium 4 HT 3.06',
+            'base_clock' => 3.06
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i7-965 Extreme Edition 3.2 GHz',
-            'base_clock' => 3.2
+            'nama' => 'Intel Pentium 4 HT 524',
+            'base_clock' => 3.06
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q8300 2.5 GHz',
-            'base_clock' => 2.5
+            'nama' => 'Intel Pentium 4 HT 524',
+            'base_clock' => 3.06
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q8400S 2.66 GHz',
-            'base_clock' => 2.66
+            'nama' => 'AMD EPYC 7373X',
+            'base_clock' => 3.05
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9400S 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9400S 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX9650 3 GHz',
+            'nama' => 'AMD A10-9700E',
             'base_clock' => 3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX9770 3.2 GHz',
-            'base_clock' => 3.2
+            'nama' => 'AMD A4-4000',
+            'base_clock' => 3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X4 630 2.8 GHz',
-            'base_clock' => 2.8
+            'nama' => 'AMD A6-9500E',
+            'base_clock' => 3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X2 265 3.2 GHz',
-            'base_clock' => 3.2
+            'nama' => 'AMD A8-3870K',
+            'base_clock' => 3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X3 425 2.7 GHz',
-            'base_clock' => 2.7
+            'nama' => 'AMD A9-9420 SoC',
+            'base_clock' => 3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X2 560 Black 3.3 GHz',
-            'base_clock' => 3.3
+            'nama' => 'AMD Athlon 64 FX-74',
+            'base_clock' => 3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X2 565 Black 3.4 GHz',
-            'base_clock' => 3.4
+            'nama' => 'AMD Athlon 64 X2 5800+',
+            'base_clock' => 3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X4 840 3.2 GHz',
-            'base_clock' => 3.2
+            'nama' => 'AMD Athlon 64 X2 6000+',
+            'base_clock' => 3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X4 955 3.2 GHz',
-            'base_clock' => 3.2
+            'nama' => 'AMD Athlon II X2 250',
+            'base_clock' => 3
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X2 245 2.9 GHz',
+            'nama' => 'AMD Athlon II X2 250e',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X3 440',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X4 640',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X4 651',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X4 651K',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X4 830',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7302',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7302P',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7313',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7313P',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 156',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 4332 HE',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 856',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X2 545',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X2 B55',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X3 740 BE',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X3 B75',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 940 BE',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 945 (125W)',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 945 (95W)',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 960T BE',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 B95',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X6 1075T',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A10-9700E',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A6-8570E',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A6-9500E',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 5125C',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 4600H',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 4600HS',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 1700',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 PRO 1700',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 4900HS',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 5900',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 9 5980HS',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Embedded V2546',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper 2970WX',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper 2990WX',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G3950',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G6900E',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E6850',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E8400',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Extreme QX6850',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Extreme QX9650',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Quad Q9650',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-10105T',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-10305T',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-1115G4',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3240T',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4330T',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-8109U',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12490F',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12500',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2320',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3330',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3550S',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4430',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4670R',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-7400',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8500',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8550',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-9500',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-9500F',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-11370H',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-11375H',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-1185G7',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3540M',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3540M',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3910K',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3940XM',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4610M',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4930MX',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-5960X',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-6950X',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-9700',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-9700F',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-10980XE',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-13900K',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-9980XE',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 3.00',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 3.0E',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 530',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 531',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 630',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 631',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 830',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 925',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 930',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium E5700',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G3220',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G4600T',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G860',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Gold G7400TE',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 3.0',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 3.0',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 5050',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 5160',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 7120M',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 7120N',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1270L v4',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1607 v2',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1660 V3',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1680 v2',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2623 V3',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2637',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2690 v2',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2692 V3',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 5317',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6154',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6354',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 3.0',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 3.00',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 3.00',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 7040 Dual-Core',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 7041 Dual-Core',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8360H',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8360HL',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W-3345',
+            'base_clock' => 3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 75F3',
+            'base_clock' => 2.95
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E7500',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E8335',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T9800',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Extreme QX6800',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Extreme X6800',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-530',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-870',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-875K',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-940',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 515',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 515',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 516',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 516',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 517',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 517',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 520',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium E6500',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium E6500K',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G6960',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W3540',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon X5570',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon X5647',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon X5670',
+            'base_clock' => 2.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron D 340',
+            'base_clock' => 2.93
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron D 341',
+            'base_clock' => 2.93
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-5350M',
             'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X4 630 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X3 720 Black 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Sempron 130 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X3 440 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G850 2.9 GHz',
+            'nama' => 'AMD A6-5357M',
             'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i5-2405S 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-3400 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 960T Black 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8150 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-6100 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X4 980 Black 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A6-3650 2.6 GHz',
-            'base_clock' => 2.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G555 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-4000 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X2 340 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3430 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD 5350 2.05 GHz',
-            'base_clock' => 2.05
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3440 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3450 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3258 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Sempron X2 198 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Sempron X2 198 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Sempron X2 190 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A10-6700 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-6320 3.8 GHz',
-            'base_clock' => 3.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-3300 2.5 GHz',
-            'base_clock' => 2.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-3400 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-3400 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-6300 3.7 GHz',
-            'base_clock' => 3.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-5300 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-4020 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD A4-3450 2.9 GHz',
+            'nama' => 'AMD A8-3850',
             'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD A6-7400K 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Celeron G470 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-4150 4 GHz',
-            'base_clock' => 4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-4170 4.2 GHz',
-            'base_clock' => 4.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-6130 3.6 GHz',
-            'base_clock' => 3.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-6350 3.9 GHz',
-            'base_clock' => 3.9
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8120 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8140 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X2 221 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 651 3 GHz',
-            'base_clock' => 3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon II X4 638 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD E2-3200 2.4 GHz',
-            'base_clock' => 2.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X2 370K 4.2 GHz',
-            'base_clock' => 4.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i3-4360T 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2687W 3.1 GHz',
-            'base_clock' => 3.1
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8370E 3.3 GHz',
-            'base_clock' => 3.3
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X4 530 2 GHz',
-            'base_clock' => 2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Athlon X2 350 3.5 GHz',
-            'base_clock' => 3.5
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Sempron X2 250 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3250 3.2 GHz',
-            'base_clock' => 3.2
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3250T 2.8 GHz',
-            'base_clock' => 2.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Pentium G3450 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2603 V3 1.6 GHz',
-            'base_clock' => 1.6
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD Phenom II X6 1065T 2.7 GHz',
-            'base_clock' => 2.7
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E5-2603 V2 1.8 GHz',
-            'base_clock' => 1.8
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Xeon E3-1245 V3 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'AMD FX-8310 3.4 GHz',
-            'base_clock' => 3.4
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core i5-4570S 2.9 GHz',
+            'nama' => 'AMD A9-9410 SoC',
             'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium G3470 3.6 GHz',
-            'base_clock' => 3.6
+            'nama' => 'AMD Athlon 64 X2 5600+',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD A8-7670K 3.6 GHz',
-            'base_clock' => 3.6
+            'nama' => 'AMD Athlon II X2 245',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i3-6300 3.8 GHz',
-            'base_clock' => 3.8
+            'nama' => 'AMD Athlon II X2 245e',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium G4520 3.6 GHz',
-            'base_clock' => 3.6
+            'nama' => 'AMD Athlon II X3 435',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium G4500T 3 GHz',
-            'base_clock' => 3
+            'nama' => 'AMD Athlon II X4 635',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Xeon E3-1245 V5 3.5 GHz',
-            'base_clock' => 3.5
+            'nama' => 'AMD EPYC 7542',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Opteron 6328 3.2 GHz',
-            'base_clock' => 3.2
+            'nama' => 'AMD Phenom II X4 840T',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Opteron 6344 2.6 GHz',
-            'base_clock' => 2.6
+            'nama' => 'AMD Phenom II X6 1065T',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Opteron 6378 2.4 GHz',
-            'base_clock' => 2.4
+            'nama' => 'AMD PRO A12-8870E',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD A6-7470K 3.7 GHz',
-            'base_clock' => 3.7
+            'nama' => 'AMD Ryzen 5 6600U',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD A10-7860k 3.6 GHz',
-            'base_clock' => 3.6
+            'nama' => 'AMD Ryzen 5 PRO 6650U',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD A10-7890K 4.1 GHz',
-            'base_clock' => 4.1
+            'nama' => 'AMD Ryzen 7 4800H',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Xeon E5-2658 V3 2.2 GHz',
-            'base_clock' => 2.2
+            'nama' => 'AMD Ryzen 7 4800HS',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i3-7300 4 GHz',
-            'base_clock' => 4
+            'nama' => 'AMD Ryzen Embedded V2748',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Celeron G3950 3 GHz',
-            'base_clock' => 3
+            'nama' => 'AMD Ryzen Threadripper 3990X',
+            'base_clock' => 2.9
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Celeron G3930T 2.7 GHz',
+            'nama' => 'AMD Sempron 150',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron X2 240',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G1850',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G3920',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G3930',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4130T',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4150T',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-10400',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-10400F',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12500E',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2310',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3380M',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3380M',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3470S',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3470T',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3475S',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4570S',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4570T',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4590S',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-5287U',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8420',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-9400',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-9400F',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-10700',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-10700F',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-11390H',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-1195G7',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3520M',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3520M',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3525M',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3920XM',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4600M',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4910MQ',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-5950HQ',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-7700T',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-7920X',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-8950HK',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G2020',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G3450T',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G4560T',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G645',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G850',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E-2336',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1283L v4',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1284L v4',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1681 V3',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2666 V3',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2667',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2690',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-4617',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6326',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8268',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8380H',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8380HL',
+            'base_clock' => 2.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7443',
+            'base_clock' => 2.85
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7443P',
+            'base_clock' => 2.85
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E8300',
+            'base_clock' => 2.833
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Quad Q9505',
+            'base_clock' => 2.833
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Quad Q9550',
+            'base_clock' => 2.833
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Quad Q9550S',
+            'base_clock' => 2.833
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 2.83',
+            'base_clock' => 2.833
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 2.83',
+            'base_clock' => 2.833
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 7030 Dual-Core',
+            'base_clock' => 2.833
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 5040',
+            'base_clock' => 2.83
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-3420',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 FX-57',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 FX-62',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 FX-72',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 LE-1660',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 5400+',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 5400+',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 5400+ BE',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 5600+',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X2 220',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X2 240',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X2 240e',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X4 630',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X4 641',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 7850 BE',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X4 730',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7252',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7282',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7402',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7402P',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7473X',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 74F3',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7543',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7543P',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7573X',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD FX-8100',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 154',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 254',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 3350 HE',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 6348',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 6386 SE',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 854',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 290',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 890',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X2 B53',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X3 715 BE',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X3 720',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X3 720 BE',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X3 B73',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 820',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 830',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 920',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 925',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 B93',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X6 1055T (125W)',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X6 1055T (95W)',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD PRO A10-8770E',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 2700E',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 5800HS',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 145',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2.80',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron D 335',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron D 335',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G1630',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G1830',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G1840',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G3900',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G6900T',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E7400',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E8235',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo P9700',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T9600',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Extreme X7900',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Extreme X9000',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3220T',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-8100',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-11600',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2300',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3360M',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3360M',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3365M',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3450S',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4330M',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4440S',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-5575R',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-760',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-7600T',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8305G',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8400',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-1165G7',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2600S',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3840QM',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3840QM',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4558U',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4810MQ',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4900MQ',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4980HQ',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-640M',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-640M',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-6700T',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-860',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-930',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-10900',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-10900F',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-7960X',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Mobile Pentium 4 2.80',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Mobile Pentium 4 HT 2.80',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Mobile Pentium 4 HT 518',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 511',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 511',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 511',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 2.80',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 2.8E',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 520',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 520',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 520',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 521',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 620',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 820',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 820',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 915',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium D 920',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium E5500',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium E6300',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G2010',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G3250T',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G640',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G6950',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G6951',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G840',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 2.8',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 2.8',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E-2314',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E-2378G',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1410',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1603 V3',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2663 V3',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2680 v2',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2693 V3',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-8891 v3',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6328H',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6328HL',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6342',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon MP 7030 Dual-Core',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8362',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Silver 4309Y',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W3530',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon X5560',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon X5660',
+            'base_clock' => 2.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 2.80',
+            'base_clock' => 2.793
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 2.8',
+            'base_clock' => 2.79
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7453',
+            'base_clock' => 2.75
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-3400',
             'base_clock' => 2.7
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i3-7100T 3.4 GHz',
-            'base_clock' => 3.4
+            'nama' => 'AMD A4-5150M',
+            'base_clock' => 2.7
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i3-7300T 3.5 GHz',
-            'base_clock' => 3.5
+            'nama' => 'AMD A6-3670K',
+            'base_clock' => 2.7
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i3-7300T 3.5 GHz',
-            'base_clock' => 3.5
+            'nama' => 'AMD A6-4400M',
+            'base_clock' => 2.7
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD A8-7650K 3.3 GHz',
-            'base_clock' => 3.3
+            'nama' => 'AMD Athlon 64 LE-1640',
+            'base_clock' => 2.7
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Xeon E5-2440V2 1.9 GHz',
-            'base_clock' => 1.9
+            'nama' => 'AMD Athlon 64 LE-1640B',
+            'base_clock' => 2.7
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Xeon E5-2450V2 2.5 GHz',
-            'base_clock' => 2.5
+            'nama' => 'AMD Athlon 64 X2 5200+',
+            'base_clock' => 2.7
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i7-870S 2.667 GHz',
+            'nama' => 'AMD Athlon II X2 215',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X2 235e',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X3 425',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X3 425e',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X4 638',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 7750 BE',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 6284 SE',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 650T',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X6 1045T',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 4300U',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 5425C',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 5425U',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 PRO 5475U',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 6800U',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 PRO 6850U',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper PRO 3995WX',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Threadripper PRO 5995WX',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 140',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2.70',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron E3500',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G1620',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G1820',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G3930T',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G555',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Quad Q7600',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-11500',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12600H',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2390T',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2500S',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3330S',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3335S',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3340M',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3340M',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3610ME',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3610ME',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4430S',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4570R',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4570TE',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-5257U',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-6400',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-7500T',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-10850H',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2960XM',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3740QM',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3740QM',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3820QM',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3820QM',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4800MQ',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-5700HQ',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-5850HQ',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8559U',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8850H',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-9850HE',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-10800F',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium E5400',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G3420T',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G630',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G632',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2680',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2697 v2',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-4620',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-4650',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8270',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8280',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8280M',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W-3365',
+            'base_clock' => 2.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-620M',
+            'base_clock' => 2.677
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-620M',
+            'base_clock' => 2.677
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron D 330',
             'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium Gold G5500 3.8 GHz',
-            'base_clock' => 3.8
+            'nama' => 'Intel Core 2 Duo E6700',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Xeon E-2134 3.5 GHz',
-            'base_clock' => 3.5
+            'nama' => 'Intel Core 2 Duo E6750',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Xeon E5-1620 V3 3.5 GHz',
-            'base_clock' => 3.5
+            'nama' => 'Intel Core 2 Duo E7300',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X2 245 2.9 GHz',
-            'base_clock' => 2.9
+            'nama' => 'Intel Core 2 Duo E8135',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Celeron 430 1.8 GHz',
-            'base_clock' => 1.8
+            'nama' => 'Intel Core 2 Duo E8190',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X3 435 2.9 GHz',
-            'base_clock' => 2.9
+            'nama' => 'Intel Core 2 Duo E8200',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X3 440 3 GHz',
-            'base_clock' => 3
+            'nama' => 'Intel Core 2 Duo P8800',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X3 440 3 GHz',
-            'base_clock' => 3
+            'nama' => 'Intel Core 2 Duo P9600',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X2 545 3 GHz',
-            'base_clock' => 3
+            'nama' => 'Intel Core 2 Duo T9550',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X4 635 2.9 GHz',
-            'base_clock' => 2.9
+            'nama' => 'Intel Core i3-390M',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Athlon II X4 635 2.9 GHz',
-            'base_clock' => 2.9
+            'nama' => 'Intel Core i5-480M',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Celeron E1200 1.6 GHz',
-            'base_clock' => 1.6
+            'nama' => 'Intel Core i5-560M',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Celeron E1500 2.2 GHz',
-            'base_clock' => 2.2
+            'nama' => 'Intel Core i5-580M',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Celeron E1500 2.2 GHz',
-            'base_clock' => 2.2
+            'nama' => 'Intel Mobile Pentium 4 2.66',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Celeron E1600 2.4 GHz',
-            'base_clock' => 2.4
+            'nama' => 'Intel Mobile Pentium 4 HT 2.66',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Celeron E1600 2.4 GHz',
-            'base_clock' => 2.4
+            'nama' => 'Intel Xeon 5030',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium E2140 1.6 GHz',
-            'base_clock' => 1.6
+            'nama' => 'Intel Xeon MP 7020 Dual-Core',
+            'base_clock' => 2.667
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium E2180 2 GHz',
-            'base_clock' => 2
+            'nama' => 'Intel Core 2 Extreme QX6700',
+            'base_clock' => 2.666
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium E2180 2 GHz',
-            'base_clock' => 2
+            'nama' => 'Intel Core 2 Quad Q6700',
+            'base_clock' => 2.666
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Celeron E3200 2.4 GHz',
-            'base_clock' => 2.4
+            'nama' => 'Intel Core 2 Quad Q8400',
+            'base_clock' => 2.666
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Celeron E3300 2.5 GHz',
-            'base_clock' => 2.5
+            'nama' => 'Intel Core 2 Quad Q8400S',
+            'base_clock' => 2.666
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium E5400 2.7 GHz',
-            'base_clock' => 2.7
+            'nama' => 'Intel Core 2 Quad Q9400',
+            'base_clock' => 2.666
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium E6500 2.93 GHz',
-            'base_clock' => 2.93
+            'nama' => 'Intel Core 2 Quad Q9400S',
+            'base_clock' => 2.666
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E6540 2.33 GHz',
-            'base_clock' => 2.33
+            'nama' => 'Intel Core 2 Quad Q9450',
+            'base_clock' => 2.666
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E7400 2.8 GHz',
-            'base_clock' => 2.8
+            'nama' => 'Intel Core i5-750',
+            'base_clock' => 2.666
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E7500 2.93 GHz',
-            'base_clock' => 2.93
+            'nama' => 'Intel Core i7-870S',
+            'base_clock' => 2.666
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E7600 3.06 GHz',
-            'base_clock' => 3.06
+            'nama' => 'Intel Core i7-920',
+            'base_clock' => 2.666
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8190 2.66 GHz',
+            'nama' => 'Intel Xeon 5150',
+            'base_clock' => 2.666
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5640',
+            'base_clock' => 2.666
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W3520',
+            'base_clock' => 2.666
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon X5550',
+            'base_clock' => 2.666
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon X5650',
+            'base_clock' => 2.666
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 2.66',
             'base_clock' => 2.66
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8200 2.66 GHz',
+            'nama' => 'Intel Pentium 4 505',
             'base_clock' => 2.66
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Duo E8500 3.16 GHz',
-            'base_clock' => 3.16
+            'nama' => 'Intel Pentium 4 505J',
+            'base_clock' => 2.66
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i5-750S 2.4 GHz',
-            'base_clock' => 2.4
+            'nama' => 'Intel Pentium 4 506',
+            'base_clock' => 2.66
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i5-750S 2.4 GHz',
-            'base_clock' => 2.4
+            'nama' => 'Intel Pentium 4 506',
+            'base_clock' => 2.66
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i7-860S 2.53 GHz',
+            'nama' => 'Intel Pentium 4 506',
+            'base_clock' => 2.66
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 2.66',
+            'base_clock' => 2.66
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7413',
+            'base_clock' => 2.65
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-3650',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 4000+',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 4000+',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 4000+ (F3)',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 FX-55',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 FX-55',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 FX-60',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 FX-70',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 LE-1640',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 LE-1640',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 5000+',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 5000+',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 5000+ BE',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 5000+ EE',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 5000+ EE',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 5200+',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 5200+ EE',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X2 210e',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X3 420e',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X4 620',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X4 620e',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X4 631',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 5050e',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7272',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7513',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7H12',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 152',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 152',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 252',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 3380',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 4376 HE',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 43GK HE',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 6282 SE',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 852',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 185',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 285',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 885',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X3 710',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 810',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 910',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 910e',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X6 1035T',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9950 BE (125W)',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9950 BE (140W)',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 3200U',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 3250U',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 5300U',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 5400U',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 PRO 5450U',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Embedded R1600',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Embedded R1606G',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 130',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2.60',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron E3400',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G1610',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G550',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E4700',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T7800',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T9500',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2120T',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3130M',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-10400H',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-11300H',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-11400',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-11400F',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1145G7',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2540M',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2540M',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3230M',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3230M',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3320M',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3320M',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4288U',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4300M',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8269U',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-10750H',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3720QM',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3720QM',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4960HQ',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-5600U',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-9750H',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-9750HF',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-9850H',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-11980HK',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-7980XE',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 2.60',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 2.60',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4-M 2.60',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium E5300',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G2100T',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G3220T',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G620',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G622',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G860T',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 7110M',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E-2378',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1686 V3',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2630 v2',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2640 V3',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2650 v2',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2660 V3',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2670',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2685 V3',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2690 V3',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-4650L',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6348',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8358',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8358P',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8368Q',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8376H',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8376HL',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 9282',
+            'base_clock' => 2.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Extreme QX9300',
+            'base_clock' => 2.534
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-380M',
+            'base_clock' => 2.534
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-460M',
+            'base_clock' => 2.534
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron D 325',
+            'base_clock' => 2.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E7200',
+            'base_clock' => 2.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo P8700',
+            'base_clock' => 2.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo P9500',
+            'base_clock' => 2.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T9400',
+            'base_clock' => 2.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-540M',
+            'base_clock' => 2.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-860S',
+            'base_clock' => 2.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5540',
+            'base_clock' => 2.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5630',
+            'base_clock' => 2.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5649',
+            'base_clock' => 2.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W3505',
+            'base_clock' => 2.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron D 326',
             'base_clock' => 2.53
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i7-940 2.93 GHz',
-            'base_clock' => 2.93
+            'nama' => 'Intel Pentium 4 2.53',
+            'base_clock' => 2.527
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q6700 2.66 GHz',
-            'base_clock' => 2.66
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q8200 2.33 GHz',
-            'base_clock' => 2.33
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q8200S 2.33 GHz',
-            'base_clock' => 2.33
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q8200S 2.33 GHz',
-            'base_clock' => 2.33
-        ]);
-        
-        CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q8300 2.5 GHz',
+            'nama' => 'AMD A10-5750M',
             'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q8400S 2.66 GHz',
-            'base_clock' => 2.66
+            'nama' => 'AMD A10-5757M',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9450 2.66 GHz',
-            'base_clock' => 2.66
+            'nama' => 'AMD A10-6700T',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9505S 2.83 GHz',
-            'base_clock' => 2.83
+            'nama' => 'AMD A4-3300',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Quad Q9550S 2.83 GHz',
-            'base_clock' => 2.83
+            'nama' => 'AMD A4-4300M',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX6700 2.66 GHz',
-            'base_clock' => 2.66
+            'nama' => 'AMD A8-3820',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX6800 2.93 GHz',
-            'base_clock' => 2.93
+            'nama' => 'AMD Athlon 64 X2 4800+',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX6800 2.93 GHz',
-            'base_clock' => 2.93
+            'nama' => 'AMD Athlon II X3 415e',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX6800 2.93 GHz',
-            'base_clock' => 2.93
+            'nama' => 'AMD Athlon II X4 615e',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX9775 3.2 GHz',
-            'base_clock' => 3.2
+            'nama' => 'AMD Athlon X2 4850e',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX9775 3.2 GHz',
-            'base_clock' => 3.2
+            'nama' => 'AMD Athlon X2 7550',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core 2 Extreme QX9775 3.2 GHz',
-            'base_clock' => 3.2
+            'nama' => 'AMD EPYC 7261',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Phenom II X3 715 Black 2.8 GHz',
-            'base_clock' => 2.8
+            'nama' => 'AMD EPYC 7502',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Pentium G550 2.6 GHz',
-            'base_clock' => 2.6
+            'nama' => 'AMD EPYC 7502P',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD A6-6420K 4 GHz',
-            'base_clock' => 4
+            'nama' => 'AMD EPYC Embedded 3251',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD A10-5700 3.4 GHz',
-            'base_clock' => 3.4
+            'nama' => 'AMD Opteron 6180 SE',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD A10-6790B 4 GHz',
-            'base_clock' => 4
+            'nama' => 'AMD Opteron 6380',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD A10-6790K 4 GHz',
-            'base_clock' => 4
+            'nama' => 'AMD Phenom II X3 705e',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD A10-7850K 3.7 GHz',
-            'base_clock' => 3.7
+            'nama' => 'AMD Phenom II X4 805',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD Pro A4-7300B 3.8 GHz',
-            'base_clock' => 3.8
+            'nama' => 'AMD Phenom II X4 905e',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Xeon E5-1650 V3 3.5 GHz',
-            'base_clock' => 3.5
+            'nama' => 'AMD Phenom X3 8850',
+            'base_clock' => 2.5
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Xeon E5-2622 V3 2.4 GHz',
+            'nama' => 'AMD Phenom X4 9850 (125W)',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9850 (95W)',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9850 BE',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9850B',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 2200U',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion X2 Ultra ZM-88',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron E3300',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G1840T',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G540',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T9300',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Quad Q8300',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Quad Q9300',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2100T',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3120M',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3120M',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-5157U',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-10300H',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-11320H',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1155G7',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12400',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12400F',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12500H',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12600HE',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12600HX',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-13500',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2400S',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2405S',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2450M',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2450M',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2510E',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2515E',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2520M',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2520M',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3210M',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3210M',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-7300HQ',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8400H',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-11600H',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-11700',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-11700F',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2860QM',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2860QM',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2920XM',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3555LE',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3770T',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4710HQ',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4710MQ',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4770T',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4870HQ',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-5750HQ',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-11900',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-11900F',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-12900H',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-12900HK',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 2030M',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4-M 2.50',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium E5200',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G2020T',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G645T',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 5020',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 7110N',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1265L v2',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1265L v3',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1691 V3',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2430 v2',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2450 v2',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2609 v2',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2628 V3',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2640',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2670 v2',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2678 V3',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2680 V3',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-8867 v3',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-8890 v3',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 5318H',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8180',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8180M',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8352V',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8353H',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W-3375',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7763',
+            'base_clock' => 2.45
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-3800',
             'base_clock' => 2.4
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'AMD A8-7670K 3.6 GHz',
-            'base_clock' => 3.6
+            'nama' => 'AMD A9-9400 SoC',
+            'base_clock' => 2.4
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i5-7600T 2.8 GHz',
-            'base_clock' => 2.8
+            'nama' => 'AMD Athlon 300U',
+            'base_clock' => 2.4
         ]);
-        
+            
         CPU::Create([
-            'nama' => 'Intel Core i7-870S 2.667 GHz',
-            'base_clock' => 2.667
+            'nama' => 'AMD Athlon 64 3300+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3400+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3400+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3400+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3600+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3700+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3700+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3800+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3800+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3800+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3800+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3800+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3800+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3800+ (F3)',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 4000+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 4000+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 4000+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 FX-53',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 FX-53',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 LE-1620',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 LE-1620',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4600+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4600+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4600+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4600+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4600+ EE',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4800+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4800+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4800+ EE',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X4 610e',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon PRO 300U',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 7450',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E2-3200',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7351',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7351P',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7352',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7642',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 3700+',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 150',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 150',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 150',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 250',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 250',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 250 HE',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 6278',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 6378',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 850',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 850',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 850 HE',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 180',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 280',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 880',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2170',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X3 700e',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II X4 900e',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X3 8750',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X3 8750 BE',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9750 (125W)',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9750 (95W)',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9750B',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 PRO 4450U',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Embedded R1505G',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 180',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion 64 ML-42',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion 64 ML-44',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion X2 Ultra ZM-86',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion X2 Ultra ZM-87',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2.40',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron E1600',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron E3200',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G1620T',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G1820T',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G530',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G6900TE',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E4600',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E6600',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo P8600',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T7700',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T8300',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Quad Q6600 (105W)',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Quad Q6600 (95W)',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2370M',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3110M',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3110M',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3120ME',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-370M',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4000M',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4100E',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-8130U',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-10200H',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1135G7',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-11500H',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12450HX',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2430M',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2430M',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2435M',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2435M',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4258U',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-450M',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-7400T',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-750s',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-12800H',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-12800HE',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2760QM',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2760QM',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3630QM',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3635QM',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4700EQ',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4700HQ',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4700MQ',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4860HQ',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4950HQ',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-5500U',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-6700TE',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8700T',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-10885H',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-10980HK',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-12900',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-12900F',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-9980HK',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Mobile Pentium 4 2.40',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 2020M',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 2.4',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 2.4',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 2.40',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 HT 2.40',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4-M 2.40',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium B980',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Dual-Core E2220',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G640T',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1521',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1260L',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2407 v2',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2440',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2470 v2',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2609',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2620 V3',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2622 V3',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2629 V3',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2630 V3',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2630L v2',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2665',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2673 V3',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2676 V3',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2695 v2',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-4610',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-4640',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5530',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5620',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5645',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-8870',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 5320H',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6312U',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6336Y',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon L5530',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8260',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8260M',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8351N',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8360Y',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8368',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Silver 4314',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W3503',
+            'base_clock' => 2.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 2.4',
+            'base_clock' => 2.394
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 3200+ (333FSB)',
+            'base_clock' => 2.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E6550',
+            'base_clock' => 2.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T7600',
+            'base_clock' => 2.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T7600G',
+            'base_clock' => 2.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Quad Q8200',
+            'base_clock' => 2.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Quad Q8200S',
+            'base_clock' => 2.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Duo T2700',
+            'base_clock' => 2.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 5140',
+            'base_clock' => 2.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 5148',
+            'base_clock' => 2.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A10-4600M',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4400+',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X3 405e',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X4 605e',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 4450e',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 6500 BE',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 BE-2400',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7451',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7643',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 6276',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 6376',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X3 8600',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X3 8650',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9600',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9600 BE',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9600B',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9650',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 4500U',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 5600U',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 5625C',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 5625U',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 5650U',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 5675U',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 3700U',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 3750H',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 3780U',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 PRO 3700U',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Embedded V1202B',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron LE-1300',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion X2 RM-77',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion X2 Ultra ZM-84',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion X2 Ultra ZM-85',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2.30',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G1610T',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-12300T',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2350M',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2410M',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2410M',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2415M',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2500T',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3570T',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4670T',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-5300U',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-6350HQ',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8259U',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8300H',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8600T',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-1068NG7',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-12650H',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-12700H',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2820QM',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2820QM',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3610QE',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3610QM',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3615QE',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3615QM',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4712HQ',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4712MQ',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4770TE',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4850HQ',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8670T',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-12900E',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-12900HX',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-12950HX',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-9880H',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 3550M',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium B970',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Dual-Core T4500',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G630T',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1220L v2',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1265L v4',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2470',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2618L V3',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2630',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2649 V3',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2650 V3',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2652 V3',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2669 V3',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2670 V3',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2683 V3',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-8880 v3',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 5320T',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6314U',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6348H',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8352M',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8380',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 9222',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 9242',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Silver 4310T',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Silver 4316',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W-2195',
+            'base_clock' => 2.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-8860',
+            'base_clock' => 2.276
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo P8400',
+            'base_clock' => 2.267
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Quad Q9100',
+            'base_clock' => 2.267
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-350M',
+            'base_clock' => 2.267
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-430M',
+            'base_clock' => 2.267
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G1101',
+            'base_clock' => 2.266
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium P6300',
+            'base_clock' => 2.266
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5507',
+            'base_clock' => 2.266
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5520',
+            'base_clock' => 2.266
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5607',
+            'base_clock' => 2.266
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon L5520',
+            'base_clock' => 2.266
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon L5640',
+            'base_clock' => 2.266
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 2.26',
+            'base_clock' => 2.261
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 780',
+            'base_clock' => 2.26
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2800+',
+            'base_clock' => 2.25
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7742',
+            'base_clock' => 2.25
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-3330MX',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-3620',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-5345M',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 5370',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3200+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3200+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3200+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3400+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3400+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3400+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3400+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3500+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3500+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3500+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3500+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3500+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3500+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3500+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3500+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3500+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3500+ (F3)',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3500+ EE',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3700+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3700+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 FX-51',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 LE-1600',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 LE-1600',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4200+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4200+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4200+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4200+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4200+ EE',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4400+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4400+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4400+ EE',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X3 400e',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X4 600e',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 QL-67',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 3100+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 3200+ (400FSB)',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 3000+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7301',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7452',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7552',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7601',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7773X',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 3400+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 3400+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 148',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 148',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 148',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 148',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 148 HE',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 248',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 248',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 248',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 248',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 248 HE',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 4310 EE',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 43CX EE',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 6274',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 848',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 848',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 848',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 848 HE',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 175',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 275',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 275 HE',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 875',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 875 HE',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X3 8550',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9500',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9550',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 2700U',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 PRO 2700U',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3300+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3600+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3800+',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron LE-1250',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron X2 2300',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion 64 ML-40',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion 64 MT-40',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion X2 RM-74',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion X2 RM-75',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion X2 Ultra ZM-82',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 1020E',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 1020E',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2.20',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 450',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron E1500',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G1820TE',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G550T',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E4500',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T7500',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-12100T',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2328M',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2330E',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2330M',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2330M',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2332M',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-5020U',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-8121U',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-11400H',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-5200U',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-10870H',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-1270P',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2670QM',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2675QM',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2720QM',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2720QM',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3632QM',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3632QM',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4702HQ',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4702MQ',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4770HQ',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4785T',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-5650U',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8750H',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 2.2',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4-M 2.20',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium B960',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Dual-Core E2200',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Dual-Core E2210',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Dual-Core T4400',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium G620T',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1518',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1520',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1527',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1531',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1220L',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2407',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2420 v2',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2430',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2658 V3',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2658A V3',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2660',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2660 v2',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2692 v2',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-4607',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-4850 v3',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-8860 v3',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 5320',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6338N',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8253',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8276',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 8352S',
+            'base_clock' => 2.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron N2820',
+            'base_clock' => 2.17
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2700+',
+            'base_clock' => 2.167
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 3000+ (333FSB)',
+            'base_clock' => 2.167
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T7400',
+            'base_clock' => 2.166
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Duo T2600',
+            'base_clock' => 2.166
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron N2830',
+            'base_clock' => 2.16
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron N2840',
+            'base_clock' => 2.16
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2600+',
+            'base_clock' => 2.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2600+',
+            'base_clock' => 2.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2800+',
+            'base_clock' => 2.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2800+ (72W)',
+            'base_clock' => 2.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom D2700',
+            'base_clock' => 2.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z560',
+            'base_clock' => 2.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E6400',
+            'base_clock' => 2.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E6420',
+            'base_clock' => 2.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium P6200',
+            'base_clock' => 2.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5506',
+            'base_clock' => 2.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5606',
+            'base_clock' => 2.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon L5506',
+            'base_clock' => 2.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon L5518',
+            'base_clock' => 2.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon L5630',
+            'base_clock' => 2.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 770',
+            'base_clock' => 2.13
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A10-5745M',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-3310MX',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-3500',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-3600',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-4455M',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-5550M',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-5557M',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-6500T',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4000+',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 4050e',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 BE-2350',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 QL-64',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 QL-65',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 3000+ (400FSB)',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7251',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7281',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 6272',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X3 8400',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X3 8450',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X3 8450e',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9450e',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 3300U',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 PRO 3300U',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 3500U',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 3550H',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 3580U',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 4600U',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 5500U',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 3500U',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 4650U',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Embedded V2516',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron LE-1200',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion X2 RM-72',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion X2 Ultra ZM-80',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 1020M',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2.10',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G540T',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T8100',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-10110U',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-12100TE',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2310E',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2310M',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2310M',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2312M',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2312M',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-5010U',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-5015U',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-8145U',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-11260H',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12600T',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8500T',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-10875H',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-11850H',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-1260P',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-12700E',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-12850HX',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2710QE',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2715QE',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3612QE',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3612QM',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3612QM',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3687U',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4600U',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4760HQ',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-11900H',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-11950H',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium B950',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Dual-Core T4300',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 765',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Bronze 3106',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1541',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1567',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2450',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2620 v2',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2658',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-4830 v3',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-8870 v3',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 5318N',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 5318S',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 5318Y',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6338T',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Platinum 9221',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Silver 4116',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Silver 4310',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W-11955M',
+            'base_clock' => 2.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2600+',
+            'base_clock' => 2.083
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2600+',
+            'base_clock' => 2.083
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2800+',
+            'base_clock' => 2.083
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2800+ DTR',
+            'base_clock' => 2.083
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 5350',
+            'base_clock' => 2.05
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A10-4655M',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-3320M',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-5145M',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-5200',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-3550MX',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3000+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3000+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3000+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3000+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3100+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3200+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3200+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3200+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3200+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3200+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3200+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3200+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3200+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3200+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 3600+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 3600+ EE',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 3800+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 3800+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 3800+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 3800+ EE',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 3800+ EE SFF',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4000+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 4000+ EE',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X2 270u',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 QL-62',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2400+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2400+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2400+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2400+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2600+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2600+ (72W)',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7401',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7401P',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7501',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7551',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7551P',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7663',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7702',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7702P',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7713',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD EPYC 7713P',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 3000+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 3200+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 3200+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 146',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 146',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 146',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 146',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 146 HE',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 2350 HE',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 246',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 246',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 246',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 246 HE',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 246 HE',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 846',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 846',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 846',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 846 HE',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 846 HE',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron A1170',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X1150',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 170',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 270',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 270 HE',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 870',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 870 HE',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom II 42 TWKR Black Edition',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9350e',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 2300U',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 3 PRO 2300U',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 2500U',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 5 PRO 2500U',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 5825C',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 5825U',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 PRO 5875U',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Embedded V1605B',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2800+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3000+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3300+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3300+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3300+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3300+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3400+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3400+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3400+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3400+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3500+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3500+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3500+ EE SFF',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3600+',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron LE-1150',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron X2 2200',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion 64 ML-37',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion 64 MT-37',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion X2 RM-70',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom S1260',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z2580',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z550',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2.0',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2.0',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2950M',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2950M',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 440',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron E1400',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G530T',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron N2810',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E4400',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T7200',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T7250',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T7300',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-1125G4',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2115C',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4158U',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-5005U',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1038NG7',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12450H',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12500T',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-12650HX',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-12800HX',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2630QM',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-2635QM',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3537U',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3667U',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4750HQ',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4765T',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-5550U',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-13900',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 2.0',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 2.0',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 2.0',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 2.0',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4-M 2.00',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium B940',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Dual-Core E2180',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Dual-Core T4200',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 755',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 760',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium P6100',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 2.0',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 5130',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1540',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1548',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1125C',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1278L v4',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2418L',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2430L',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2608L V3',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2620',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2628L V3',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2630L',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2640 v2',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2650',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2683 V3',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-4603',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5503',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5504',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-4809 v3',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-8850',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-8880L v3',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6330',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Gold 6330H',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon L5508',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon L5638',
+            'base_clock' => 2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2800+',
+            'base_clock' => 1.992
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2800+',
+            'base_clock' => 1.992
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Duo T2500',
+            'base_clock' => 1.992
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2600+',
+            'base_clock' => 1.917
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2600+ DTR',
+            'base_clock' => 1.917
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E3845',
+            'base_clock' => 1.91
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-3300M',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-3305M',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-4355M',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-3530MX',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-4500M',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 X2 3600+',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 BE-2300',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon X2 QL-60',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 3320 EE',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 6168',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2150',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X3 8250e',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 5800U',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 PRO 5850U',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron LE-1100',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z625',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron B840',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G465',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-12300HE',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3227U',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12500TE',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3437U',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-11800H',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3517U',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8650U',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-9850HL',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 3805U',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 3825U',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 1.9',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 1.9',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4-M 1.90',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1528',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2420',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2440 v2',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2609 V3',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E7-4820 v3',
+            'base_clock' => 1.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium P6000',
+            'base_clock' => 1.877
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2500+ (35W)',
+            'base_clock' => 1.867
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2500+ (72W)',
+            'base_clock' => 1.867
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom D2500',
+            'base_clock' => 1.867
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom D2550',
+            'base_clock' => 1.867
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom N2800',
+            'base_clock' => 1.867
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z540',
+            'base_clock' => 1.867
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 445',
+            'base_clock' => 1.866
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E6300',
+            'base_clock' => 1.866
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Solo T1350',
+            'base_clock' => 1.866
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 5120',
+            'base_clock' => 1.866
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5502',
+            'base_clock' => 1.866
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon L5609',
+            'base_clock' => 1.866
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon L5618',
+            'base_clock' => 1.866
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2500+',
+            'base_clock' => 1.862
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron N2920',
+            'base_clock' => 1.86
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E6320',
+            'base_clock' => 1.86
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 750',
+            'base_clock' => 1.86
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom D425',
+            'base_clock' => 1.834
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom D525',
+            'base_clock' => 1.834
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom N470',
+            'base_clock' => 1.834
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom N475',
+            'base_clock' => 1.834
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2500+',
+            'base_clock' => 1.833
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2500+ DTR',
+            'base_clock' => 1.833
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2600+',
+            'base_clock' => 1.833
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2600+',
+            'base_clock' => 1.833
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T5600',
+            'base_clock' => 1.833
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Duo LV L2500',
+            'base_clock' => 1.833
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Solo T1400',
+            'base_clock' => 1.833
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron N2930',
+            'base_clock' => 1.83
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron N2940',
+            'base_clock' => 1.83
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Duo T2400',
+            'base_clock' => 1.826
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-9220C SoC',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-3510MX',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 2800+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 2800+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 2800+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 2850e',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X2 260u',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2200+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2200+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2200+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2200+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2200+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2400+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2400+ (35W)',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2400+ (72W)',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E2-3000M',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 2800+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 2800+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 2800+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 2800+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 144',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 144',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 144',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 144',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 144',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 244',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 244',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 244',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 244',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 6366 HE',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 844',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 844',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 844',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 844',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 165',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 265',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 265 HE',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 865',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 865 HE',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9100e',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Phenom X4 9150e',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 4700U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 4800U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 5700U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3000+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3100+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3100+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3100+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3100+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3100+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3100+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3100+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3200+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3200+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3200+ EE SFF',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3400+',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3400+ EE SFF',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron X2 2100',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron X2 2100',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion 64 ML-32',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion 64 ML-34',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion 64 MT-32',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion 64 MT-34',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z2760',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 1000M',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 1037U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 430',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron B730',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron B830',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G460',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo E4300',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T7100',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-1110G4',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3217U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4100U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-12400T',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3337U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3427U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-5350U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8420T',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-9400T',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-10510U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-10610U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-1265U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-1280P',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4500U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4860EQ',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8550U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-8565U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 2117U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 2117U',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 1.80',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 1.8A',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4-M 1.80',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Dual-Core E2160',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 745',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1581',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1230L v3',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1258L v4',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-1428L',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2403',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2403 v2',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2428L',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2448L',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2450L',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2603',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2603 v2',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2630L V3',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2648L',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2648L V3',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2650L',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2650L V3',
+            'base_clock' => 1.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E2-2000',
+            'base_clock' => 1.75
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2500+',
+            'base_clock' => 1.75
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2500+',
+            'base_clock' => 1.75
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E3827',
+            'base_clock' => 1.75
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2100+',
+            'base_clock' => 1.733
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2100+',
+            'base_clock' => 1.733
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Duo T2250',
+            'base_clock' => 1.733
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 740',
+            'base_clock' => 1.73
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-3430MX',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-5545M',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E2-1800',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron A1120',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron A1150',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen 7 4750U',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Embedded V2718',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 3755U',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron B720',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron B820',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4005U',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4010U',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-11600T',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1240P',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1250P',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2557M',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3317U',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4210U',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8350U',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8400T',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-1255U',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3517UE',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4650U',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 3556U',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 1.7',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 1.7',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4-M 1.70',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 1.70',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 735',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1537',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1587',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2650L v2',
+            'base_clock' => 1.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2000+',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2000+',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2000+',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2000+',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 2000+',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2200+',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2200+',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2400+',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2400+',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2400+',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom D410',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom D510',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom N280',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom N450',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom N455',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom N570',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T5500',
+            'base_clock' => 1.667
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Duo LV L2400',
+            'base_clock' => 1.666
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Duo T2300',
+            'base_clock' => 1.66
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Solo T1300',
+            'base_clock' => 1.66
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E2-3000',
+            'base_clock' => 1.65
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E-450',
+            'base_clock' => 1.65
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-3410MX',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-9120C SoC',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-3520M',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-4555M',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 5150',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 2600+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 2650e',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 2700+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon II X2 250u',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 1900+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 1900+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E-350',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 2700+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 2700+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Mobile Athlon 64 2700+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 142',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 142',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 142',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 242',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 242',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 242',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 242',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 6262 HE',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 842',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 842',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 842',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 842',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 260 HE',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron X2 860 HE',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2600+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2600+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2600+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2600+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2800+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2800+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2800+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2800+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2800+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2800+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3000+',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3000+ EE SFF',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion 64 ML-28',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion 64 ML-30',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion 64 MT-28',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Turion 64 MT-30',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom 230',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom 330',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E680',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E680T',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom N2600',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom N270',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom S1220',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom S1240',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom x5-E3940',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom x7-E3950',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z2560',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z530',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z530P',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z615',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2980U',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 420',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron B710',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron B810',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron B815',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron E1200',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron G440',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron N2910',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo T5200',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Duo T2050',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3217UE',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4102E',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-10210U',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1245U',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2467M',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4200U',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-5250U',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8250U',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-8265U',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4850EQ',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 1.6',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 1.6',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4-M 1.60',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 997',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Dual-Core E2140',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 1.60',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 725',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 730',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon 5110',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1220L v3',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5-2603 V3',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E5603',
+            'base_clock' => 1.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2300+',
+            'base_clock' => 1.583
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2300+',
+            'base_clock' => 1.583
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron N2806',
+            'base_clock' => 1.58
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron N2807',
+            'base_clock' => 1.58
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron N2808',
+            'base_clock' => 1.58
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-5050',
+            'base_clock' => 1.55
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 1800+',
+            'base_clock' => 1.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 1800+',
+            'base_clock' => 1.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 1800+',
+            'base_clock' => 1.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2000+ (25W)',
+            'base_clock' => 1.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 2000+ (35W)',
+            'base_clock' => 1.533
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-5000',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-3420M',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A8-3500M',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E-240',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Embedded R1305G',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2200+',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2200+',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2200+',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom N550',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z670',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 1007U',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 3205U',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 807',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 887',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron B800',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Duo LV L2300',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-1220P',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2377M',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-11500T',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3339Y',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-3439Y',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-3689Y',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-4550U',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-11900T',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core m3-8114Y',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Solo T1200',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 1.5',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 1.5',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4-M 1.50',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 987',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium B915C',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 1.50',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 715',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium Silver J5005',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1557',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7290',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7290F',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7295',
+            'base_clock' => 1.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E1-1500',
+            'base_clock' => 1.48
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 1700+',
+            'base_clock' => 1.467
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 1700+',
+            'base_clock' => 1.467
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 1700+',
+            'base_clock' => 1.467
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E3815',
+            'base_clock' => 1.467
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E3826',
+            'base_clock' => 1.467
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z3770',
+            'base_clock' => 1.467
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron N2805',
+            'base_clock' => 1.463
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2650',
+            'base_clock' => 1.45
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-3400M',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 1400',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 1400',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 1600+',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 1600+',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 1800+ (25W)',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP-M 1800+ (25W)',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E1-1200',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E1-2500',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 140',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 140',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 140',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 140 EE',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 240',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 240',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 240',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 240 EE',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 840',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 840',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 840',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Opteron 840 EE',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 2500+',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z2480',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 1047UE',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2955U',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2955U',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 797',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 877',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 947UE',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Solo ULV SU3500',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2367M',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-3229Y',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-2537M',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4200Y',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4350U',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-11700T',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-12700T',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-12700TE',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-12900T',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 1.4',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 1.4',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4-M 1.40',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 977',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 1400',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 1400S',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 1.40',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7250',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7250F',
+            'base_clock' => 1.4
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z520',
+            'base_clock' => 1.334
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z520PT',
+            'base_clock' => 1.334
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 1333',
+            'base_clock' => 1.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon XP 1500+',
+            'base_clock' => 1.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E3825',
+            'base_clock' => 1.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z3735G',
+            'base_clock' => 1.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z3740',
+            'base_clock' => 1.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron P1053',
+            'base_clock' => 1.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo U7700',
+            'base_clock' => 1.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo U7700',
+            'base_clock' => 1.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Solo ULV U1500',
+            'base_clock' => 1.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 1333',
+            'base_clock' => 1.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium U5600',
+            'base_clock' => 1.333
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 1300',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E2-3800',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E-300',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Sempron 3850',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E660',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E660T',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E665C',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E665CT',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom x5-E3930',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z2460',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 725C',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 787',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 867',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2340UE',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-2357M',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-4010Y',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-11400T',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1235U',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1235U (IPU)',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-4250U',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-1065G7',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 4 1.3',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 967',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium M 1.30',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium SU2700',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium SU4100',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1571',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon D-1577',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7210',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7210F',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7230',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7230F',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7235',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7285',
+            'base_clock' => 1.3
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 1266S',
+            'base_clock' => 1.266
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7110P',
+            'base_clock' => 1.25
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7110X',
+            'base_clock' => 1.25
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7120A',
+            'base_clock' => 1.238
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7120D',
+            'base_clock' => 1.238
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7120P',
+            'base_clock' => 1.238
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 7120X',
+            'base_clock' => 1.238
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 1200',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 1200',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD C-30',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Ryzen Embedded R1102G',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom CE4100',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom CE4130',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom CE4150',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom x3-3205RK',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z2420',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z2520',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z515',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z600',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z650',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Aubrey Isle',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 220',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 857',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo U7600',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo U7600',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Solo ULV SU3300',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Solo ULV U2200',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Duo ULV L2500',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-1005G1',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-1215U',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-1215U (IPU)',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1035G7',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-10510Y',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-1160G7',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core M-5Y71',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Solo ULV U1400',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 350',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 3560Y',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 8505',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 8505 (IPU)',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 957',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 1200',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium U5400',
+            'base_clock' => 1.2
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 1133',
+            'base_clock' => 1.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 1133',
+            'base_clock' => 1.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 1133',
+            'base_clock' => 1.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 1133',
+            'base_clock' => 1.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 1133S',
+            'base_clock' => 1.133
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 1100',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z510',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z510P',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z510PT',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 2961Y',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 7305',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 847',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-1000G1',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-1000G4',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-1120G4',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-10310Y',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1035G4',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1130G7',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1240U',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-10710U',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-10810U',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-1250U',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-1260U',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i9-12900TE',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core M-5Y51',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core M-5Y70',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 2129Y',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 3120A',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 3120P',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 31S1P',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi SE10P',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi SE10X',
+            'base_clock' => 1.1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo U7500',
+            'base_clock' => 1.073
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Duo U7500',
+            'base_clock' => 1.073
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core 2 Solo ULV U2100',
+            'base_clock' => 1.067
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Duo ULV L2400',
+            'base_clock' => 1.066
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core Solo ULV U1300',
+            'base_clock' => 1.066
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 3110X',
+            'base_clock' => 1.053
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 5110P',
+            'base_clock' => 1.053
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon Phi 5120D',
+            'base_clock' => 1.053
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E1-2150',
+            'base_clock' => 1.05
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-1200',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-1250',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A4-1350',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD A6-1450',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 1000',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 1000',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 1500+',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 64 2000+',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD C-50',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD C-60',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD C-70',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD E1-2100',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Z-01',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Z-60',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E640',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E640T',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E645C',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E645CT',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z605',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Celeron 7300',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-10110Y',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i3-1210U',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-10210Y',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1035G1',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1230U',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i7-1060G7',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium 8500',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 1000',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 1000',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 1000S',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon E3-1105C',
+            'base_clock' => 1
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 950',
+            'base_clock' => 0.95
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 933',
+            'base_clock' => 0.933
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 900',
+            'base_clock' => 0.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z612',
+            'base_clock' => 0.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z620',
+            'base_clock' => 0.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core M-5Y31',
+            'base_clock' => 0.9
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 866',
+            'base_clock' => 0.866
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 850',
+            'base_clock' => 0.85
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 800',
+            'base_clock' => 0.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel A110',
+            'base_clock' => 0.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z500',
+            'base_clock' => 0.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom Z610',
+            'base_clock' => 0.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1030G7',
+            'base_clock' => 0.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core M-5Y10',
+            'base_clock' => 0.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core M-5Y10a',
+            'base_clock' => 0.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core M-5Y10c',
+            'base_clock' => 0.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Pentium III 800',
+            'base_clock' => 0.8
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 750',
+            'base_clock' => 0.75
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 700',
+            'base_clock' => 0.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Core i5-1030G4',
+            'base_clock' => 0.7
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 650',
+            'base_clock' => 0.65
+        ]);
+            
+        CPU::Create([
+            'nama' => 'AMD Athlon 600',
+            'base_clock' => 0.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel A100',
+            'base_clock' => 0.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E620',
+            'base_clock' => 0.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E620T',
+            'base_clock' => 0.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E625C',
+            'base_clock' => 0.6
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Atom E625CT',
+            'base_clock' => 0.6
         ]);
         
         GPU::Create([
@@ -21102,7 +28594,6 @@ class DatabaseSeeder extends Seeder
             'nama'=>'AMD Steam Deck GPU 1000 MHz',
             'base_clock'=>1000
         ]);
-        
         
     }
 }

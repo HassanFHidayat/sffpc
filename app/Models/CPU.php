@@ -10,4 +10,8 @@ class CPU extends Model
     use HasFactory;
 
     protected $guarded = ['id'];
+
+    public function alternatif() {
+        return $this->hasMany(Alternatif::class);
+    }
 }
