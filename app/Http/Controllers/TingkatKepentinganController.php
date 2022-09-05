@@ -53,14 +53,45 @@ class TingkatKepentinganController extends Controller
             'hdd_lokal' => 'required',
             'harga_lokal' => 'required'
         ]);
+
+        $bobotKriteriaLokal = $validatedData['cpu_lokal'] + 
+                                $validatedData['gpu_lokal'] + 
+                                $validatedData['ram_lokal'] + 
+                                $validatedData['storage_lokal'] + 
+                                $validatedData['harga_lokal'];
+
+        $bobotSubKriteriaLokal = $validatedData['ssd_lokal'] + $validatedData['hdd_lokal'];
+
+        $bobotKriteria = [
+            $validatedData['cpu_lokal']/$bobotKriteriaLokal,
+            $validatedData['gpu_lokal']/$bobotKriteriaLokal,
+            $validatedData['ram_lokal']/$bobotKriteriaLokal,
+            $validatedData['storage_lokal']/$bobotKriteriaLokal,
+            $validatedData['harga_lokal']/$bobotKriteriaLokal
+        ];
+        
+        $bobotSubKriteria = [
+            $validatedData['ssd_lokal']/$bobotSubKriteriaLokal,
+            $validatedData['hdd_lokal']/$bobotSubKriteriaLokal
+        ];
+
+        $bobotGlobal = [
+            $bobotKriteria[0],
+            $bobotKriteria[1],
+            $bobotKriteria[2],
+            $bobotSubKriteria[0]*$bobotKriteria[3],
+            $bobotSubKriteria[1]*$bobotKriteria[3],
+            $bobotKriteria[4]
+        ];
+
         
         $validatedData['pembeli_id'] = 2;
-        $validatedData['cpu_global'] = lcg_value();
-        $validatedData['gpu_global'] = lcg_value();
-        $validatedData['ram_global'] = lcg_value();
-        $validatedData['ssd_global'] = lcg_value();
-        $validatedData['hdd_global'] = lcg_value();
-        $validatedData['harga_global'] = lcg_value();
+        $validatedData['cpu_global'] = $bobotGlobal[0];
+        $validatedData['gpu_global'] = $bobotGlobal[1];
+        $validatedData['ram_global'] = $bobotGlobal[2];
+        $validatedData['ssd_global'] = $bobotGlobal[3];
+        $validatedData['hdd_global'] = $bobotGlobal[4];
+        $validatedData['harga_global'] = $bobotGlobal[5];
 
         TingkatKepentingan::create($validatedData);
 
