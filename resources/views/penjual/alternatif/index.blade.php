@@ -1,7 +1,7 @@
 @extends('..layouts.main')
 @section('container')
     <h3 class="mt-5">Alternatif</h3>
-    <a href="/rekomendasi/create" class="btn btn-primary">Create</a>
+    <a href="/alternatif/create" class="btn btn-primary">Create</a>
     <table class="table mt-3 text-center">
         <thead class="table-dark">
             <tr>

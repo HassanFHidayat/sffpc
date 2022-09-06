@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Alternatif;
 use App\Models\TingkatKepentingan;
 use App\Models\Skala;
 use Illuminate\Http\Request;
@@ -17,7 +18,9 @@ class TingkatKepentinganController extends Controller
     {
         return view('pembeli.index', [
             "title" => "SPK SFF-PC | Rekomendasi",
-            "tks" => TingkatKepentingan::all()
+            'active' => 'rekomendasi',
+            "tks" => TingkatKepentingan::all(),
+            'alternatif' => Alternatif::all()
         ]);
     }
 
@@ -30,6 +33,7 @@ class TingkatKepentinganController extends Controller
     {
         return view('pembeli.create', [
             "title" => "SPK SFF-PC | Create",
+            'active' => 'rekomendasi',
             'skalas' => Skala::all()
         ]);
 
@@ -122,6 +126,7 @@ class TingkatKepentinganController extends Controller
     {
         return view('pembeli.edit', [
             "title" => "SPK SFF-PC | Edit",
+            'active' => 'rekomendasi',
             "skalas" => Skala::all(),
             "tks" => $rekomendasi
         ]);

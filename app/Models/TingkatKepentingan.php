@@ -11,6 +11,8 @@ class TingkatKepentingan extends Model
 
     protected $guarded = ['id'];
 
+    protected $with = ['pembeli'];
+
     public function pembeli() {
         return $this->belongsTo(Pembeli::class);
     }
