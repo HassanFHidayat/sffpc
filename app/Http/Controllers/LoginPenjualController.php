@@ -5,15 +5,14 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class LoginController extends Controller
+class LoginPenjualController extends Controller
 {
     public function index() {
-        return view('login.pembeli', [
+        return view('login.penjual', [
             'title' => 'SPK SFF-PC | Login'
         ]);
     }
 
-    // buat method autentikasi
     public function authenticate(Request $request) {
         $credentials = $request->validate([
             'username' => 'required',
@@ -23,7 +22,7 @@ class LoginController extends Controller
         if(Auth::attempt($credentials)) {
             $request->session()->regenerate();
 
-            return redirect()->intended('/');
+            return redirect()->intended('/dashboard');
         }
 
         return back()->with('loginError', 'Login gagal!');

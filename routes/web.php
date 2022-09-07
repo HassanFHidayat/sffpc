@@ -3,7 +3,9 @@
 use App\Models\TingkatKepentingan;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\LoginPenjualController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\RegisterPenjualController;
 use App\Http\Controllers\AlternatifController;
 use App\Http\Controllers\TingkatKepentinganController;
 
@@ -42,7 +44,7 @@ Route::get('/penjual', function () {
     ]);
 });
 
-Route::resource('/alternatif', AlternatifController::class);
+Route::resource('/dashboard/alternatif', AlternatifController::class)->except('show');
 // ->middleware('auth')
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
@@ -51,3 +53,22 @@ Route::post('/logout', [LoginController::class, 'logout']);
 
 Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
 Route::post('/register', [RegisterController::class, 'store']);
+
+Route::get('/login/penjual', [LoginPenjualController::class, 'index'])->middleware('guest');
+Route::post('/login/penjual', [LoginPenjualController::class, 'authenticate']);
+Route::post('/logout', [LoginPenjualController::class, 'logout']);
+
+Route::get('/register/penjual', [RegisterPenjualController::class, 'index'])->middleware('guest');
+Route::post('/register/penjual', [RegisterPenjualController::class, 'store']);
+
+Route::get('/dashboard', function () {
+    return view('penjual.index', [
+        'title' => "SPK SFF-PC | Home",
+    ]);
+});
+
+// Route::get('/dashboard/alternatif', function () {
+//     return view('penjual.alternatif.index', [
+//         'title' => "SPK SFF-PC | Home",
+//     ]);
+// });

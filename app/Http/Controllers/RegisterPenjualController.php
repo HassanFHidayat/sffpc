@@ -6,10 +6,10 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 
-class RegisterController extends Controller
+class RegisterPenjualController extends Controller
 {
     public function index() {
-        return view('register.pembeli', [
+        return view('register.penjual', [
             'title' => 'SPK SFF-PC | Register'
         ]);
     }
