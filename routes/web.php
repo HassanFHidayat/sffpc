@@ -34,7 +34,7 @@ Route::get('/list', function () {
 
 // Route::get('/hitung', [TingkatKepentinganController::class, 'index']);
 
-Route::resource('/rekomendasi', TingkatKepentinganController::class);
+Route::resource('/rekomendasi', TingkatKepentinganController::class)->middleware('auth');
 
 Route::get('/penjual', function () {
     return view('penjual.index', [
@@ -45,7 +45,9 @@ Route::get('/penjual', function () {
 
 Route::resource('/alternatif', AlternatifController::class);
 
-Route::get('/login', [LoginController::class, 'index']);
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('/login', [LoginController::class, 'authenticate']);
+Route::post('/logout', [LoginController::class, 'logout']);
 
-Route::get('/register', [RegisterController::class, 'index']);
+Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
 Route::post('/register', [RegisterController::class, 'store']);

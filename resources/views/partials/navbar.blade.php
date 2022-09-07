@@ -12,9 +12,23 @@
                 <a class="nav-link {{ ($active === "alternatif") ? 'active' : '' }}" href="/alternatif">Alternatif</a>
             </div>
             <div class="navbar-nav ms-auto">
+                @auth
+                <a href="#" class="nav-link disabled text-light">
+                    Selamat Datang, {{ auth()->user()->nama }}
+                </a>
+                <form action="/logout" method="post">
+                    @csrf
+                    <button type="submit" class="btn shadow-none text-light">
+                        <i class="bi bi-box-arrow-right"></i> Logout
+                    </button>
+                    {{-- <a class="nav-link {{ ($active === "logout") ? 'active' : '' }}" href="/logout">
+                    </a> --}}
+                </form>
+                @else
                 <a class="nav-link {{ ($active === "login") ? 'active' : '' }}" href="/login">
                     <i class="bi bi-box-arrow-in-right"></i> Login
                 </a>
+                @endauth
             </div>
         </div>
     </div>

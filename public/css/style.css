@@ -14,6 +14,11 @@
     border-top-right-radius: 0;
 }
 
+.form-login input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
 .form-registration input {
     border-radius: 0;
     margin-bottom: -1px;

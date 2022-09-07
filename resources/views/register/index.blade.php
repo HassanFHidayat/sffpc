@@ -11,22 +11,29 @@
                         <label for="nama">Nama</label>
                     </div>
                     @error('nama')
-                        {{ $message }}
+                        <div class="invalid-feedback">
+                            {{ $message }}
+                        </div>
                     @enderror
                     <div class="form-floating">
                         <input type="text" name="username" class="form-control @error('username') is-invalid @enderror" id="username" placeholder="Username" value="{{ old('username') }}" required>
                         <label for="username">Username</label>
                     </div>
                     @error('username')
-                        {{ $message }}
+                        <div class="invalid-feedback">
+                            {{ $message }}
+                        </div>
                     @enderror
                     <div class="form-floating">
                         <input type="password" name="password" class="form-control rounded-bottom @error('password') is-invalid @enderror" id="floatingPassword" placeholder="Password" required>
                         <label for="floatingPassword">Password</label>
                     </div>
                     @error('password')
-                        {{ $message }}
+                        <div class="invalid-feedback">
+                            {{ $message }}
+                        </div>
                     @enderror
+                    <input type="hidden" name="alamat" id="alamat" value="Jl. Raya Janti Jl. Majapahit No.143, Jaranan, Banguntapan, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55918">
                     <button class="w-100 btn btn-lg btn-primary mt-2" type="submit">Daftar</button>
                 </form>
                 <small class="mt-3 d-block text-center">
