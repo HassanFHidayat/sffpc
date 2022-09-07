@@ -7,9 +7,11 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link {{ ($active === "home") ? 'active' : '' }}" href="/">Home</a>
-                <a class="nav-link {{ ($active === "list") ? 'active' : '' }}" href="/list">List</a>
-                <a class="nav-link {{ ($active === "rekomendasi") ? 'active' : '' }}" href="/rekomendasi">Rekomendasi</a>
-                <a class="nav-link {{ ($active === "alternatif") ? 'active' : '' }}" href="/alternatif">Alternatif</a>
+                {{-- <a class="nav-link {{ ($active === "list") ? 'active' : '' }}" href="/list">List</a> --}}
+                @auth
+                    <a class="nav-link {{ ($active === "rekomendasi") ? 'active' : '' }}" href="/rekomendasi">Rekomendasi</a>
+                    <a class="nav-link {{ ($active === "alternatif") ? 'active' : '' }}" href="/alternatif">Alternatif</a>
+                @endauth
             </div>
             <div class="navbar-nav ms-auto">
                 @auth

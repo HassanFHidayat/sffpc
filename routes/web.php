@@ -43,7 +43,7 @@ Route::get('/penjual', function () {
     ]);
 });
 
-Route::resource('/alternatif', AlternatifController::class);
+Route::resource('/alternatif', AlternatifController::class)->middleware('auth');
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
