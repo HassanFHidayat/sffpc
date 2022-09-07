@@ -16,7 +16,6 @@ class AlternatifController extends Controller
     {
         return view('penjual.alternatif.index', [
             "title" => "Alternatif",
-            'active' => 'alternatif',
             "alt" => Alternatif::all()
         ]);
     }

@@ -20,30 +20,30 @@ use App\Http\Controllers\TingkatKepentinganController;
 
 Route::get('/', function () {
     return view('home', [
-        'title' => "SPK SFF-PC | Home",
-        'active' => 'home'
+        'title' => "SPK SFF-PC | Home"
     ]);
 });
 
-Route::get('/list', function () {
-    return view('pembeli.list', [
-        'title' => "SPK SFF-PC | List",
-        'active' => 'list'
-    ]);
-});
+// Route::get('/list', function () {
+//     return view('pembeli.list', [
+//         'title' => "SPK SFF-PC | List",
+//         'active' => 'list'
+//     ]);
+// });
 
 // Route::get('/hitung', [TingkatKepentinganController::class, 'index']);
 
-Route::resource('/rekomendasi', TingkatKepentinganController::class)->middleware('auth');
+Route::resource('/rekomendasi', TingkatKepentinganController::class)->except('show');
+// ->middleware('auth')
 
 Route::get('/penjual', function () {
     return view('penjual.index', [
         'title' => "SPK SFF-PC | Home",
-        'active' => 'home'
     ]);
 });
 
-Route::resource('/alternatif', AlternatifController::class)->middleware('auth');
+Route::resource('/alternatif', AlternatifController::class);
+// ->middleware('auth')
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);

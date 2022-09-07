@@ -16,9 +16,8 @@ class TingkatKepentinganController extends Controller
      */
     public function index()
     {
-        return view('pembeli.index', [
+        return view('pembeli.tingkat_kepentingan.index', [
             "title" => "SPK SFF-PC | Rekomendasi",
-            'active' => 'rekomendasi',
             "tks" => TingkatKepentingan::all(),
             'alternatif' => Alternatif::all()
         ]);
@@ -31,9 +30,8 @@ class TingkatKepentinganController extends Controller
      */
     public function create()
     {
-        return view('pembeli.create', [
+        return view('pembeli.tingkat_kepentingan.create', [
             "title" => "SPK SFF-PC | Create",
-            'active' => 'rekomendasi',
             'skalas' => Skala::all()
         ]);
 
@@ -124,9 +122,8 @@ class TingkatKepentinganController extends Controller
      */
     public function edit(TingkatKepentingan $rekomendasi)
     {
-        return view('pembeli.edit', [
+        return view('pembeli.tingkat_kepentingan.edit', [
             "title" => "SPK SFF-PC | Edit",
-            'active' => 'rekomendasi',
             "skalas" => Skala::all(),
             "tks" => $rekomendasi
         ]);
