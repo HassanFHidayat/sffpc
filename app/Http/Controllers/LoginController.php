@@ -23,7 +23,12 @@ class LoginController extends Controller
         if(Auth::attempt($credentials)) {
             $request->session()->regenerate();
 
-            return redirect()->intended('/');
+            // kalau penjual redirect ke dashboard
+            if(auth()->user()->role === 'pembeli') {
+                return redirect()->intended('/');
+            } else {
+                return redirect()->intended('/dashboard');
+            }
         }
 
         return back()->with('loginError', 'Login gagal!');

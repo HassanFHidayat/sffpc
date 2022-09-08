@@ -8,8 +8,10 @@
             <div class="navbar-nav">
                 <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="/">Home</a>
                 {{-- <a class="nav-link {{ ($active === "list") ? 'active' : '' }}" href="/list">List</a> --}}
-                <a class="nav-link {{ Request::is('rekomendasi*') ? 'active' : '' }}" href="/rekomendasi">Rekomendasi</a>
-                <a class="nav-link {{ Request::is('alternatif*') ? 'active' : '' }}" href="/alternatif">Alternatif</a>
+                @can('pembeli')
+                    <a class="nav-link {{ Request::is('rekomendasi*') ? 'active' : '' }}" href="/rekomendasi">Rekomendasi</a>
+                @endcan
+                {{-- <a class="nav-link {{ Request::is('alternatif*') ? 'active' : '' }}" href="/alternatif">Alternatif</a> --}}
             </div>
             <div class="navbar-nav ms-auto">
                 @auth

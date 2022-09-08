@@ -35,17 +35,16 @@ Route::get('/', function () {
 
 // Route::get('/hitung', [TingkatKepentinganController::class, 'index']);
 
-Route::resource('/rekomendasi', TingkatKepentinganController::class)->except('show');
+Route::resource('/rekomendasi', TingkatKepentinganController::class)->except('show')->middleware('pembeli');
 // ->middleware('auth')
 
-Route::get('/penjual', function () {
-    return view('penjual.index', [
-        'title' => "SPK SFF-PC | Home",
-    ]);
-});
+// Route::get('/penjual', function () {
+//     return view('penjual.index', [
+//         'title' => "SPK SFF-PC | Home",
+//     ]);
+// });
 
-Route::resource('/dashboard/alternatif', AlternatifController::class)->except('show');
-// ->middleware('auth')
+Route::resource('/dashboard/alternatif', AlternatifController::class)->except('show')->middleware('penjual');
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
@@ -65,7 +64,7 @@ Route::get('/dashboard', function () {
     return view('penjual.index', [
         'title' => "SPK SFF-PC | Home",
     ]);
-});
+})->middleware('penjual');
 
 // Route::get('/dashboard/alternatif', function () {
 //     return view('penjual.alternatif.index', [

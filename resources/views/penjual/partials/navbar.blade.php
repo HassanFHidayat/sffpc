@@ -14,6 +14,12 @@
                     Alternatif
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link {{ Request::is('/*') ? 'active' : '' }}" href="/">
+                    <span data-feather="globe" class="align-text-bottom"></span>
+                    Halaman Utama
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

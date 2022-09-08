@@ -3,6 +3,12 @@
     <div class="row justify-content-center">
         <div class="col-lg-5">
             <main class="form-registration w-100 m-auto">
+                @if(session()->has('registerError'))
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        {{ session('registerError') }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                @endif
                 <h1 class="h3 mb-3 fw-normal text-center">Register untuk Penjual</h1>
                 <form action="/register/penjual" method="post">
                     @csrf

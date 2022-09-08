@@ -24,10 +24,15 @@ class RegisterController extends Controller
 
         // dd('berhasil');
 
+        $validatedData['role'] = 'pembeli';
+
         $validatedData['password'] = Hash::make($validatedData['password']);
 
-        User::Create($validatedData);
-
-        return redirect('/login/penjual')->with('success', 'Berhasil register, silahkan login');
+        if(User::where('username', '=', $validatedData['username'])->exists()) {
+            return redirect('/register')->with('registerError', 'Gagal register, username sudah digunakan');
+        } else {
+            User::Create($validatedData);
+            return redirect('/login')->with('success', 'Berhasil register, silahkan login');
+        }
     }
 }
