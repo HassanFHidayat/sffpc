@@ -36,13 +36,13 @@
                     <td>{{ $tk->harga_lokal }}</td>
                     <td>
                         <a href="/rekomendasi/{{ $tk->id }}/edit" class="btn btn-warning border-0">Edit</a>
-                        <form action="/rekomendasi/{{ $tk->id }}" method="post" class="d-inline">
+                        {{-- <form action="/rekomendasi/{{ $tk->id }}" method="post" class="d-inline">
                             @method('delete')
                             @csrf
                             <button class="btn btn-danger border-0" onclick="return confirm('Apakah anda yakin?')">
                                 <span data-feather="x-circle">Hapus</span>
                             </button>
-                        </form>
+                        </form> --}}
                     </td>
                 </tr>
                 @endforeach
@@ -76,7 +76,13 @@
             </tbody>
         </table>
     @elseif ($alternatif->count() && !$tks->count())
-        <a href="/rekomendasi/create" class="btn btn-primary">Input</a>
+    {{-- route /rekomendasi/create tidak dapat diakses oleh pembeli
+        yang sudah pernah menginputkan tingkat kepentingan --}}
+        <div class="row">
+            <div class="col d-flex align-content-center justify-content-center">
+                <a href="/rekomendasi/create" class="btn btn-primary my-5">Input</a>
+            </div>
+        </div>
     @else
         <h3 class="text-center my-5">Tidak ada alternatif</h3>
     @endif

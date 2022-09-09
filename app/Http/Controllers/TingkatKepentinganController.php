@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use App\Models\Alternatif;
 use App\Models\TingkatKepentingan;
 use App\Models\Skala;
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class TingkatKepentinganController extends Controller
 {
@@ -30,6 +32,7 @@ class TingkatKepentinganController extends Controller
      */
     public function create()
     {
+        $this->authorize('done');
         return view('pembeli.tingkat_kepentingan.create', [
             "title" => "SPK SFF-PC | Create",
             'skalas' => Skala::all()
@@ -96,6 +99,15 @@ class TingkatKepentinganController extends Controller
         $validatedData['harga_global'] = $bobotGlobal[5];
 
         TingkatKepentingan::create($validatedData);
+
+        // $u['nama'] = auth()->user()->nama;
+        // $u['username'] = auth()->user()->nama;
+        // $u['nama'] = auth()->user()->nama;
+        // $u['nama'] = auth()->user()->nama;
+        // $u['done'] = true;
+
+        User::where('id', auth()->user()->id)
+            ->update(['done' => true]);
 
         return redirect('/rekomendasi')->with('success', 'New has ben added');
 
