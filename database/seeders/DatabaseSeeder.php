@@ -6,6 +6,7 @@ use App\Models\Skala;
 use App\Models\CPU;
 use App\Models\GPU;
 use App\Models\Alternatif;
+use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -25,6 +26,15 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory()->create([
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
+        // ]);
+
+        // User::Create([
+        //     'nama' => 'Hassan Fasya Hidayat',
+        //     'username' => 'hassanfhidayat',
+        //     'alamat' => 'Jl. Raya Janti Jl. Majapahit No.143, Jaranan, Banguntapan, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55918',
+        //     'role' => 'pembeli',
+        //     'done' => true,
+        //     'password' => 'password'
         // ]);
 
         TingkatKepentingan::Create([
@@ -67,17 +77,6 @@ class DatabaseSeeder extends Seeder
         Skala::Create([
             'value' => 5,
             'description' => 'Sangat Baik'
-        ]);
-
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'Intel NUC5i3RYH Mini PC',
-            'kecepatan_cpu' => 2104,
-            'kecepatan_gpu' => 2047,
-            'kapasitas_ram' => 8,
-            'kapasitas_ssd' => 256,
-            'kapasitas_hdd' => 1024,
-            'harga' => 5705379,
         ]);
 
         CPU::Create([
@@ -14089,7 +14088,27 @@ class DatabaseSeeder extends Seeder
             'nama' => 'Intel Atom E625CT',
             'base_clock' => 0.6
         ]);
+
+        CPU::Create([
+            'nama' => 'Intel Core i5-6500T',
+            'base_clock' => 2.5
+        ]);
+            
+        CPU::Create([
+            'nama' => 'Intel Xeon W-1250',
+            'base_clock' => 3.3
+        ]);
         
+        CPU::Create([
+            'nama' => 'Intel Pentium Silver J5005',
+            'base_clock' => 2.8
+        ]);
+        
+        CPU::Create([
+            'nama' => 'Intel Core i7-6700',
+            'base_clock' => 4.0
+        ]);
+
         GPU::Create([
             'nama'=>'Sony Playstation Vita GPU 200 MHz',
             'base_clock'=>200
@@ -28594,6 +28613,591 @@ class DatabaseSeeder extends Seeder
             'nama'=>'AMD Steam Deck GPU 1000 MHz',
             'base_clock'=>1000
         ]);
+
+        GPU::Create([
+            'nama' => 'Intel UHD Graphics 605 250 MHz',
+            'base_clock' => 250
+        ]);
+            
+        GPU::Create([
+            'nama' => 'Intel HD Graphics 4400 350 MHz',
+            'base_clock' => 350
+        ]);
+            
+        GPU::Create([
+            'nama' => 'Intel HD Graphics 630 450 MHz',
+            'base_clock' => 450
+        ]);
+            
+        GPU::Create([
+            'nama' => 'NVIDIA Quadro NVS 295 550 MHz',
+            'base_clock' => 550
+        ]);
+            
+        GPU::Create([
+            'nama' => 'AMD Radeon R5 340X 1000 MHz',
+            'base_clock' => 1000
+        ]);
+            
+        GPU::Create([
+            'nama' => 'NVIDIA Geforce GT 710 1000MHz',
+            'base_clock' => 1000
+        ]);
+            
+        GPU::Create([
+            'nama' => 'AMD Radeon RX 6500 XT 2610 MHz',
+            'base_clock' => 2610
+        ]);
+
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A1',
+            'kecepatan_cpu' => 2104,
+            'kecepatan_gpu' => 2047,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 5527609.42
+        ]);
         
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A2',
+            'kecepatan_cpu' => 2805,
+            'kecepatan_gpu' => 2902,
+            'kapasitas_ram' => 4,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 16,
+            'harga' => 4736638.22
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A3',
+            'kecepatan_cpu' => 2373,
+            'kecepatan_gpu' => 2903,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 128,
+            'kapasitas_hdd' => 1024,
+            'harga' => 5269312.60
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A4',
+            'kecepatan_cpu' => 2373,
+            'kecepatan_gpu' => 2903,
+            'kapasitas_ram' => 4,
+            'kapasitas_ssd' => 64,
+            'kapasitas_hdd' => 500,
+            'harga' => 5082661.20
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A5',
+            'kecepatan_cpu' => 1933,
+            'kecepatan_gpu' => 2086,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 500,
+            'harga' => 6891600.42
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A6',
+            'kecepatan_cpu' => 2104,
+            'kecepatan_gpu' => 2047,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 128,
+            'kapasitas_hdd' => 1024,
+            'harga' => 6101921.42
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A7',
+            'kecepatan_cpu' => 1399,
+            'kecepatan_gpu' => 2904,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 120,
+            'kapasitas_hdd' => 500,
+            'harga' => 7178756.42
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A8',
+            'kecepatan_cpu' => 1046,
+            'kecepatan_gpu' => 2064,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 6934673.82
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A9',
+            'kecepatan_cpu' => 2803,
+            'kecepatan_gpu' => 2064,
+            'kapasitas_ram' => 64,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 6604444.42
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A10',
+            'kecepatan_cpu' => 780,
+            'kecepatan_gpu' => 2082,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 6748022.42
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A11',
+            'kecepatan_cpu' => 658,
+            'kecepatan_gpu' => 1348,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 160,
+            'kapasitas_hdd' => 1024,
+            'harga' => 2814610.35
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A12',
+            'kecepatan_cpu' => 396,
+            'kecepatan_gpu' => 2905,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 250,
+            'kapasitas_hdd' => 1024,
+            'harga' => 4503676.80
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A13',
+            'kecepatan_cpu' => 224,
+            'kecepatan_gpu' => 2633,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 1024,
+            'harga' => 8874412.60
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A14',
+            'kecepatan_cpu' => 563,
+            'kecepatan_gpu' => 1578,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 120,
+            'kapasitas_hdd' => 1024,
+            'harga' => 6755515.20
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A15',
+            'kecepatan_cpu' => 51,
+            'kecepatan_gpu' => 1710,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 64,
+            'kapasitas_hdd' => 250,
+            'harga' => 3923096.40
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A16',
+            'kecepatan_cpu' => 563,
+            'kecepatan_gpu' => 1563,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 2048,
+            'harga' => 5025230.00
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A17',
+            'kecepatan_cpu' => 563,
+            'kecepatan_gpu' => 2906,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 4096,
+            'harga' => 7164542.20
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A18',
+            'kecepatan_cpu' => 390,
+            'kecepatan_gpu' => 2907,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 6144,
+            'harga' => 8600322.20
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A19',
+            'kecepatan_cpu' => 1278,
+            'kecepatan_gpu' => 2908,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 500,
+            'harga' => 12921876.42
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A20',
+            'kecepatan_cpu' => 393,
+            'kecepatan_gpu' => 1286,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 128,
+            'kapasitas_hdd' => 2048,
+            'harga' => 2871416.42
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A21',
+            'kecepatan_cpu' => 398,
+            'kecepatan_gpu' => 1685,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 1024,
+            'kapasitas_hdd' => 512,
+            'harga' => 9332570.00
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A22',
+            'kecepatan_cpu' => 398,
+            'kecepatan_gpu' => 2906,
+            'kapasitas_ram' => 32,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 3072,
+            'harga' => 5814909.00
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A23',
+            'kecepatan_cpu' => 224,
+            'kecepatan_gpu' => 2904,
+            'kapasitas_ram' => 32,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 2048,
+            'harga' => 10983717.00
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A24',
+            'kecepatan_cpu' => 901,
+            'kecepatan_gpu' => 1677,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 2048,
+            'harga' => 20269624.15
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A25',
+            'kecepatan_cpu' => 390,
+            'kecepatan_gpu' => 2904,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 4903870.50
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A26',
+            'kecepatan_cpu' => 916,
+            'kecepatan_gpu' => 2794,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 1024,
+            'harga' => 26065029.48
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A27',
+            'kecepatan_cpu' => 2804,
+            'kecepatan_gpu' => 2794,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1000,
+            'harga' => 19309514.28
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A28',
+            'kecepatan_cpu' => 2806,
+            'kecepatan_gpu' => 2064,
+            'kapasitas_ram' => 32,
+            'kapasitas_ssd' => 1024,
+            'kapasitas_hdd' => 3072,
+            'harga' => 9619582.42
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A29',
+            'kecepatan_cpu' => 224,
+            'kecepatan_gpu' => 2904,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 5629408.35
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A30',
+            'kecepatan_cpu' => 791,
+            'kecepatan_gpu' => 2086,
+            'kapasitas_ram' => 32,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 2048,
+            'harga' => 6755327.55
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A31',
+            'kecepatan_cpu' => 788,
+            'kecepatan_gpu' => 2904,
+            'kapasitas_ram' => 4,
+            'kapasitas_ssd' => 500,
+            'kapasitas_hdd' => 500,
+            'harga' => 1536387.14
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A32',
+            'kecepatan_cpu' => 224,
+            'kecepatan_gpu' => 2904,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 128,
+            'kapasitas_hdd' => 1024,
+            'harga' => 5027041.58
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A33',
+            'kecepatan_cpu' => 145,
+            'kecepatan_gpu' => 2086,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 2048,
+            'harga' => 11897212.88
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A34',
+            'kecepatan_cpu' => 1145,
+            'kecepatan_gpu' => 2064,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 120,
+            'kapasitas_hdd' => 500,
+            'harga' => 3002263.55
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A35',
+            'kecepatan_cpu' => 1145,
+            'kecepatan_gpu' => 2064,
+            'kapasitas_ram' => 4,
+            'kapasitas_ssd' => 500,
+            'kapasitas_hdd' => 250,
+            'harga' => 2251838.40
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A36',
+            'kecepatan_cpu' => 145,
+            'kecepatan_gpu' => 2086,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 10395987.28
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A37',
+            'kecepatan_cpu' => 396,
+            'kecepatan_gpu' => 2023,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 500,
+            'harga' => 6037209.46
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A38',
+            'kecepatan_cpu' => 563,
+            'kecepatan_gpu' => 2064,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 128,
+            'kapasitas_hdd' => 500,
+            'harga' => 6037209.46
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A39',
+            'kecepatan_cpu' => 791,
+            'kecepatan_gpu' => 2086,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 256,
+            'harga' => 8913527.00
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A40',
+            'kecepatan_cpu' => 2382,
+            'kecepatan_gpu' => 2086,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 1024,
+            'harga' => 4296083.65
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A41',
+            'kecepatan_cpu' => 563,
+            'kecepatan_gpu' => 2064,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 500,
+            'harga' => 5176307.75
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A42',
+            'kecepatan_cpu' => 561,
+            'kecepatan_gpu' => 2035,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 128,
+            'kapasitas_hdd' => 500,
+            'harga' => 3002263.55
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A43',
+            'kecepatan_cpu' => 563,
+            'kecepatan_gpu' => 2064,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 500,
+            'harga' => 5991079.21
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A44',
+            'kecepatan_cpu' => 2491,
+            'kecepatan_gpu' => 2903,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 128,
+            'kapasitas_hdd' => 1024,
+            'harga' => 7638349.60
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A45',
+            'kecepatan_cpu' => 2488,
+            'kecepatan_gpu' => 2086,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 9619582.42
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A46',
+            'kecepatan_cpu' => 2491,
+            'kecepatan_gpu' => 2903,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 1024,
+            'harga' => 8786973.60
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A47',
+            'kecepatan_cpu' => 2104,
+            'kecepatan_gpu' => 2047,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 7466056.00
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A48',
+            'kecepatan_cpu' => 1933,
+            'kecepatan_gpu' => 2086,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 500,
+            'harga' => 8614536.42
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A49',
+            'kecepatan_cpu' => 1933,
+            'kecepatan_gpu' => 2086,
+            'kapasitas_ram' => 32,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 500,
+            'harga' => 9332426.42
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'A50',
+            'kecepatan_cpu' => 1933,
+            'kecepatan_gpu' => 2086,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 500,
+            'harga' => 8327380.42
+        ]);
+
     }
 }

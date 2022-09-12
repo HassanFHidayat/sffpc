@@ -25,6 +25,7 @@ return new class extends Migration
             $table->integer('kapasitas_ssd');
             $table->integer('kapasitas_hdd');
             $table->double('harga');
+            $table->double('hasil')->nullable();
             $table->timestamps();
         });
     }

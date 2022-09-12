@@ -7,6 +7,7 @@
         </div>
     @endif
     @if($alternatif->count() && $tks->count())
+    {{-- @can('done') --}}
         <h3 class="mt-5">Bobot Lokal</h3>
         {{-- <a href="/rekomendasi/create" class="btn btn-primary">Create</a> --}}
         <table class="table mt-3 text-center">
@@ -26,7 +27,7 @@
             <tbody>
                 @foreach ($tks as $tk)
                 <tr>
-                    <th scope="row">{{ $tk->id }}</th>
+                    <th scope="row">{{ $loop->iteration }}</th>
                     <td>{{ $tk->cpu_lokal }}</td>
                     <td>{{ $tk->gpu_lokal }}</td>
                     <td>{{ $tk->ram_lokal }}</td>
@@ -64,7 +65,7 @@
             <tbody>
                 @foreach ($tks as $tk)
                 <tr>
-                    <th scope="row">{{ $tk->id }}</th>
+                    <th scope="row">{{ $loop->iteration }}</th>
                     <td>{{ $tk->cpu_global }}</td>
                     <td>{{ $tk->gpu_global }}</td>
                     <td>{{ $tk->ram_global }}</td>
@@ -75,7 +76,14 @@
                 @endforeach
             </tbody>
         </table>
+        <div class="row">
+            <div class="col d-flex align-content-center justify-content-center">
+                <a href="/rekomendasi/hasil" class="btn btn-primary my-3">Hitung</a>
+            </div>
+        </div>
+    {{-- @endcan --}}
     @elseif ($alternatif->count() && !$tks->count())
+    {{-- @cannot('done') --}}
     {{-- route /rekomendasi/create tidak dapat diakses oleh pembeli
         yang sudah pernah menginputkan tingkat kepentingan --}}
         <div class="row">
@@ -83,7 +91,9 @@
                 <a href="/rekomendasi/create" class="btn btn-primary my-5">Input</a>
             </div>
         </div>
+    {{-- @endcannot --}}
     @else
+    {{-- @if(!$alternatif->count()) --}}
         <h3 class="text-center my-5">Tidak ada alternatif</h3>
     @endif
 @endsection

@@ -7,6 +7,7 @@ use App\Http\Controllers\LoginPenjualController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\RegisterPenjualController;
 use App\Http\Controllers\AlternatifController;
+use App\Http\Controllers\HitungController;
 use App\Http\Controllers\TingkatKepentinganController;
 
 /*
@@ -66,6 +67,7 @@ Route::get('/dashboard', function () {
     ]);
 })->middleware('penjual');
 
+Route::get('/rekomendasi/hasil', [HitungController::class, 'index']);
 // Route::get('/dashboard/alternatif', function () {
 //     return view('penjual.alternatif.index', [
 //         'title' => "SPK SFF-PC | Home",
