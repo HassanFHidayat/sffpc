@@ -33,10 +33,14 @@ class TingkatKepentinganController extends Controller
     public function create()
     {
         // $this->authorize('done');
-        return view('pembeli.tingkat_kepentingan.create', [
-            "title" => "SPK SFF-PC | Create",
-            'skalas' => Skala::all()
-        ]);
+        if(auth()->user()->done == false) {
+            return view('pembeli.tingkat_kepentingan.create', [
+                "title" => "SPK SFF-PC | Create",
+                'skalas' => Skala::all()
+            ]);
+        } else {
+            abort(403);
+        }
 
         // Membuat tabel yang berisikan skala untuk ditampilkan didalam file create
     }
