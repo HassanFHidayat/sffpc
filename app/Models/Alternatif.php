@@ -11,6 +11,8 @@ class Alternatif extends Model
 
     protected $guarded = ['id'];
 
+    protected $with = ['cpu', 'gpu'];
+
     // public function penjual() {
     //     return $this->belongsTo(Penjual::class);
     // }

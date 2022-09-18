@@ -23,8 +23,7 @@ use App\Http\Controllers\TingkatKepentinganController;
 
 Route::get('/', function () {
     return view('home', [
-        // 'title' => "SPK SFF-PC | Home"
-        abort(403)
+        'title' => "SPK SFF-PC | Home"
     ]);
 });
 

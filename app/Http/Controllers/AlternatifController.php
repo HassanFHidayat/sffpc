@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Alternatif;
+use App\Models\CPU;
+use App\Models\GPU;
 use Illuminate\Http\Request;
 
 class AlternatifController extends Controller
@@ -27,7 +29,11 @@ class AlternatifController extends Controller
      */
     public function create()
     {
-        //
+        return view('penjual.alternatif.create', [
+            'title' => 'Alternatif',
+            'cpus' => CPU::all(),
+            'gpus' => GPU::all()
+        ]);
     }
 
     /**

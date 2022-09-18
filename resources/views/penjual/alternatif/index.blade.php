@@ -25,9 +25,9 @@
                 <td>{{ $a->nama }}</td>
                 <td>{{ $a->cpu->nama }}</td>
                 <td>{{ $a->gpu->nama }}</td>
-                <td>{{ $a->kapasitas_ram }} GB</td>
-                <td>{{ $a->kapasitas_ssd }} GB</td>
-                <td>{{ $a->kapasitas_hdd }} GB</td>
+                <td>{{ $a->kapasitas_ram }}GB</td>
+                <td>{{ $a->kapasitas_ssd }}GB</td>
+                <td>{{ $a->kapasitas_hdd }}GB</td>
                 <td>Rp{{ number_format($a->harga, 0, ',', '.') }}</td>
                 <td>
                     <a href="/alternatif/{{ $a->id }}/edit" class="badge bg-warning border-0">
