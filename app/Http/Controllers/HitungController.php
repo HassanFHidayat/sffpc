@@ -179,6 +179,7 @@ class HitungController extends Controller
         $i = 0;
         foreach($alt as $a) {
             $a->ari = $i;
+            $a->nama_alternatif = "A".$i + 1;
             $i++;
         }
 
@@ -245,7 +246,9 @@ class HitungController extends Controller
 
         // $merged = $alt->merge($altCollect);
 
-        $hasil = $altCollect->sortByDesc('hasil');
+        // $hasil = $altCollect->sortByDesc('hasil');
+
+        // dd($alt);
 
         // dd($vektor_cpu, $vektor_gpu, $vektor_ram, $vektor_ssd, $vektor_hdd, $vektor_harga);
         // dd($alt);

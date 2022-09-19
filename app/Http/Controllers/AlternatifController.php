@@ -18,7 +18,7 @@ class AlternatifController extends Controller
     {
         return view('penjual.alternatif.index', [
             "title" => "Alternatif",
-            "alt" => Alternatif::all()
+            "alt" => Alternatif::where('penjual_id', auth()->user()->id)->get()
         ]);
     }
 
@@ -44,7 +44,20 @@ class AlternatifController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validateData = $request->validate([
+            'kecepatan_cpu' => 'required',
+            'kecepatan_gpu' => 'required',
+            'kapasitas_ram' => 'required',
+            'harga' => 'required',
+        ]);
+
+        $validateData['penjual_id'] = auth()->user()->id;
+        $validateData['kapasitas_ssd'] = $request->kapasitas_ssd;
+        $validateData['kapasitas_hdd'] = $request->kapasitas_hdd;
+
+        Alternatif::Create($validateData);
+
+        return redirect('/dashboard/alternatif')->with('success', 'New Alternative has ben added');
     }
 
     /**
@@ -66,7 +79,12 @@ class AlternatifController extends Controller
      */
     public function edit(Alternatif $alternatif)
     {
-        //
+        return view('penjual.alternatif.edit', [
+            'title' => 'Alternatif',
+            'cpus' => CPU::all(),
+            'gpus' => GPU::all(),
+            'alternatifs' => $alternatif
+        ]);
     }
 
     /**
@@ -78,7 +96,21 @@ class AlternatifController extends Controller
      */
     public function update(Request $request, Alternatif $alternatif)
     {
-        //
+        $validateData = $request->validate([
+            'kecepatan_cpu' => 'required',
+            'kecepatan_gpu' => 'required',
+            'kapasitas_ram' => 'required',
+            'harga' => 'required',
+        ]);
+
+        $validateData['penjual_id'] = auth()->user()->id;
+        $validateData['kapasitas_ssd'] = $request->kapasitas_ssd;
+        $validateData['kapasitas_hdd'] = $request->kapasitas_hdd;
+
+        Alternatif::Where('id', $alternatif->id)
+            ->update($validateData);
+
+        return redirect('/dashboard/alternatif')->with('success', 'Alternative has ben updated');
     }
 
     /**
@@ -89,6 +121,8 @@ class AlternatifController extends Controller
      */
     public function destroy(Alternatif $alternatif)
     {
-        //
+        Alternatif::destroy($alternatif->id);
+
+        return redirect('/dashboard/alternatif')->with('delete', 'Alternative has ben deleted');
     }
 }

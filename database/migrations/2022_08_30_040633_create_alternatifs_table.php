@@ -18,13 +18,14 @@ return new class extends Migration
         Schema::create('alternatifs', function (Blueprint $table) {
             $table->id();
             $table->foreignId('penjual_id');
-            $table->string('nama');
+            $table->string('nama')->nullable();
             $table->foreignId('kecepatan_cpu');
             $table->foreignId('kecepatan_gpu');
             $table->integer('kapasitas_ram');
             $table->integer('kapasitas_ssd');
             $table->integer('kapasitas_hdd');
             $table->double('harga');
+            $table->string('link')->nullable();
             $table->double('hasil')->nullable();
             $table->timestamps();
         });

@@ -40057,554 +40057,602 @@ class DatabaseSeeder extends Seeder
 
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A1',
+            'nama' => 'Intel NUC5i3RYH Mini PC',
             'kecepatan_cpu' => 704,
             'kecepatan_gpu' => 2047,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
-            'harga' => 5527609.42
+            'harga' => 5771597,
+            'link' => 'https://www.newegg.com/intel-nuc5i3ryh/p/1VK-004K-00D04?Item=9SIAA0SB1F5037'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A2',
+            'nama' => 'MINIX NEO J50C-4',
             'kecepatan_cpu' => 1600,
             'kecepatan_gpu' => 2084,
             'kapasitas_ram' => 4,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 16,
-            'harga' => 4736638.22
+            'harga' => 4945712,
+            'link' => 'https://www.newegg.com/p/1VK-0111-00008?Item=9SIAG0F8GH5885&quicklink=true'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A3',
+            'nama' => 'Desktop Computer Fanless Mini PC',
             'kecepatan_cpu' => 693,
             'kecepatan_gpu' => 2033,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 1024,
-            'harga' => 5269312.6
+            'harga' => 5501899,
+            'link' => 'https://www.newegg.com/p/1VK-01S3-006D3?Item=9SIACP17CD1163'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A4',
+            'nama' => 'HUNSN BM01',
             'kecepatan_cpu' => 693,
             'kecepatan_gpu' => 2033,
             'kapasitas_ram' => 4,
             'kapasitas_ssd' => 64,
             'kapasitas_hdd' => 500,
-            'harga' => 5082661.2
+            'harga' => 5307009,
+            'link' => 'https://www.newegg.com/p/1VK-01U9-005E1?Item=9SIAK3U93N0766'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A5',
+            'nama' => 'Intel NUC10I3FNHN Mini PC',
             'kecepatan_cpu' => 748,
             'kecepatan_gpu' => 2086,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
-            'harga' => 6891600.42
+            'harga' => 7195794,
+            'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01GA0?Item=9SIAA0SG2M1805'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A6',
+            'nama' => 'Intel NUC5i3RYH Mini PC',
             'kecepatan_cpu' => 704,
             'kecepatan_gpu' => 2047,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 1024,
-            'harga' => 6101921.42
+            'harga' => 6371259,
+            'link' => 'https://www.newegg.com/intel-nuc5i3ryh/p/1VK-004K-00D00?Item=9SIAA0SB1F5032&quicklink=true'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A7',
+            'nama' => 'Dell Optiplex 3050',
             'kecepatan_cpu' => 1007,
             'kecepatan_gpu' => 2078,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 120,
             'kapasitas_hdd' => 500,
-            'harga' => 7178756.42
+            'harga' => 7495625,
+            'link' => 'https://www.newegg.com/p/1VK-0001-5TMN2?Item=9SIATUJFMZ1398'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A8',
+            'nama' => 'Lenovo ThinkCentre M900 Mini PC',
             'kecepatan_cpu' => 1097,
             'kecepatan_gpu' => 2064,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
-            'harga' => 6934673.82
+            'harga' => 7240769,
+            'link' => 'https://www.newegg.com/lenovo-thinkcentre-m900/p/1VK-0003-0GBB2?Item=9SIAKWUB198813'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A9',
+            'nama' => 'HP EliteDesk 800 G2 Mini PC',
             'kecepatan_cpu' => 812,
             'kecepatan_gpu' => 2064,
             'kapasitas_ram' => 64,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
-            'harga' => 6604444.42
+            'harga' => 6895963,
+            'link' => 'https://www.newegg.com/p/1VK-001E-3XF06?Item=9SIAKWUCAR1660'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A10',
+            'nama' => 'Intel NUC8i3BEH Mini PC/HTPC',
             'kecepatan_cpu' => 749,
             'kecepatan_gpu' => 2082,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
-            'harga' => 6748022.42
+            'harga' => 7045879,
+            'link' => 'https://www.newegg.com/intel-nuc8i3beh-business-desktops-workstations/p/1VK-004K-02MP9?Item=9SIAA0SHUK8564'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A11',
+            'nama' => 'HP Z210',
             'kecepatan_cpu' => 848,
             'kecepatan_gpu' => 1348,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 160,
             'kapasitas_hdd' => 1024,
-            'harga' => 2814610.35
+            'harga' => 2566773,
+            'link' => 'https://www.ebay.com/itm/284286130493?hash=item4230c6193d:g:ERAAAOSwlWhglStf'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A12',
+            'nama' => 'HP Z230',
             'kecepatan_cpu' => 1083,
             'kecepatan_gpu' => 1217,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 250,
             'kapasitas_hdd' => 1024,
-            'harga' => 4503676.8
+            'harga' => 4107110,
+            'link' => 'https://www.ebay.com/itm/154922736869?hash=item24121d5ce5:g:McsAAOSwLaBiRCxP'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A13',
+            'nama' => 'Lenovo M910s',
             'kecepatan_cpu' => 1099,
             'kecepatan_gpu' => 2633,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 1024,
-            'harga' => 8874412.6
+            'harga' => 9266127,
+            'link' => 'https://www.ebay.com/itm/175151508587?hash=item28c7d7ec6b:g:DV0AAOSwbV9f4RMZ'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A14',
+            'nama' => 'Dell 5050',
             'kecepatan_cpu' => 811,
             'kecepatan_gpu' => 1578,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 120,
             'kapasitas_hdd' => 1024,
-            'harga' => 6755515.2
+            'harga' => 6160666,
+            'link' => 'https://www.ebay.com/itm/224884341179?hash=item345c26b9bb:g:-74AAOSwUTliLhIm'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A15',
+            'nama' => 'Compact Gaming PC 10th Gen Intel with GT1030',
             'kecepatan_cpu' => 1746,
             'kecepatan_gpu' => 1710,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 64,
             'kapasitas_hdd' => 250,
-            'harga' => 3923096.4
+            'harga' => 6036138,
+            'link' => 'https://www.ebay.com/itm/303785707262?hash=item46bb0a06fe:g:TvMAAOSwFa9fwLQE'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A16',
-            'kecepatan_cpu' => 811,
-            'kecepatan_gpu' => 1563,
-            'kapasitas_ram' => 16,
+            'nama' => 'ASUS PN50 Mini PC',
+            'kecepatan_cpu' => 4667,
+            'kecepatan_gpu' => 2767,
+            'kapasitas_ram' => 32,
             'kapasitas_ssd' => 256,
-            'kapasitas_hdd' => 2048,
-            'harga' => 5025230
+            'kapasitas_hdd' => 1024,
+            'harga' => 11843175,
+            'link' => 'https://www.newegg.com/asus-pn50-business-desktops-workstations/p/1VK-001S-00KY1'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A17',
+            'nama' => 'DELL OPTIPLEX 7040',
             'kecepatan_cpu' => 811,
             'kecepatan_gpu' => 2541,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 4096,
-            'harga' => 7164542.2
+            'harga' => 7480783,
+            'link' => 'https://www.ebay.com/itm/184652849798?hash=item2afe2ae286:g:iN0AAOSwAuVgHrai'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A18',
+            'nama' => 'HP PRODESK 600 G3',
             'kecepatan_cpu' => 819,
             'kecepatan_gpu' => 1563,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 6144,
-            'harga' => 8600322.2
+            'harga' => 8979938,
+            'link' => 'https://www.ebay.com/itm/184684618378?hash=item2b000fa28a:g:E9AAAOSwyf9gOWx2'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A19',
+            'nama' => 'NEW Intel I5 11th Gen Gaming & Editing Desktop w/ Keyboard and Mouse',
             'kecepatan_cpu' => 896,
             'kecepatan_gpu' => 2887,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
-            'harga' => 12921876.42
+            'harga' => 13492245,
+            'link' => 'https://www.ebay.com/itm/393919970134?hash=item5bb775bb56:g:n6gAAOSwIIxiAn4G'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A20',
+            'nama' => 'HP Workstation Z210',
             'kecepatan_cpu' => 1113,
             'kecepatan_gpu' => 1286,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 2048,
-            'harga' => 2871416.42
+            'harga' => 2998160,
+            'link' => 'https://www.ebay.com/itm/224195797289?hash=item34331c6129:g:QEkAAOSwDO5fgKME'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A21',
-            'kecepatan_cpu' => 1095,
-            'kecepatan_gpu' => 1685,
-            'kapasitas_ram' => 16,
+            'nama' => 'HUNSN BM29',
+            'kecepatan_cpu' => 2772,
+            'kecepatan_gpu' => 1603,
+            'kapasitas_ram' => 8,
             'kapasitas_ssd' => 1024,
-            'kapasitas_hdd' => 512,
-            'harga' => 9332570
+            'kapasitas_hdd' => 1024,
+            'harga' => 10419127,
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00H67?quicklink=true'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A22',
-            'kecepatan_cpu' => 1095,
-            'kecepatan_gpu' => 2541,
-            'kapasitas_ram' => 32,
+            'nama' => 'HUNSN BM25',
+            'kecepatan_cpu' => 1108,
+            'kecepatan_gpu' => 1797,
+            'kapasitas_ram' => 8,
             'kapasitas_ssd' => 256,
-            'kapasitas_hdd' => 3072,
-            'harga' => 5814909
+            'kapasitas_hdd' => 1024,
+            'harga' => 19504007,
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00F34?quicklink=true'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A23',
+            'nama' => 'HP EliteDesk 800 G3',
             'kecepatan_cpu' => 1099,
             'kecepatan_gpu' => 2078,
             'kapasitas_ram' => 32,
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 2048,
-            'harga' => 10983717
+            'harga' => 11468536,
+            'link' => 'https://www.ebay.com/itm/184321652196?hash=item2aea6d35e4:g:3XsAAOSwjDpe3hH1'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A24',
+            'nama' => 'CUK Mantis Professional Student Desktop PC',
             'kecepatan_cpu' => 885,
             'kecepatan_gpu' => 1677,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 2048,
-            'harga' => 20269624.15
+            'harga' => 21164321,
+            'link' => 'https://www.ebay.com/itm/393933402704?hash=item5bb842b250:g:GRYAAOSwo3NhrOoZ'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A25',
+            'nama' => 'HP ProDesk 600 G3',
             'kecepatan_cpu' => 819,
             'kecepatan_gpu' => 2078,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
-            'harga' => 4903870.5
+            'harga' => 4527103,
+            'link' => 'https://www.ebay.com/itm/HP-ProDesk-600-G3-SFF-i5-7500-8GB-RAM-1TB-HDD-256GB-SSD-Seller-Refurbished-S-/154735301277?_trksid=p2349526.m4383.l4275.c10#viTabs_0'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A26',
-            'kecepatan_cpu' => 1127,
-            'kecepatan_gpu' => 2794,
-            'kapasitas_ram' => 16,
+            'nama' => 'Intel NUC NUC8I3CYSN',
+            'kecepatan_cpu' => 673,
+            'kecepatan_gpu' => 2773,
+            'kapasitas_ram' => 4,
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 1024,
-            'harga' => 26065029.48
+            'harga' => 8830023,
+            'link' => 'https://www.newegg.com/intel-nuc-kit/p/1VK-004K-00EZ8'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A27',
-            'kecepatan_cpu' => 2917,
-            'kecepatan_gpu' => 2794,
-            'kapasitas_ram' => 16,
+            'nama' => 'HUNSN BM23g',
+            'kecepatan_cpu' => 1418,
+            'kecepatan_gpu' => 1797,
+            'kapasitas_ram' => 8,
             'kapasitas_ssd' => 256,
-            'kapasitas_hdd' => 1000,
-            'harga' => 19309514.28
+            'kapasitas_hdd' => 1024,
+            'harga' => 16655462,
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00KJ6'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A28',
-            'kecepatan_cpu' => 1095,
-            'kecepatan_gpu' => 2064,
-            'kapasitas_ram' => 32,
+            'nama' => 'HUNSN BM23m',
+            'kecepatan_cpu' => 1279,
+            'kecepatan_gpu' => 1801,
+            'kapasitas_ram' => 8,
             'kapasitas_ssd' => 1024,
-            'kapasitas_hdd' => 3072,
-            'harga' => 9619582.42
+            'kapasitas_hdd' => 1024,
+            'harga' => 16670604,
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00NU7'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A29',
+            'nama' => 'Lenovo ThinkCentre M710s',
             'kecepatan_cpu' => 1099,
             'kecepatan_gpu' => 2078,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
-            'harga' => 5629408.35
+            'harga' => 5133717,
+            'link' => 'https://www.ebay.com/itm/185362378826?hash=item2b2875704a:g:1MoAAOSwyohiQraM'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A30',
+            'nama' => 'Dell OptiPlex 5070 SFF',
             'kecepatan_cpu' => 834,
             'kecepatan_gpu' => 2086,
             'kapasitas_ram' => 32,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 2048,
-            'harga' => 6755327.55
+            'harga' => 6160494,
+            'link' => 'https://www.ebay.com/itm/175219485543?hash=item28cbe52b67:g:7uYAAOSwP-5iQs1o'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A31',
+            'nama' => 'Lenovo ThinkCentre Desktop PC V520S',
             'kecepatan_cpu' => 817,
             'kecepatan_gpu' => 2078,
             'kapasitas_ram' => 4,
             'kapasitas_ssd' => 500,
             'kapasitas_hdd' => 500,
-            'harga' => 1536387.14
+            'harga' => 1536387,
+            'link' => 'https://www.ebay.com/p/21033721624?iid=154835356155&rt=nc'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A32',
+            'nama' => 'Lenovo M710S',
             'kecepatan_cpu' => 1099,
             'kecepatan_gpu' => 2078,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 1024,
-            'harga' => 5027041.58
+            'harga' => 4584391,
+            'link' => 'https://www.ebay.com/itm/255471067332?hash=item3b7b4320c4:g:qwoAAOSwoDNiSuuI'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A33',
-            'kecepatan_cpu' => 667,
-            'kecepatan_gpu' => 2086,
-            'kapasitas_ram' => 16,
+            'nama' => 'Intel NUC NUC8I3CYSN',
+            'kecepatan_cpu' => 673,
+            'kecepatan_gpu' => 2728,
+            'kapasitas_ram' => 4,
             'kapasitas_ssd' => 512,
-            'kapasitas_hdd' => 2048,
-            'harga' => 11897212.88
+            'kapasitas_hdd' => 1024,
+            'harga' => 12373576,
+            'link' => 'https://www.newegg.com/intel-nuc-nuc8i3cysn-business-desktops-workstations/p/1VK-004K-04V04'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A34',
+            'nama' => 'Fujitsu ESPRIMO D556/E85+',
             'kecepatan_cpu' => 808,
             'kecepatan_gpu' => 2064,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 120,
             'kapasitas_hdd' => 500,
-            'harga' => 3002263.55
+            'harga' => 2737902,
+            'link' => 'https://www.ebay.com/itm/194522064094?hash=item2d4a6b24de:g:3fEAAOSwnLVhm96f'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A35',
+            'nama' => 'Fujitsu ESPRIMO D556/E85+',
             'kecepatan_cpu' => 808,
             'kecepatan_gpu' => 2064,
             'kapasitas_ram' => 4,
             'kapasitas_ssd' => 500,
             'kapasitas_hdd' => 250,
-            'harga' => 2251838.4
+            'harga' => 2053555,
+            'link' => 'https://www.ebay.com/itm/144224045361?hash=item21946c4931:g:Si4AAOSwNbdhVCgc'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A36',
-            'kecepatan_cpu' => 667,
-            'kecepatan_gpu' => 2086,
-            'kapasitas_ram' => 16,
+            'nama' => 'HUNSN BM23k',
+            'kecepatan_cpu' => 1279,
+            'kecepatan_gpu' => 1681,
+            'kapasitas_ram' => 8,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
-            'harga' => 10395987.28
+            'harga' => 15276389,
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00NR2'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A37',
+            'nama' => 'HP EliteDesk 800G1',
             'kecepatan_cpu' => 1083,
             'kecepatan_gpu' => 2023,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
-            'harga' => 6037209.46
+            'harga' => 5116775,
+            'link' => 'https://www.ebay.com/p/1962787100?iid=384534425816&rt=nc'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A38',
+            'nama' => 'HP Computer Package 800',
             'kecepatan_cpu' => 811,
             'kecepatan_gpu' => 2064,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 500,
-            'harga' => 6037209.46
+            'harga' => 7957355,
+            'link' => 'https://www.ebay.com/itm/284533001522?hash=item423f7d0d32:g:ahYAAOSwTFZhlFkA'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A39',
-            'kecepatan_cpu' => 834,
-            'kecepatan_gpu' => 2086,
+            'nama' => 'HUNSN BM23f',
+            'kecepatan_cpu' => 1418,
+            'kecepatan_gpu' => 1681,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 256,
-            'kapasitas_hdd' => 256,
-            'harga' => 8913527
+            'kapasitas_hdd' => 1024,
+            'harga' => 14796510,
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00KE6'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A40',
+            'nama' => 'Lenovo ThinkCentre M720',
             'kecepatan_cpu' => 825,
             'kecepatan_gpu' => 2086,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 1024,
-            'harga' => 4296083.65
+            'harga' => 4296084,
+            'link' => 'https://www.ebay.com/p/21032723299?iid=224766710234&rt=nc'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A41',
+            'nama' => 'Lenovo M900',
             'kecepatan_cpu' => 811,
             'kecepatan_gpu' => 2064,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
-            'harga' => 5176307.75
+            'harga' => 5546724,
+            'link' => 'https://www.ebay.com/itm/284571891038?hash=item4241ce755e:g:hjMAAOSwjl9hvA7b&var=586168633090'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A42',
-            'kecepatan_cpu' => 792,
-            'kecepatan_gpu' => 2035,
-            'kapasitas_ram' => 16,
+            'nama' => 'Intel NUC NUC8I5INHX',
+            'kecepatan_cpu' => 1038,
+            'kecepatan_gpu' => 2728,
+            'kapasitas_ram' => 8,
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 500,
-            'harga' => 3002263.55
+            'harga' => 10271011,
+            'link' => 'https://www.newegg.com/intel-nuc-nuc8i5inhx-business-desktops-workstations/p/1VK-004K-04D91?quicklink=true'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A43',
+            'nama' => 'HP 800 G3',
             'kecepatan_cpu' => 811,
             'kecepatan_gpu' => 2064,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
-            'harga' => 5991079.21
+            'harga' => 6255524,
+            'link' => 'https://www.ebay.com/itm/203827724899?hash=item2f75144263:g:nU8AAOSwhUBhaITy'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A44',
+            'nama' => 'HUNSN IM04',
             'kecepatan_cpu' => 930,
             'kecepatan_gpu' => 2033,
             'kapasitas_ram' => 8,
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 1024,
-            'harga' => 7638349.6
+            'harga' => 7975505,
+            'link' => 'https://www.newegg.com/p/1VK-01U9-008U9?Item=9SIAK3U93X3146'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A45',
+            'nama' => 'Intel NUC10i5FNHN Mini PC',
             'kecepatan_cpu' => 1033,
             'kecepatan_gpu' => 2086,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
-            'harga' => 9619582.42
+            'harga' => 10044189,
+            'link' => 'https://www.newegg.com/intel-nuc10i5fnhn/p/1VK-004K-01DA3?Item=9SIAA0SFNJ8343&quicklink=true'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A46',
+            'nama' => 'HUNSN IM03',
             'kecepatan_cpu' => 930,
             'kecepatan_gpu' => 2033,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 1024,
-            'harga' => 8786973.6
+            'harga' => 9174829,
+            'link' => 'https://www.newegg.com/p/1VK-01U9-009E6?Item=9SIAK3U93X4476'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A47',
+            'nama' => 'HUNSN NBH16',
             'kecepatan_cpu' => 704,
             'kecepatan_gpu' => 2047,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
-            'harga' => 7466056
+            'harga' => 7795606,
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00FX2?Item=9SIAK3UFGC6437'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A48',
+            'nama' => 'Intel NUC10I3FNHN Mini PC',
             'kecepatan_cpu' => 748,
             'kecepatan_gpu' => 2086,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 500,
-            'harga' => 8614536.42
+            'harga' => 8994780,
+            'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01G91?Item=9SIAA0SG2M1796'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A49',
+            'nama' => 'Intel NUC10I3FNHN Mini PC',
             'kecepatan_cpu' => 748,
             'kecepatan_gpu' => 2086,
             'kapasitas_ram' => 32,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
-            'harga' => 9332426.42
+            'harga' => 9744358,
+            'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01G88?Item=9SIAA0SG2M1791'
         ]);
         
         Alternatif::Create([
             'penjual_id' => 1,
-            'nama' => 'A50',
+            'nama' => 'Intel NUC10I3FNHN Mini PC',
             'kecepatan_cpu' => 748,
             'kecepatan_gpu' => 2086,
             'kapasitas_ram' => 16,
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
-            'harga' => 8327380.42
+            'harga' => 8694949,
+            'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01GA5?Item=9SIAA0SG2M1810&quicklink=true'
         ]);
-        
-
     }
 }
