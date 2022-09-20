@@ -7,9 +7,9 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="/">Home</a>
-                {{-- <a class="nav-link {{ ($active === "list") ? 'active' : '' }}" href="/list">List</a> --}}
                 @can('pembeli')
                     <a class="nav-link {{ Request::is('rekomendasi*') ? 'active' : '' }}" href="/rekomendasi">Rekomendasi</a>
+                    <a class="nav-link {{ Request::is('list*') ? 'active' : '' }}" href="/list">List</a>
                 @endcan
                 {{-- <a class="nav-link {{ Request::is('alternatif*') ? 'active' : '' }}" href="/alternatif">Alternatif</a> --}}
             </div>

@@ -8,7 +8,9 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\RegisterPenjualController;
 use App\Http\Controllers\AlternatifController;
 use App\Http\Controllers\HitungController;
+use App\Http\Controllers\ListController;
 use App\Http\Controllers\TingkatKepentinganController;
+use App\Models\Alternatif;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,12 +29,7 @@ Route::get('/', function () {
     ]);
 });
 
-// Route::get('/list', function () {
-//     return view('pembeli.list', [
-//         'title' => "SPK SFF-PC | List",
-//         'active' => 'list'
-//     ]);
-// });
+Route::resource('/list', ListController::class)->except('create', 'store', 'edit', 'update', 'destroy')->middleware('pembeli');
 
 // Route::get('/hitung', [TingkatKepentinganController::class, 'index']);
 
@@ -45,7 +42,7 @@ Route::resource('/rekomendasi', TingkatKepentinganController::class)->except('sh
 //     ]);
 // });
 
-Route::resource('/dashboard/alternatif', AlternatifController::class)->except('show')->middleware('penjual');
+Route::resource('/dashboard/alternatif', AlternatifController::class)->middleware('penjual');
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);

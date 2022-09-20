@@ -17,7 +17,6 @@
         <thead class="table-dark text-center">
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">Nama</th>
                 <th scope="col">CPU</th>
                 <th scope="col">GPU</th>
                 <th scope="col">RAM</th>
@@ -32,8 +31,7 @@
             @foreach ($alt as $a)
             <tr>
                 <th scope="row">{{ $loop->iteration }}</th>
-                <td>{{ $a->nama }}</td>
-                <td>{{ $a->cpu->nama }}</td=>
+                <td>{{ $a->cpu->nama }}</td>
                 <td>{{ $a->gpu->nama }}</td>
                 <td class="text-center">{{ $a->kapasitas_ram }}GB</td>
                 <td class="text-center">{{ $a->kapasitas_ssd }}GB</td>
@@ -45,6 +43,9 @@
                     </a>
                 </td>
                 <td class="text-center">
+                    <a href="/dashboard/alternatif/{{ $a->id }}" class="badge bg-primary border-0">
+                        <span data-feather="eye"></span>
+                    </a>
                     <a href="/dashboard/alternatif/{{ $a->id }}/edit" class="badge bg-warning border-0">
                         <span data-feather="edit"></span>
                     </a>

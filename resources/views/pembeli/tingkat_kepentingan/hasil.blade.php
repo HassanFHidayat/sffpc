@@ -13,7 +13,7 @@
                 <th scope="col">SSD</th>
                 <th scope="col">HDD</th>
                 <th scope="col">Harga</th>
-                <th scope="col">Source</th>
+                <th scope="col">Action</th>
             </tr>
         </thead>
         <tbody>
@@ -30,6 +30,9 @@
                 <td class="text-center">
                     <a href="{{ $hasil->link }}" class="badge bg-primary border-0">
                         <span data-feather="link"></span>
+                    </a>
+                    <a href="/list/{{ $hasil->id }}" class="badge bg-primary border-0">
+                        <span data-feather="eye"></span>
                     </a>
                 </td>
             </tr>

@@ -68,7 +68,10 @@ class AlternatifController extends Controller
      */
     public function show(Alternatif $alternatif)
     {
-        //
+        return view('penjual.alternatif.show', [
+            'title' => 'Alternatif',
+            'alternatif' => Alternatif::where('id', $alternatif->id)->get()
+        ]);
     }
 
     /**
