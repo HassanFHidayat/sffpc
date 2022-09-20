@@ -10,7 +10,7 @@
                 <label for="kecepatan_cpu">CPU</label>
                 <select class="form-select" name="kecepatan_cpu" id="kecepatan_cpu">
                     @foreach($cpus as $cpu)
-                        <option value="{{ $cpu->id }}">{{ $cpu->nama }}</option>
+                        <option value="{{ $cpu->id }}" {{ old('kecepatan_cpu') == $cpu->id ? "selected" : "" }}>{{ $cpu->nama }}</option>
                     @endforeach
                 </select>
             </div>
@@ -20,7 +20,7 @@
                 <label for="kecepatan_gpu">GPU</label>
                 <select class="form-select" name="kecepatan_gpu" id="kecepatan_gpu">
                     @foreach($gpus as $gpu)
-                        <option value="{{ $gpu->id }}">{{ $gpu->nama }}</option>
+                        <option value="{{ $gpu->id }}" {{ old('kecepatan_gpu') == $gpu->id ? "selected" : "" }}>{{ $gpu->nama }}</option>
                     @endforeach
                 </select>
             </div>
@@ -29,7 +29,7 @@
             <label for="kapasitas_ram" class="form-label">Kapasitas RAM</label>
             <div class="col-md-2">
                 <div class="input-group input-group-sm mb-3">
-                    <input type="number" min="0" class="form-control form-control-sm @error('kapasitas_ram') is-invalid @enderror" name="kapasitas_ram" id="kapasitas_ram" placeholder="64">
+                    <input type="number" min="0" class="form-control form-control-sm @error('kapasitas_ram') is-invalid @enderror" name="kapasitas_ram" id="kapasitas_ram" placeholder="64" value="{{ old('kapasitas_ram') }}" required>
                     <span class="input-group-text">GB</span>
                     @error('kapasitas_ram')
                         <div class="invalid-feedback">
@@ -43,7 +43,7 @@
             <label for="kapasitas_ssd" class="form-label">Kapasitas SSD</label>
             <div class="col-md-2">
                 <div class="input-group input-group-sm mb-3">
-                    <input type="number" min="0" class="form-control form-control-sm" name="kapasitas_ssd" id="kapasitas_ssd" placeholder="1024">
+                    <input type="number" min="0" class="form-control form-control-sm" name="kapasitas_ssd" id="kapasitas_ssd" placeholder="1024" value="{{ old('kapasitas_ssd') }}">
                     <span class="input-group-text">GB</span>
                 </div>
             </div>
@@ -52,7 +52,7 @@
             <label for="kapasitas_hdd" class="form-label">Kapasitas HDD</label>
             <div class="col-md-2">
                 <div class="input-group input-group-sm mb-3">
-                    <input type="number" min="0" class="form-control form-control-sm" name="kapasitas_hdd" id="kapasitas_hdd" placeholder="2048">
+                    <input type="number" min="0" class="form-control form-control-sm" name="kapasitas_hdd" id="kapasitas_hdd" placeholder="2048" value="{{ old('kapasitas_hdd') }}">
                     <span class="input-group-text">GB</span>
                 </div>
             </div>
@@ -62,7 +62,7 @@
             <div class="col-md-2">
                 <div class="input-group input-group-sm mb-3">
                     <span class="input-group-text">Rp</span>
-                    <input type="number" name="harga" class="form-control form-control-sm @error('harga') is-invalid @enderror" id="currency-field" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" data-type="currency" placeholder="1.000.000,00">
+                    <input type="number" name="harga" class="form-control form-control-sm @error('harga') is-invalid @enderror" id="currency-field" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" data-type="currency" placeholder="1.000.000,00" value="{{ old('harga') }}" required>
                     {{-- <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -78,6 +78,20 @@
                     @enderror
                 </div>
             </div>
+        </div>
+        <div class="row mb-3">
+            <label for="link" class="form-label">Link</label>
+            <div class="col-md-5">
+                <div class="input-group input-group-sm">
+                    <input type="text" class="form-control form-control-sm @error('link') is-invalid @enderror" name="link" id="link" value="{{ old('link') }}" required>
+                </div>
+            </div>
+            <small id="elp" class="form-text text-muted">Link dapat langsung menuju ke produk atau ke toko. Jika toko tidak punya website dapat diinputkan link google maps.</small>
+            @error('link')
+                <div class="invalid-feedback">
+                    {{ $message }}
+                </div>
+            @enderror
         </div>
         <button type="submit" class="btn btn-primary mb-3">Simpan</button>
     </form>

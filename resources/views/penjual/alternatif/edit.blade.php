@@ -80,6 +80,20 @@
                 </div>
             </div>
         </div>
+        <div class="row mb-3">
+            <label for="link" class="form-label">Link</label>
+            <div class="col-md-5">
+                <div class="input-group input-group-sm">
+                    <input type="text" class="form-control form-control-sm @error('link') is-invalid @enderror" name="link" id="link" value="{{ $alternatifs->link }}>
+                </div>
+            </div>
+            <small id="elp" class="form-text text-muted">Link dapat langsung menuju ke produk atau ke toko. Jika toko tidak punya website dapat diinputkan link google maps.</small>
+            @error('link')
+                <div class="invalid-feedback">
+                    {{ $message }}
+                </div>
+            @enderror
+        </div>
         <button type="submit" class="btn btn-primary mb-3">Simpan</button>
     </form>
 @endsection

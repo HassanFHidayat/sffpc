@@ -40064,7 +40064,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 5771597,
-            'link' => 'https://www.newegg.com/intel-nuc5i3ryh/p/1VK-004K-00D04?Item=9SIAA0SB1F5037'
+            'link' => 'https://www.newegg.com/intel-nuc5i3ryh/p/1VK-004K-00D04?Item=9SIAA0SB1F5037',
+            'normalisasi_kecepatan_cpu' => 0.5,
+            'normalisasi_kecepatan_gpu' => 0.1299,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.2662
         ]);
         
         Alternatif::Create([
@@ -40076,7 +40082,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 16,
             'harga' => 4945712,
-            'link' => 'https://www.newegg.com/p/1VK-0111-00008?Item=9SIAG0F8GH5885&quicklink=true'
+            'link' => 'https://www.newegg.com/p/1VK-0111-00008?Item=9SIAG0F8GH5885&quicklink=true',
+            'normalisasi_kecepatan_cpu' => 0.375,
+            'normalisasi_kecepatan_gpu' => 0.0866,
+            'normalisasi_kapasitas_ram' => 0.0625,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.0026,
+            'normalisasi_harga' => 0.3107
         ]);
         
         Alternatif::Create([
@@ -40088,7 +40100,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 1024,
             'harga' => 5501899,
-            'link' => 'https://www.newegg.com/p/1VK-01S3-006D3?Item=9SIACP17CD1163'
+            'link' => 'https://www.newegg.com/p/1VK-01S3-006D3?Item=9SIACP17CD1163',
+            'normalisasi_kecepatan_cpu' => 0.425,
+            'normalisasi_kecepatan_gpu' => 0.0866,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.125,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.2792
         ]);
         
         Alternatif::Create([
@@ -40100,7 +40118,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 64,
             'kapasitas_hdd' => 500,
             'harga' => 5307009,
-            'link' => 'https://www.newegg.com/p/1VK-01U9-005E1?Item=9SIAK3U93N0766'
+            'link' => 'https://www.newegg.com/p/1VK-01U9-005E1?Item=9SIAK3U93N0766',
+            'normalisasi_kecepatan_cpu' => 0.425,
+            'normalisasi_kecepatan_gpu' => 0.0866,
+            'normalisasi_kapasitas_ram' => 0.0625,
+            'normalisasi_kapasitas_ssd' => 0.0625,
+            'normalisasi_kapasitas_hdd' => 0.0814,
+            'normalisasi_harga' => 0.2895
         ]);
         
         Alternatif::Create([
@@ -40112,7 +40136,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
             'harga' => 7195794,
-            'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01GA0?Item=9SIAA0SG2M1805'
+            'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01GA0?Item=9SIAA0SG2M1805',
+            'normalisasi_kecepatan_cpu' => 0.525,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.0814,
+            'normalisasi_harga' => 0.2135
         ]);
         
         Alternatif::Create([
@@ -40124,7 +40154,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 1024,
             'harga' => 6371259,
-            'link' => 'https://www.newegg.com/intel-nuc5i3ryh/p/1VK-004K-00D00?Item=9SIAA0SB1F5032&quicklink=true'
+            'link' => 'https://www.newegg.com/intel-nuc5i3ryh/p/1VK-004K-00D00?Item=9SIAA0SB1F5032&quicklink=true',
+            'normalisasi_kecepatan_cpu' => 0.5,
+            'normalisasi_kecepatan_gpu' => 0.1299,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.125,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.2411
         ]);
         
         Alternatif::Create([
@@ -40136,7 +40172,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 120,
             'kapasitas_hdd' => 500,
             'harga' => 7495625,
-            'link' => 'https://www.newegg.com/p/1VK-0001-5TMN2?Item=9SIATUJFMZ1398'
+            'link' => 'https://www.newegg.com/p/1VK-0001-5TMN2?Item=9SIATUJFMZ1398',
+            'normalisasi_kecepatan_cpu' => 0.625,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.1172,
+            'normalisasi_kapasitas_hdd' => 0.0814,
+            'normalisasi_harga' => 0.205
         ]);
         
         Alternatif::Create([
@@ -40148,7 +40190,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 7240769,
-            'link' => 'https://www.newegg.com/lenovo-thinkcentre-m900/p/1VK-0003-0GBB2?Item=9SIAKWUB198813'
+            'link' => 'https://www.newegg.com/lenovo-thinkcentre-m900/p/1VK-0003-0GBB2?Item=9SIAKWUB198813',
+            'normalisasi_kecepatan_cpu' => 0.7,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.2122
         ]);
         
         Alternatif::Create([
@@ -40160,7 +40208,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 6895963,
-            'link' => 'https://www.newegg.com/p/1VK-001E-3XF06?Item=9SIAKWUCAR1660'
+            'link' => 'https://www.newegg.com/p/1VK-001E-3XF06?Item=9SIAKWUCAR1660',
+            'normalisasi_kecepatan_cpu' => 0.625,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 1,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.2228
         ]);
         
         Alternatif::Create([
@@ -40172,7 +40226,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 7045879,
-            'link' => 'https://www.newegg.com/intel-nuc8i3beh-business-desktops-workstations/p/1VK-004K-02MP9?Item=9SIAA0SHUK8564'
+            'link' => 'https://www.newegg.com/intel-nuc8i3beh-business-desktops-workstations/p/1VK-004K-02MP9?Item=9SIAA0SHUK8564',
+            'normalisasi_kecepatan_cpu' => 0.75,
+            'normalisasi_kecepatan_gpu' => 0.1299,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.2181
         ]);
         
         Alternatif::Create([
@@ -40184,7 +40244,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 160,
             'kapasitas_hdd' => 1024,
             'harga' => 2566773,
-            'link' => 'https://www.ebay.com/itm/284286130493?hash=item4230c6193d:g:ERAAAOSwlWhglStf'
+            'link' => 'https://www.ebay.com/itm/284286130493?hash=item4230c6193d:g:ERAAAOSwlWhglStf',
+            'normalisasi_kecepatan_cpu' => 0.775,
+            'normalisasi_kecepatan_gpu' => 0.1948,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.1563,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.5986
         ]);
         
         Alternatif::Create([
@@ -40196,7 +40262,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 250,
             'kapasitas_hdd' => 1024,
             'harga' => 4107110,
-            'link' => 'https://www.ebay.com/itm/154922736869?hash=item24121d5ce5:g:McsAAOSwLaBiRCxP'
+            'link' => 'https://www.ebay.com/itm/154922736869?hash=item24121d5ce5:g:McsAAOSwLaBiRCxP',
+            'normalisasi_kecepatan_cpu' => 0.85,
+            'normalisasi_kecepatan_gpu' => 0.2338,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.2441,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.3741
         ]);
         
         Alternatif::Create([
@@ -40208,7 +40280,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 1024,
             'harga' => 9266127,
-            'link' => 'https://www.ebay.com/itm/175151508587?hash=item28c7d7ec6b:g:DV0AAOSwbV9f4RMZ'
+            'link' => 'https://www.ebay.com/itm/175151508587?hash=item28c7d7ec6b:g:DV0AAOSwbV9f4RMZ',
+            'normalisasi_kecepatan_cpu' => 0.9,
+            'normalisasi_kecepatan_gpu' => 0.316,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.1658
         ]);
         
         Alternatif::Create([
@@ -40220,7 +40298,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 120,
             'kapasitas_hdd' => 1024,
             'harga' => 6160666,
-            'link' => 'https://www.ebay.com/itm/224884341179?hash=item345c26b9bb:g:-74AAOSwUTliLhIm'
+            'link' => 'https://www.ebay.com/itm/224884341179?hash=item345c26b9bb:g:-74AAOSwUTliLhIm',
+            'normalisasi_kecepatan_cpu' => 0.8,
+            'normalisasi_kecepatan_gpu' => 0.4416,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.1172,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.2494
         ]);
         
         Alternatif::Create([
@@ -40232,7 +40316,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 64,
             'kapasitas_hdd' => 250,
             'harga' => 6036138,
-            'link' => 'https://www.ebay.com/itm/303785707262?hash=item46bb0a06fe:g:TvMAAOSwFa9fwLQE'
+            'link' => 'https://www.ebay.com/itm/303785707262?hash=item46bb0a06fe:g:TvMAAOSwFa9fwLQE',
+            'normalisasi_kecepatan_cpu' => 1,
+            'normalisasi_kecepatan_gpu' => 0.5316,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.0625,
+            'normalisasi_kapasitas_hdd' => 0.0407,
+            'normalisasi_harga' => 0.2545
         ]);
         
         Alternatif::Create([
@@ -40244,7 +40334,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 11843175,
-            'link' => 'https://www.newegg.com/asus-pn50-business-desktops-workstations/p/1VK-001S-00KY1'
+            'link' => 'https://www.newegg.com/asus-pn50-business-desktops-workstations/p/1VK-001S-00KY1',
+            'normalisasi_kecepatan_cpu' => 0.5,
+            'normalisasi_kecepatan_gpu' => 0.1299,
+            'normalisasi_kapasitas_ram' => 0.5,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.1297
         ]);
         
         Alternatif::Create([
@@ -40256,7 +40352,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 4096,
             'harga' => 7480783,
-            'link' => 'https://www.ebay.com/itm/184652849798?hash=item2afe2ae286:g:iN0AAOSwAuVgHrai'
+            'link' => 'https://www.ebay.com/itm/184652849798?hash=item2afe2ae286:g:iN0AAOSwAuVgHrai',
+            'normalisasi_kecepatan_cpu' => 0.8,
+            'normalisasi_kecepatan_gpu' => 0.3896,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.6667,
+            'normalisasi_harga' => 0.2054
         ]);
         
         Alternatif::Create([
@@ -40268,7 +40370,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 6144,
             'harga' => 8979938,
-            'link' => 'https://www.ebay.com/itm/184684618378?hash=item2b000fa28a:g:E9AAAOSwyf9gOWx2'
+            'link' => 'https://www.ebay.com/itm/184684618378?hash=item2b000fa28a:g:E9AAAOSwyf9gOWx2',
+            'normalisasi_kecepatan_cpu' => 0.85,
+            'normalisasi_kecepatan_gpu' => 0.413,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 1,
+            'normalisasi_harga' => 0.1711
         ]);
         
         Alternatif::Create([
@@ -40280,7 +40388,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
             'harga' => 13492245,
-            'link' => 'https://www.ebay.com/itm/393919970134?hash=item5bb775bb56:g:n6gAAOSwIIxiAn4G'
+            'link' => 'https://www.ebay.com/itm/393919970134?hash=item5bb775bb56:g:n6gAAOSwIIxiAn4G',
+            'normalisasi_kecepatan_cpu' => 0.65,
+            'normalisasi_kecepatan_gpu' => 1,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.0814,
+            'normalisasi_harga' => 0.1139
         ]);
         
         Alternatif::Create([
@@ -40292,7 +40406,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 2048,
             'harga' => 2998160,
-            'link' => 'https://www.ebay.com/itm/224195797289?hash=item34331c6129:g:QEkAAOSwDO5fgKME'
+            'link' => 'https://www.ebay.com/itm/224195797289?hash=item34331c6129:g:QEkAAOSwDO5fgKME',
+            'normalisasi_kecepatan_cpu' => 0.85,
+            'normalisasi_kecepatan_gpu' => 0.2771,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.125,
+            'normalisasi_kapasitas_hdd' => 0.3333,
+            'normalisasi_harga' => 0.5124
         ]);
         
         Alternatif::Create([
@@ -40304,7 +40424,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 1024,
             'kapasitas_hdd' => 1024,
             'harga' => 10419127,
-            'link' => 'https://www.newegg.com/p/1VK-01U9-00H67?quicklink=true'
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00H67?quicklink=true',
+            'normalisasi_kecepatan_cpu' => 0.45,
+            'normalisasi_kecepatan_gpu' => 0.458,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 1,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.1475
         ]);
         
         Alternatif::Create([
@@ -40316,7 +40442,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 19504007,
-            'link' => 'https://www.newegg.com/p/1VK-01U9-00F34?quicklink=true'
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00F34?quicklink=true',
+            'normalisasi_kecepatan_cpu' => 0.75,
+            'normalisasi_kecepatan_gpu' => 0.6429,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.0788
         ]);
         
         Alternatif::Create([
@@ -40328,7 +40460,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 2048,
             'harga' => 11468536,
-            'link' => 'https://www.ebay.com/itm/184321652196?hash=item2aea6d35e4:g:3XsAAOSwjDpe3hH1'
+            'link' => 'https://www.ebay.com/itm/184321652196?hash=item2aea6d35e4:g:3XsAAOSwjDpe3hH1',
+            'normalisasi_kecepatan_cpu' => 0.9,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.5,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.3333,
+            'normalisasi_harga' => 0.134
         ]);
         
         Alternatif::Create([
@@ -40340,7 +40478,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 2048,
             'harga' => 21164321,
-            'link' => 'https://www.ebay.com/itm/393933402704?hash=item5bb842b250:g:GRYAAOSwo3NhrOoZ'
+            'link' => 'https://www.ebay.com/itm/393933402704?hash=item5bb842b250:g:GRYAAOSwo3NhrOoZ',
+            'normalisasi_kecepatan_cpu' => 0.725,
+            'normalisasi_kecepatan_gpu' => 0.5861,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.3333,
+            'normalisasi_harga' => 0.0726
         ]);
         
         Alternatif::Create([
@@ -40352,7 +40496,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 4527103,
-            'link' => 'https://www.ebay.com/itm/HP-ProDesk-600-G3-SFF-i5-7500-8GB-RAM-1TB-HDD-256GB-SSD-Seller-Refurbished-S-/154735301277?_trksid=p2349526.m4383.l4275.c10#viTabs_0'
+            'link' => 'https://www.ebay.com/itm/HP-ProDesk-600-G3-SFF-i5-7500-8GB-RAM-1TB-HDD-256GB-SSD-Seller-Refurbished-S-/154735301277?_trksid=p2349526.m4383.l4275.c10#viTabs_0',
+            'normalisasi_kecepatan_cpu' => 0.85,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.3394
         ]);
         
         Alternatif::Create([
@@ -40364,7 +40514,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 1024,
             'harga' => 8830023,
-            'link' => 'https://www.newegg.com/intel-nuc-kit/p/1VK-004K-00EZ8'
+            'link' => 'https://www.newegg.com/intel-nuc-kit/p/1VK-004K-00EZ8',
+            'normalisasi_kecepatan_cpu' => 0.55,
+            'normalisasi_kecepatan_gpu' => 0.4762,
+            'normalisasi_kapasitas_ram' => 0.0625,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.174
         ]);
         
         Alternatif::Create([
@@ -40376,7 +40532,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 16655462,
-            'link' => 'https://www.newegg.com/p/1VK-01U9-00KJ6'
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00KJ6',
+            'normalisasi_kecepatan_cpu' => 0.575,
+            'normalisasi_kecepatan_gpu' => 0.6429,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.0922
         ]);
         
         Alternatif::Create([
@@ -40388,7 +40550,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 1024,
             'kapasitas_hdd' => 1024,
             'harga' => 16670604,
-            'link' => 'https://www.newegg.com/p/1VK-01U9-00NU7'
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00NU7',
+            'normalisasi_kecepatan_cpu' => 0.55,
+            'normalisasi_kecepatan_gpu' => 0.6623,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 1,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.0922
         ]);
         
         Alternatif::Create([
@@ -40400,7 +40568,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 5133717,
-            'link' => 'https://www.ebay.com/itm/185362378826?hash=item2b2875704a:g:1MoAAOSwyohiQraM'
+            'link' => 'https://www.ebay.com/itm/185362378826?hash=item2b2875704a:g:1MoAAOSwyohiQraM',
+            'normalisasi_kecepatan_cpu' => 0.9,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.2993
         ]);
         
         Alternatif::Create([
@@ -40412,7 +40586,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 2048,
             'harga' => 6160494,
-            'link' => 'https://www.ebay.com/itm/175219485543?hash=item28cbe52b67:g:7uYAAOSwP-5iQs1o'
+            'link' => 'https://www.ebay.com/itm/175219485543?hash=item28cbe52b67:g:7uYAAOSwP-5iQs1o',
+            'normalisasi_kecepatan_cpu' => 0.75,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.5,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.3333,
+            'normalisasi_harga' => 0.2494
         ]);
         
         Alternatif::Create([
@@ -40424,7 +40604,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 500,
             'kapasitas_hdd' => 500,
             'harga' => 1536387,
-            'link' => 'https://www.ebay.com/p/21033721624?iid=154835356155&rt=nc'
+            'link' => 'https://www.ebay.com/p/21033721624?iid=154835356155&rt=nc',
+            'normalisasi_kecepatan_cpu' => 0.75,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.0625,
+            'normalisasi_kapasitas_ssd' => 0.4883,
+            'normalisasi_kapasitas_hdd' => 0.0814,
+            'normalisasi_harga' => 1
         ]);
         
         Alternatif::Create([
@@ -40436,7 +40622,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 1024,
             'harga' => 4584391,
-            'link' => 'https://www.ebay.com/itm/255471067332?hash=item3b7b4320c4:g:qwoAAOSwoDNiSuuI'
+            'link' => 'https://www.ebay.com/itm/255471067332?hash=item3b7b4320c4:g:qwoAAOSwoDNiSuuI',
+            'normalisasi_kecepatan_cpu' => 0.9,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.125,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.3351
         ]);
         
         Alternatif::Create([
@@ -40448,7 +40640,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 1024,
             'harga' => 12373576,
-            'link' => 'https://www.newegg.com/intel-nuc-nuc8i3cysn-business-desktops-workstations/p/1VK-004K-04V04'
+            'link' => 'https://www.newegg.com/intel-nuc-nuc8i3cysn-business-desktops-workstations/p/1VK-004K-04V04',
+            'normalisasi_kecepatan_cpu' => 0.55,
+            'normalisasi_kecepatan_gpu' => 0.4242,
+            'normalisasi_kapasitas_ram' => 0.0625,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.1242
         ]);
         
         Alternatif::Create([
@@ -40460,7 +40658,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 120,
             'kapasitas_hdd' => 500,
             'harga' => 2737902,
-            'link' => 'https://www.ebay.com/itm/194522064094?hash=item2d4a6b24de:g:3fEAAOSwnLVhm96f'
+            'link' => 'https://www.ebay.com/itm/194522064094?hash=item2d4a6b24de:g:3fEAAOSwnLVhm96f',
+            'normalisasi_kecepatan_cpu' => 0.675,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.1172,
+            'normalisasi_kapasitas_hdd' => 0.0814,
+            'normalisasi_harga' => 0.5612
         ]);
         
         Alternatif::Create([
@@ -40472,7 +40676,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 500,
             'kapasitas_hdd' => 250,
             'harga' => 2053555,
-            'link' => 'https://www.ebay.com/itm/144224045361?hash=item21946c4931:g:Si4AAOSwNbdhVCgc'
+            'link' => 'https://www.ebay.com/itm/144224045361?hash=item21946c4931:g:Si4AAOSwNbdhVCgc',
+            'normalisasi_kecepatan_cpu' => 0.675,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.0625,
+            'normalisasi_kapasitas_ssd' => 0.4883,
+            'normalisasi_kapasitas_hdd' => 0.0407,
+            'normalisasi_harga' => 0.7482
         ]);
         
         Alternatif::Create([
@@ -40484,7 +40694,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 15276389,
-            'link' => 'https://www.newegg.com/p/1VK-01U9-00NR2'
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00NR2',
+            'normalisasi_kecepatan_cpu' => 0.55,
+            'normalisasi_kecepatan_gpu' => 0.6519,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.1006
         ]);
         
         Alternatif::Create([
@@ -40496,7 +40712,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
             'harga' => 5116775,
-            'link' => 'https://www.ebay.com/p/1962787100?iid=384534425816&rt=nc'
+            'link' => 'https://www.ebay.com/p/1962787100?iid=384534425816&rt=nc',
+            'normalisasi_kecepatan_cpu' => 0.85,
+            'normalisasi_kecepatan_gpu' => 0.2814,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.0814,
+            'normalisasi_harga' => 0.3003
         ]);
         
         Alternatif::Create([
@@ -40508,7 +40730,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 500,
             'harga' => 7957355,
-            'link' => 'https://www.ebay.com/itm/284533001522?hash=item423f7d0d32:g:ahYAAOSwTFZhlFkA'
+            'link' => 'https://www.ebay.com/itm/284533001522?hash=item423f7d0d32:g:ahYAAOSwTFZhlFkA',
+            'normalisasi_kecepatan_cpu' => 0.8,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.125,
+            'normalisasi_kapasitas_hdd' => 0.0814,
+            'normalisasi_harga' => 0.1931
         ]);
         
         Alternatif::Create([
@@ -40520,7 +40748,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 14796510,
-            'link' => 'https://www.newegg.com/p/1VK-01U9-00KE6'
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00KE6',
+            'normalisasi_kecepatan_cpu' => 0.575,
+            'normalisasi_kecepatan_gpu' => 0.6519,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.1038
         ]);
         
         Alternatif::Create([
@@ -40532,7 +40766,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 1024,
             'harga' => 4296084,
-            'link' => 'https://www.ebay.com/p/21032723299?iid=224766710234&rt=nc'
+            'link' => 'https://www.ebay.com/p/21032723299?iid=224766710234&rt=nc',
+            'normalisasi_kecepatan_cpu' => 0.425,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.3576
         ]);
         
         Alternatif::Create([
@@ -40544,7 +40784,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
             'harga' => 5546724,
-            'link' => 'https://www.ebay.com/itm/284571891038?hash=item4241ce755e:g:hjMAAOSwjl9hvA7b&var=586168633090'
+            'link' => 'https://www.ebay.com/itm/284571891038?hash=item4241ce755e:g:hjMAAOSwjl9hvA7b&var=586168633090',
+            'normalisasi_kecepatan_cpu' => 0.8,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.0814,
+            'normalisasi_harga' => 0.277
         ]);
         
         Alternatif::Create([
@@ -40556,7 +40802,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 500,
             'harga' => 10271011,
-            'link' => 'https://www.newegg.com/intel-nuc-nuc8i5inhx-business-desktops-workstations/p/1VK-004K-04D91?quicklink=true'
+            'link' => 'https://www.newegg.com/intel-nuc-nuc8i5inhx-business-desktops-workstations/p/1VK-004K-04D91?quicklink=true',
+            'normalisasi_kecepatan_cpu' => 0.4,
+            'normalisasi_kecepatan_gpu' => 0.4242,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.125,
+            'normalisasi_kapasitas_hdd' => 0.0814,
+            'normalisasi_harga' => 0.1496
         ]);
         
         Alternatif::Create([
@@ -40568,7 +40820,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
             'harga' => 6255524,
-            'link' => 'https://www.ebay.com/itm/203827724899?hash=item2f75144263:g:nU8AAOSwhUBhaITy'
+            'link' => 'https://www.ebay.com/itm/203827724899?hash=item2f75144263:g:nU8AAOSwhUBhaITy',
+            'normalisasi_kecepatan_cpu' => 0.8,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.0814,
+            'normalisasi_harga' => 0.2456
         ]);
         
         Alternatif::Create([
@@ -40580,7 +40838,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 1024,
             'harga' => 7975505,
-            'link' => 'https://www.newegg.com/p/1VK-01U9-008U9?Item=9SIAK3U93X3146'
+            'link' => 'https://www.newegg.com/p/1VK-01U9-008U9?Item=9SIAK3U93X3146',
+            'normalisasi_kecepatan_cpu' => 0.4,
+            'normalisasi_kecepatan_gpu' => 0.0866,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.125,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.1926
         ]);
         
         Alternatif::Create([
@@ -40592,7 +40856,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 10044189,
-            'link' => 'https://www.newegg.com/intel-nuc10i5fnhn/p/1VK-004K-01DA3?Item=9SIAA0SFNJ8343&quicklink=true'
+            'link' => 'https://www.newegg.com/intel-nuc10i5fnhn/p/1VK-004K-01DA3?Item=9SIAA0SFNJ8343&quicklink=true',
+            'normalisasi_kecepatan_cpu' => 0.4,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.153
         ]);
         
         Alternatif::Create([
@@ -40604,7 +40874,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 1024,
             'harga' => 9174829,
-            'link' => 'https://www.newegg.com/p/1VK-01U9-009E6?Item=9SIAK3U93X4476'
+            'link' => 'https://www.newegg.com/p/1VK-01U9-009E6?Item=9SIAK3U93X4476',
+            'normalisasi_kecepatan_cpu' => 0.4,
+            'normalisasi_kecepatan_gpu' => 0.0866,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.1675
         ]);
         
         Alternatif::Create([
@@ -40616,7 +40892,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 7795606,
-            'link' => 'https://www.newegg.com/p/1VK-01U9-00FX2?Item=9SIAK3UFGC6437'
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00FX2?Item=9SIAK3UFGC6437',
+            'normalisasi_kecepatan_cpu' => 0.5,
+            'normalisasi_kecepatan_gpu' => 0.1299,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.1667,
+            'normalisasi_harga' => 0.1971
         ]);
         
         Alternatif::Create([
@@ -40628,7 +40910,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 500,
             'harga' => 8994780,
-            'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01G91?Item=9SIAA0SG2M1796'
+            'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01G91?Item=9SIAA0SG2M1796',
+            'normalisasi_kecepatan_cpu' => 0.525,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.0814,
+            'normalisasi_harga' => 0.1708
         ]);
         
         Alternatif::Create([
@@ -40640,7 +40928,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
             'harga' => 9744358,
-            'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01G88?Item=9SIAA0SG2M1791'
+            'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01G88?Item=9SIAA0SG2M1791',
+            'normalisasi_kecepatan_cpu' => 0.525,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.5,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.0814,
+            'normalisasi_harga' => 0.1577
         ]);
         
         Alternatif::Create([
@@ -40652,7 +40946,13 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
             'harga' => 8694949,
-            'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01GA5?Item=9SIAA0SG2M1810&quicklink=true'
+            'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01GA5?Item=9SIAA0SG2M1810&quicklink=true',
+            'normalisasi_kecepatan_cpu' => 0.525,
+            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.0814,
+            'normalisasi_harga' => 0.1767
         ]);
     }
 }
