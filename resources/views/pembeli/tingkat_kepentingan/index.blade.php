@@ -8,9 +8,9 @@
     @endif
     @if($alternatif->count() && $tks->count())
     {{-- @can('done') --}}
-        <h3 class="mt-5">Bobot Lokal</h3>
+        <h3 class="mt-3">Bobot Lokal</h3>
         {{-- <a href="/rekomendasi/create" class="btn btn-primary">Create</a> --}}
-        <table class="table mt-3 text-center">
+        <table class="table mt-1 text-center">
             <thead class="table-dark">
                 <tr>
                     <th scope="col">#</th>
@@ -49,8 +49,8 @@
                 @endforeach
             </tbody>
         </table>
-        <h3 class="mt-5">Bobot Global</h3>
-        <table class="table mt-3 text-center">
+        <h3 class="mt-3">Bobot Global</h3>
+        <table class="table mt-1 text-center">
             <thead class="table-dark">
                 <tr>
                     <th scope="col">#</th>
@@ -76,11 +76,29 @@
                 @endforeach
             </tbody>
         </table>
-        <div class="row">
+        <form action="/rekomendasi/hasil" method="post">
+            @csrf
+            <div class="row d-flex align-content-center justify-content-center">
+                <div class="col-auto">
+                    <label for="jumlah" class="form-label">Jumlah Rekomendasi</label>
+                    <select name="jumlah" id="jumlah" class="form-select mx-auto my-auto">
+                        @foreach ($alternatif as $a)
+                            <option value="{{ $loop->iteration }}">{{ $loop->iteration }}</option>
+                        @endforeach
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex align-content-center justify-content-center">
+                    <button type="submit" class="btn btn-primary my-3">Hitung</button>
+                </div>
+            </div>
+        </form>
+        {{-- <div class="row">
             <div class="col d-flex align-content-center justify-content-center">
                 <a href="/rekomendasi/hasil" class="btn btn-primary my-3">Hitung</a>
             </div>
-        </div>
+        </div> --}}
     {{-- @endcan --}}
     @elseif ($alternatif->count() && !$tks->count())
     {{-- @cannot('done') --}}

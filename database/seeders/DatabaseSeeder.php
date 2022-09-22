@@ -7,6 +7,7 @@ use App\Models\CPU;
 use App\Models\GPU;
 use App\Models\Alternatif;
 use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -28,31 +29,40 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
-        // User::Create([
-        //     'nama' => 'Hassan Fasya Hidayat',
-        //     'username' => 'hassanfhidayat',
-        //     'alamat' => 'Jl. Raya Janti Jl. Majapahit No.143, Jaranan, Banguntapan, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55918',
-        //     'role' => 'pembeli',
-        //     'done' => true,
-        //     'password' => 'password'
-        // ]);
+        User::Create([
+            'nama' => 'Hassan Fasya Hidayat',
+            'username' => 'hassanfhidayat',
+            'alamat' => 'Jl. Raya Janti Jl. Majapahit No.143, Jaranan, Banguntapan, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55918',
+            'role' => 'pembeli',
+            'done' => true,
+            'password' => Hash::make('password')
+        ]);
+        
+        User::Create([
+            'nama' => 'Megumi Fukunaga',
+            'username' => 'megumifukunaga',
+            'alamat' => 'Jl. Raya Janti Jl. Majapahit No.143, Jaranan, Banguntapan, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55918',
+            'role' => 'penjual',
+            'done' => false,
+            'password' => Hash::make('password')
+        ]);
 
-        // TingkatKepentingan::Create([
-        //     'pembeli_id' => '1',
-        //     'cpu_lokal' => '3',
-        //     'gpu_lokal' => '5',
-        //     'ram_lokal' => '3',
-        //     'storage_lokal' => '2',
-        //     'ssd_lokal' => '4',
-        //     'hdd_lokal' => '2',
-        //     'harga_lokal' => '5',
-        //     'cpu_global' => '0.166666667',
-        //     'gpu_global' => '0.277777778',
-        //     'ram_global' => '0.166666667',
-        //     'ssd_global' => '0.074074074',
-        //     'hdd_global' => '0.037037037',
-        //     'harga_global' => '0.277777778'
-        // ]);
+        TingkatKepentingan::Create([
+            'pembeli_id' => '1',
+            'cpu_lokal' => '3',
+            'gpu_lokal' => '5',
+            'ram_lokal' => '3',
+            'storage_lokal' => '2',
+            'ssd_lokal' => '4',
+            'hdd_lokal' => '2',
+            'harga_lokal' => '5',
+            'cpu_global' => '0.166666667',
+            'gpu_global' => '0.277777778',
+            'ram_global' => '0.166666667',
+            'ssd_global' => '0.074074074',
+            'hdd_global' => '0.037037037',
+            'harga_global' => '0.277777778'
+        ]);
 
         Skala::Create([
             'value' => 1,

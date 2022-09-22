@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Alternatif;
 use App\Models\TingkatKepentingan;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 
 class HitungController extends Controller
 {
@@ -133,6 +134,7 @@ class HitungController extends Controller
                 $ssd_global = $t->ssd_global;
                 $hdd_global = $t->hdd_global;
                 $harga_global = $t->harga_global;
+                $jumlah = $t->jumlah;
             }
 
             // menghitung vektor Vi bagian perkalian dengan bobot global
@@ -185,7 +187,6 @@ class HitungController extends Controller
                 $altArray[$i]['hasil'] = $vektor_cpu[$i] + $vektor_gpu[$i] + $vektor_ram[$i] + $vektor_ssd[$i] + $vektor_hdd[$i] + $vektor_harga[$i];
                 $i++;
             }
-            $altCollect = collect($altArray);
 
             $i = 0;
             foreach($alt as $a) {
@@ -194,19 +195,30 @@ class HitungController extends Controller
                 $i++;
             }
 
-            $alt->transform(function ($alt) use ($altCollect, $altArray, $i) {
+            $alt->transform(function ($alt) use ($altArray) {
                 $alt->hasil = $altArray[$alt->ari]['hasil'];
                 return $alt;
             });
 
-            // dd($alt);
+            // $jumlah = TingkatKepentingan::select('jumlah')->get()->toArray();
+            // foreach($jumlah as $j) {
+            //     $jumlahHasil = $jumlah->jumlah;
+            // }
+            // dd($jumlah);
 
             return view('pembeli.tingkat_kepentingan.hasil', [
                 'title' => 'SPK SFF-PC | Hasil',
-                'hasils' => $alt->sortByDesc('hasil')
+                'hasils' => $alt->sortByDesc('hasil')->take($jumlah)
             ]);
         } else {
             abort(403);
         }
+    }
+
+    public function jumlah(Request $request) {
+        TingkatKepentingan::where('pembeli_id', auth()->user()->id)
+                        ->update(['jumlah' => $request->jumlah]);
+        // dd($request);
+        return redirect('/rekomendasi/hasil');
     }
 }

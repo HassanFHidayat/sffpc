@@ -1,6 +1,11 @@
 @extends('../layouts.main')
 @section('container')
     <h1 class="text-center">Tambah Tingkat Kepentingan</h1>
+    @if(session()->has('error'))
+        <div class="alert alert-danger" role="alert">
+            {{ session('error') }}
+        </div>
+    @endif
     <form method="post" action="/rekomendasi">
         @csrf
         <div class="mb-3">

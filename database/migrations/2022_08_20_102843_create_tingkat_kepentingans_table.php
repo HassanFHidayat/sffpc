@@ -29,6 +29,7 @@ return new class extends Migration
             $table->decimal('ssd_global');
             $table->decimal('hdd_global');
             $table->decimal('harga_global');
+            $table->integer('jumlah')->default(1);
             $table->timestamps();
         });
     }

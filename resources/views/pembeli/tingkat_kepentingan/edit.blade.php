@@ -1,6 +1,11 @@
 @extends('../layouts.main')
 @section('container')
     <h1 class="text-center">Edit Tingkat Kepentingan</h1>
+    @if(session()->has('error'))
+        <div class="alert alert-danger" role="alert">
+            {{ session('error') }}
+        </div>
+    @endif
     <form method="post" action="/rekomendasi/{{ $tks->id }}">
         @method('put')
         @csrf

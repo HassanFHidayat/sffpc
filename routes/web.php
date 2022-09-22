@@ -64,7 +64,8 @@ Route::get('/dashboard', function () {
     ]);
 })->middleware('penjual');
 
-Route::get('/rekomendasi/hasil', [HitungController::class, 'index']);
+Route::get('/rekomendasi/hasil', [HitungController::class, 'index'])->name('hasil');
+Route::post('/rekomendasi/hasil', [HitungController::class, 'jumlah']);
 // Route::get('/dashboard/alternatif', function () {
 //     return view('penjual.alternatif.index', [
 //         'title' => "SPK SFF-PC | Home",

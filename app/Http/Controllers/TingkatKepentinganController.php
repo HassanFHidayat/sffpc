@@ -102,20 +102,29 @@ class TingkatKepentinganController extends Controller
         $validatedData['hdd_global'] = $bobotGlobal[4];
         $validatedData['harga_global'] = $bobotGlobal[5];
 
-        TingkatKepentingan::create($validatedData);
+        $collection = collect([
+            $validatedData['cpu_lokal'],
+            $validatedData['gpu_lokal'],
+            $validatedData['ram_lokal'],
+            $validatedData['storage_lokal'],
+            $validatedData['ssd_lokal'],
+            $validatedData['hdd_lokal'],
+            $validatedData['harga_lokal']
+        ]);
+        // $collection = collect([3, 5, 3, 2, 4, 2, 5]);
+        $diff = $collection->duplicates();
+        if($diff->count() >= 6) {
+            return back()->withInput()->with('error', 'Semua tingkat kepentingan tidak boleh sama');
+        } else {
+            TingkatKepentingan::create($validatedData);
 
-        // $u['nama'] = auth()->user()->nama;
-        // $u['username'] = auth()->user()->nama;
-        // $u['nama'] = auth()->user()->nama;
-        // $u['nama'] = auth()->user()->nama;
-        // $u['done'] = true;
-
-        User::where('id', auth()->user()->id)
+            User::where('id', auth()->user()->id)
             ->update(['done' => true]);
 
-        return redirect('/rekomendasi')->with('success', 'New has ben added');
-
-
+            return redirect('/rekomendasi')->with('success', 'New has ben added');
+            
+            // return redirect('/rekomendasi')->with('success', 'Data has ben updated');
+        }
         //menghitung bobot global kemudian baru disimpan
     }
 
@@ -205,10 +214,25 @@ class TingkatKepentinganController extends Controller
         $validatedData['hdd_global'] = $bobotGlobal[4];
         $validatedData['harga_global'] = $bobotGlobal[5];
 
-        TingkatKepentingan::where('id', $rekomendasi->id)
-            ->update($validatedData);
-
-        return redirect('/rekomendasi')->with('success', 'Data has ben updated');
+        $collection = collect([
+            $validatedData['cpu_lokal'],
+            $validatedData['gpu_lokal'],
+            $validatedData['ram_lokal'],
+            $validatedData['storage_lokal'],
+            $validatedData['ssd_lokal'],
+            $validatedData['hdd_lokal'],
+            $validatedData['harga_lokal']
+        ]);
+        // $collection = collect([3, 5, 3, 2, 4, 2, 5]);
+        $diff = $collection->duplicates();
+        if($diff->count() >= 6) {
+            return back()->withInput()->with('error', 'Semua tingkat kepentingan tidak boleh sama');
+        } else {
+            TingkatKepentingan::where('id', $rekomendasi->id)
+                ->update($validatedData);
+            
+            return redirect('/rekomendasi')->with('success', 'Data has ben updated');
+        }
 
         //Karena tingkat kepentingan di update maka menghitung bobot global lagi kemudian baru disimpan
     }
