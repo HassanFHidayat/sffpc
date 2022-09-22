@@ -56,19 +56,19 @@ class AlternatifController extends Controller
         $validateData['kapasitas_ssd'] = $request->kapasitas_ssd;
         $validateData['kapasitas_hdd'] = $request->kapasitas_hdd;
 
+        Alternatif::Create($validateData);
+
         // membuat matriks x
         $cpu = Alternatif::select('kecepatan_cpu')->get();
         $i = 0;
-        $j = 0;
         foreach($cpu as $c) {
             $ghz[$i] = $c->cpu->base_clock;
             $i++;
-            $j = $i;
         }
-        $cpu_sekarang = CPU::where('id', $request->kecepatan_cpu)->get();
-        foreach($cpu_sekarang as $c) {
-            $ghz[$j] = $c->base_clock;
-        }
+        // $cpu_sekarang = CPU::where('id', $request->kecepatan_cpu)->get();
+        // foreach($cpu_sekarang as $c) {
+        //     $ghz[$i] = $c->base_clock;
+        // }
 
         $gpu = Alternatif::select('kecepatan_gpu')->get();
         $i = 0;
@@ -76,52 +76,43 @@ class AlternatifController extends Controller
         foreach($gpu as $g) {
             $mhz[$i] = $g->gpu->base_clock;
             $i++;
-            $j = $i;
         }
-        $gpu_sekarang = GPU::where('id', $request->kecepatan_gpu)->select('base_clock')->get();
-        foreach($gpu_sekarang as $g) {
-            $mhz[$j] = $g->base_clock;
-        }
+        // $gpu_sekarang = GPU::where('id', $request->kecepatan_gpu)->select('base_clock')->get();
+        // foreach($gpu_sekarang as $g) {
+        //     $mhz[$i] = $g->base_clock;
+        // }
 
         $rams = Alternatif::select('kapasitas_ram')->get();
         $i = 0;
-        $j = 0;
         foreach($rams as $r) {
             $ram[$i] = $r->kapasitas_ram;
             $i++;
-            $j = $i;
         }
-        $ram[$j] = (int)$request->kapasitas_ram;
+        // $ram[$i] = (int)$request->kapasitas_ram;
 
         $ssds = Alternatif::select('kapasitas_ssd')->get();
         $i = 0;
-        $j = 0;
         foreach($ssds as $s) {
             $ssd[$i] = $s->kapasitas_ssd;
             $i++;
-            $j = $i;
         }
-        $ssd[$j] = (int)$request->kapasitas_ssd;
+        // $ssd[$i] = (int)$request->kapasitas_ssd;
 
         $hdds = Alternatif::select('kapasitas_hdd')->get();
         $i = 0;
-        $j = 0;
         foreach($hdds as $h) {
             $hdd[$i] = $h->kapasitas_hdd;
             $i++;
-            $j = $i;
         }
-        $hdd[$j] = (int)$request->kapasitas_hdd;
+        // $hdd[$i] = (int)$request->kapasitas_hdd;
 
         $hargas = Alternatif::select('harga')->get();
         $i = 0;
-        $j = 0;
         foreach($hargas as $hrg) {
             $harga[$i] = $hrg->harga;
             $i++;
-            $j = $i;
         }
-        $harga[$j] = (double)$request->harga;
+        // $harga[$i] = (double)$request->harga;
 
         // mencari max dan min dari tiap kriteria
         $maxGhz = max($ghz);
@@ -133,64 +124,51 @@ class AlternatifController extends Controller
 
         // Normalisasi
         $i = 0;
-        $j = 0;
         foreach($ghz as $g) {
             $normalisasi_cpu[$i] = round($g/$maxGhz, 4);
             $i++;
-            $j = $i;
         }
-        $validateData['normalisasi_kecepatan_cpu'] = $normalisasi_cpu[$i - 1];
+        // $validateData['normalisasi_kecepatan_cpu'] = $normalisasi_cpu[$i - 1];
         
         $i = 0;
-        $j = 0;
         foreach($mhz as $m) {
             $normalisasi_gpu[$i] = round($m/$maxMhz, 4);
             $i++;
-            $j = $i;
         }
-        $validateData['normalisasi_kecepatan_gpu'] = $normalisasi_gpu[$i - 1];
+        // $validateData['normalisasi_kecepatan_gpu'] = $normalisasi_gpu[$i - 1];
         
         $i = 0;
-        $j = 0;
         foreach($ram as $r) {
             $normalisasi_ram[$i] = round($r/$maxRam, 4);
             $i++;
-            $j = $i;
         }
-        $validateData['normalisasi_kapasitas_ram'] = $normalisasi_ram[$i - 1];
+        // $validateData['normalisasi_kapasitas_ram'] = $normalisasi_ram[$i - 1];
         
         $i = 0;
-        $j = 0;
         foreach($ssd as $s) {
             $normalisasi_ssd[$i] = round($s/$maxSsd, 4);
             $i++;
-            $j = $i;
         }
-        $validateData['normalisasi_kapasitas_ssd'] = $normalisasi_ssd[$i - 1];
+        // $validateData['normalisasi_kapasitas_ssd'] = $normalisasi_ssd[$i - 1];
         
         $i = 0;
-        $j = 0;
         foreach($hdd as $h) {
             $normalisasi_hdd[$i] = round($h/$maxHdd, 4);
             $i++;
-            $j = $i;
         }
-        $validateData['normalisasi_kapasitas_hdd'] = $normalisasi_hdd[$i - 1];
+        // $validateData['normalisasi_kapasitas_hdd'] = $normalisasi_hdd[$i - 1];
         
         $i = 0;
-        $j = 0;
         foreach($harga as $hrg) {
             $normalisasi_harga[$i] = round($minHarga/$hrg, 4);
             $i++;
-            $j = $i;
         }
-        $validateData['normalisasi_harga'] = $normalisasi_harga[$i - 1];
+        // $validateData['normalisasi_harga'] = $normalisasi_harga[$i - 1];
 
         // dd($ghz, $mhz, $ram);
-        dd($validateData, $ghz, $mhz, $ram, $ssd, $hdd, $harga);
-        // Alternatif::Create($validateData);
+        // dd($normalisasi_cpu, $normalisasi_gpu, $normalisasi_ram, $normalisasi_ssd, $normalisasi_hdd, $normalisasi_harga);
 
-        // return redirect('/dashboard/alternatif')->with('success', 'New Alternative has ben added');
+        return redirect('/dashboard/alternatif')->with('success', 'New Alternative has ben added');
     }
 
     /**

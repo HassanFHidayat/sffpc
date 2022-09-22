@@ -37,46 +37,46 @@ class DatabaseSeeder extends Seeder
         //     'password' => 'password'
         // ]);
 
-        TingkatKepentingan::Create([
-            'pembeli_id' => '1',
-            'cpu_lokal' => '3',
-            'gpu_lokal' => '5',
-            'ram_lokal' => '3',
-            'storage_lokal' => '2',
-            'ssd_lokal' => '4',
-            'hdd_lokal' => '2',
-            'harga_lokal' => '5',
-            'cpu_global' => '0.166666667',
-            'gpu_global' => '0.277777778',
-            'ram_global' => '0.166666667',
-            'ssd_global' => '0.074074074',
-            'hdd_global' => '0.037037037',
-            'harga_global' => '0.277777778'
-        ]);
+        // TingkatKepentingan::Create([
+        //     'pembeli_id' => '1',
+        //     'cpu_lokal' => '3',
+        //     'gpu_lokal' => '5',
+        //     'ram_lokal' => '3',
+        //     'storage_lokal' => '2',
+        //     'ssd_lokal' => '4',
+        //     'hdd_lokal' => '2',
+        //     'harga_lokal' => '5',
+        //     'cpu_global' => '0.166666667',
+        //     'gpu_global' => '0.277777778',
+        //     'ram_global' => '0.166666667',
+        //     'ssd_global' => '0.074074074',
+        //     'hdd_global' => '0.037037037',
+        //     'harga_global' => '0.277777778'
+        // ]);
 
         Skala::Create([
             'value' => 1,
-            'description' => 'Tidak Baik'
+            'description' => 'Tidak Penting'
         ]);
 
         Skala::Create([
             'value' => 2,
-            'description' => 'Kurang Baik'
+            'description' => 'Kurang Penting'
         ]);
 
         Skala::Create([
             'value' => 3,
-            'description' => 'Cukup Baik'
+            'description' => 'Cukup Penting'
         ]);
 
         Skala::Create([
             'value' => 4,
-            'description' => 'Baik'
+            'description' => 'Penting'
         ]);
         
         Skala::Create([
             'value' => 5,
-            'description' => 'Sangat Baik'
+            'description' => 'Sangat Penting'
         ]);
 
         CPU::Create([
