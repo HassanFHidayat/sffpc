@@ -25,6 +25,7 @@ return new class extends Migration
             $table->integer('kapasitas_ssd');
             $table->integer('kapasitas_hdd');
             $table->double('harga');
+            $table->string('image')->nullable();
             $table->double('normalisasi_kecepatan_cpu')->nullable();
             $table->double('normalisasi_kecepatan_gpu')->nullable();
             $table->double('normalisasi_kapasitas_ram')->nullable();

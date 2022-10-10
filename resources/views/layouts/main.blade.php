@@ -10,9 +10,10 @@
         <link rel="stylesheet" href="/css/style.css">
         {{-- <link href="/css/bootstrap.min.css" rel="stylesheet"> --}}
     </head>
-    <body class="d-flex flex-column h-100">
+    {{-- style="background-image: url('/storage/bg/gambar2.jpg'); background-size: cover; background-repeat: no-repeat;" --}}
+    <body class="d-flex flex-column bg-light h-100">
         @include('partials.navbar')
-        <div class="container mt-4">
+        <div class="container p-3 bg-light {{ Request::is('rekomendasi/hasil*') ? '' : (Request::is('list') ? '' : 'h-100') }}">
             @yield('container')
         </div>
         @include('partials.footer')

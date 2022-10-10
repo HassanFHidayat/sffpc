@@ -1,10 +1,23 @@
 @extends('penjual.layouts.main')
 @section('container')
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Tambah Alternatif</h1>
+        <h1 class="h2">Tambah SFF-PC</h1>
     </div>
-    <form action="/dashboard/alternatif" method="post">
+    <form action="/dashboard/alternatif" method="post" enctype="multipart/form-data">
         @csrf
+        <div class="row">
+            <label for="nama" class="form-label">Nama</label>
+            <div class="col-md-5">
+                <div class="input-group input-group-sm mb-3">
+                    <input type="text" class="form-control form-control-sm @error('nama') is-invalid @enderror" name="nama" id="nama" value="{{ old('nama') }}">
+                    @error('nama')
+                        <div class="invalid-feedback">
+                            {{ $message }}
+                        </div>
+                    @enderror
+                </div>
+            </div>
+        </div>
         <div class="row mb-3">
             <div class="col-md-5">
                 <label for="kecepatan_cpu">CPU</label>
@@ -62,7 +75,7 @@
             <div class="col-md-2">
                 <div class="input-group input-group-sm mb-3">
                     <span class="input-group-text">Rp</span>
-                    <input type="number" name="harga" class="form-control form-control-sm @error('harga') is-invalid @enderror" id="currency-field" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" data-type="currency" placeholder="1.000.000,00" value="{{ old('harga') }}" required>
+                    <input type="number" name="harga" step=".01" class="form-control form-control-sm @error('harga') is-invalid @enderror" id="currency-field" data-type="currency" placeholder="1.000.000,00" value="{{ old('harga') }}" required>
                     {{-- <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -80,6 +93,18 @@
             </div>
         </div>
         <div class="row mb-3">
+            <div class="col-md-5">
+                <label for="image" class="form-label @error('image') is-invalid @enderror">Upolad Gambar</label>
+                <img class="img-preview img-fluid mb-3 col-sm-5">
+                <input class="form-control" type="file" id="image" name="image" onchange="previewImage()">
+                @error('image')
+                    <div class="invalid-feedback">
+                        {{ $message }}
+                    </div>
+                @enderror
+            </div>
+        </div>
+        <div class="row mb-3">
             <label for="link" class="form-label">Link</label>
             <div class="col-md-5">
                 <div class="input-group input-group-sm">
@@ -93,7 +118,12 @@
                 </div>
             @enderror
         </div>
-        <button type="submit" class="btn btn-primary mb-3">Simpan</button>
+        <div class="row">
+            <div class="col">
+                <a href="{{ url()->previous() }}" class="btn btn-primary mb-3">Kembali</a>
+                <button type="submit" class="btn btn-primary mb-3">Simpan</button>
+            </div>
+        </div>
     </form>
 @endsection
 @push('page-script')
@@ -106,91 +136,18 @@
             $('#kecepatan_gpu').select2();
         });
 
-        // Jquery Dependency
+        function previewImage() {
+            const image = document.querySelector('#image');
+            const imgPreview = document.querySelector('.img-preview');
 
-// $("input[data-type='currency']").on({
-//     keyup: function() {
-//       formatCurrency($(this));
-//     },
-//     blur: function() { 
-//       formatCurrency($(this), "blur");
-//     }
-// });
+            imgPreview.style.display = 'block';
 
+            const oFReader = new FileReader();
+            oFReader.readAsDataURL(image.files[0]);
 
-// function formatNumber(n) {
-//   // format number 1000000 to 1,234,567
-//   return n.replace(/\D/g, "").replace(/\B(?=(\d{3})+(?!\d))/g, ".")
-// }
-
-
-// function formatCurrency(input, blur) {
-//   // appends $ to value, validates decimal side
-//   // and puts cursor back in right position.
-  
-//   // get input value
-//   var input_val = input.val();
-  
-//   // don't validate empty input
-//   if (input_val === "") { return; }
-  
-//   // original length
-//   var original_len = input_val.length;
-
-//   // initial caret position 
-//   var caret_pos = input.prop("selectionStart");
-    
-//   // check for decimal
-//   if (input_val.indexOf(",") >= 0) {
-
-//     // get position of first decimal
-//     // this prevents multiple decimals from
-//     // being entered
-//     var decimal_pos = input_val.indexOf(",");
-
-//     // split number by decimal point
-//     var left_side = input_val.substring(0, decimal_pos);
-//     var right_side = input_val.substring(decimal_pos);
-
-//     // add commas to left side of number
-//     left_side = formatNumber(left_side);
-
-//     // validate right side
-//     right_side = formatNumber(right_side);
-    
-//     // On blur make sure 2 numbers after decimal
-//     if (blur === "blur") {
-//       right_side += "00";
-//     }
-    
-//     // Limit decimal to only 2 digits
-//     right_side = right_side.substring(0, 2);
-
-//     // join number by .
-//     // input_val = "$" + left_side + "." + right_side;
-//     input_val = left_side + "," + right_side;
-
-//   } else {
-//     // no decimal entered
-//     // add commas to number
-//     // remove all non-digits
-//     input_val = formatNumber(input_val);
-//     // input_val = "$" + input_val;
-//     input_val = input_val;
-    
-//     // final formatting
-//     if (blur === "blur") {
-//       input_val += ",00";
-//     }
-//   }
-  
-//   // send updated string to input
-//   input.val(input_val);
-
-//   // put caret back in the right position
-//   var updated_len = input_val.length;
-//   caret_pos = updated_len - original_len + caret_pos;
-//   input[0].setSelectionRange(caret_pos, caret_pos);
-// }
+            oFReader.onload = function(oFREvent) {
+            imgPreview.src = oFREvent.target.result;
+            }
+        }
     </script>
 @endpush

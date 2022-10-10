@@ -21,12 +21,13 @@ class LoginPenjualController extends Controller
 
         if(Auth::attempt($credentials)) {
             $request->session()->regenerate();
+            // return redirect()->intended('/dashboard');
 
             // kalau pembeli redirect ke home /
             if(auth()->user()->role === 'penjual') {
-                return redirect()->intended('/dashboard');
+                return redirect()->intended('/dashboard/alternatif');
             } else {
-                return redirect()->intended('/');
+                return redirect()->intended('/rekomendasi');
             }
         }
 

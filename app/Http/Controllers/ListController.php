@@ -16,7 +16,17 @@ class ListController extends Controller
     {
         return view('pembeli.list', [
             'title' => "SPK SFF-PC | List",
-            'alternatifs' => Alternatif::all()
+            'alternatifs' => Alternatif::get(),
+            'sort' => 0
+        ]);
+    }
+
+    public function sort(Request $request) {
+        // dd($request->sort);
+        return view('pembeli.list', [
+            'title' => 'SPK SFF-PC | List',
+            'alternatifs' => Alternatif::get(),
+            'sort' => $request->sort
         ]);
     }
 

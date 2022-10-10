@@ -30,15 +30,6 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         User::Create([
-            'nama' => 'Hassan Fasya Hidayat',
-            'username' => 'hassanfhidayat',
-            'alamat' => 'Jl. Raya Janti Jl. Majapahit No.143, Jaranan, Banguntapan, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55918',
-            'role' => 'pembeli',
-            'done' => true,
-            'password' => Hash::make('password')
-        ]);
-        
-        User::Create([
             'nama' => 'Megumi Fukunaga',
             'username' => 'megumifukunaga',
             'alamat' => 'Jl. Raya Janti Jl. Majapahit No.143, Jaranan, Banguntapan, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55918',
@@ -47,8 +38,17 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('password')
         ]);
 
+        User::Create([
+            'nama' => 'Hassan Fasya Hidayat',
+            'username' => 'hassanfhidayat',
+            'alamat' => 'Jl. Raya Janti Jl. Majapahit No.143, Jaranan, Banguntapan, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55918',
+            'role' => 'pembeli',
+            'done' => true,
+            'password' => Hash::make('password')
+        ]);
+
         TingkatKepentingan::Create([
-            'pembeli_id' => '1',
+            'pembeli_id' => '2',
             'cpu_lokal' => '3',
             'gpu_lokal' => '5',
             'ram_lokal' => '3',
@@ -40074,13 +40074,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 5771597,
+            'image' => 'sffpc-images/1.jpg',
             'link' => 'https://www.newegg.com/intel-nuc5i3ryh/p/1VK-004K-00D04?Item=9SIAA0SB1F5037',
-            'normalisasi_kecepatan_cpu' => 0.5,
-            'normalisasi_kecepatan_gpu' => 0.1299,
+            'normalisasi_kecepatan_cpu' => 0.5882,
+            'normalisasi_kecepatan_gpu' => 0.1961,
             'normalisasi_kapasitas_ram' => 0.125,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.2662
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.5883
         ]);
         
         Alternatif::Create([
@@ -40092,13 +40093,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 16,
             'harga' => 4945712,
+            'image' => 'sffpc-images/2.jpg',
             'link' => 'https://www.newegg.com/p/1VK-0111-00008?Item=9SIAG0F8GH5885&quicklink=true',
-            'normalisasi_kecepatan_cpu' => 0.375,
-            'normalisasi_kecepatan_gpu' => 0.0866,
+            'normalisasi_kecepatan_cpu' => 0.4412,
+            'normalisasi_kecepatan_gpu' => 0.1307,
             'normalisasi_kapasitas_ram' => 0.0625,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.0026,
-            'normalisasi_harga' => 0.3107
+            'normalisasi_kapasitas_hdd' => 0.0078,
+            'normalisasi_harga' => 0.6866
         ]);
         
         Alternatif::Create([
@@ -40110,13 +40112,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 1024,
             'harga' => 5501899,
+            'image' => 'sffpc-images/3.jpg',
             'link' => 'https://www.newegg.com/p/1VK-01S3-006D3?Item=9SIACP17CD1163',
-            'normalisasi_kecepatan_cpu' => 0.425,
-            'normalisasi_kecepatan_gpu' => 0.0866,
+            'normalisasi_kecepatan_cpu' => 0.5,
+            'normalisasi_kecepatan_gpu' => 0.1307,
             'normalisasi_kapasitas_ram' => 0.125,
             'normalisasi_kapasitas_ssd' => 0.125,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.2792
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.6172
         ]);
         
         Alternatif::Create([
@@ -40128,13 +40131,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 64,
             'kapasitas_hdd' => 500,
             'harga' => 5307009,
+            'image' => 'sffpc-images/4.jpg',
             'link' => 'https://www.newegg.com/p/1VK-01U9-005E1?Item=9SIAK3U93N0766',
-            'normalisasi_kecepatan_cpu' => 0.425,
-            'normalisasi_kecepatan_gpu' => 0.0866,
+            'normalisasi_kecepatan_cpu' => 0.5,
+            'normalisasi_kecepatan_gpu' => 0.1307,
             'normalisasi_kapasitas_ram' => 0.0625,
             'normalisasi_kapasitas_ssd' => 0.0625,
-            'normalisasi_kapasitas_hdd' => 0.0814,
-            'normalisasi_harga' => 0.2895
+            'normalisasi_kapasitas_hdd' => 0.2441,
+            'normalisasi_harga' => 0.6398
         ]);
         
         Alternatif::Create([
@@ -40146,13 +40150,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
             'harga' => 7195794,
+            'image' => 'sffpc-images/5.jpg',
             'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01GA0?Item=9SIAA0SG2M1805',
-            'normalisasi_kecepatan_cpu' => 0.525,
-            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kecepatan_cpu' => 0.6176,
+            'normalisasi_kecepatan_gpu' => 0.2288,
             'normalisasi_kapasitas_ram' => 0.125,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.0814,
-            'normalisasi_harga' => 0.2135
+            'normalisasi_kapasitas_hdd' => 0.2441,
+            'normalisasi_harga' => 0.4719
         ]);
         
         Alternatif::Create([
@@ -40164,13 +40169,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 1024,
             'harga' => 6371259,
+            'image' => 'sffpc-images/6.jpg',
             'link' => 'https://www.newegg.com/intel-nuc5i3ryh/p/1VK-004K-00D00?Item=9SIAA0SB1F5032&quicklink=true',
-            'normalisasi_kecepatan_cpu' => 0.5,
-            'normalisasi_kecepatan_gpu' => 0.1299,
+            'normalisasi_kecepatan_cpu' => 0.5882,
+            'normalisasi_kecepatan_gpu' => 0.1961,
             'normalisasi_kapasitas_ram' => 0.25,
             'normalisasi_kapasitas_ssd' => 0.125,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.2411
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.533
         ]);
         
         Alternatif::Create([
@@ -40182,13 +40188,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 120,
             'kapasitas_hdd' => 500,
             'harga' => 7495625,
+            'image' => 'sffpc-images/7.jpg',
             'link' => 'https://www.newegg.com/p/1VK-0001-5TMN2?Item=9SIATUJFMZ1398',
-            'normalisasi_kecepatan_cpu' => 0.625,
-            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kecepatan_cpu' => 0.7353,
+            'normalisasi_kecepatan_gpu' => 0.2288,
             'normalisasi_kapasitas_ram' => 0.125,
             'normalisasi_kapasitas_ssd' => 0.1172,
-            'normalisasi_kapasitas_hdd' => 0.0814,
-            'normalisasi_harga' => 0.205
+            'normalisasi_kapasitas_hdd' => 0.2441,
+            'normalisasi_harga' => 0.453
         ]);
         
         Alternatif::Create([
@@ -40200,13 +40207,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 7240769,
+            'image' => 'sffpc-images/8.jpg',
             'link' => 'https://www.newegg.com/lenovo-thinkcentre-m900/p/1VK-0003-0GBB2?Item=9SIAKWUB198813',
-            'normalisasi_kecepatan_cpu' => 0.7,
-            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kecepatan_cpu' => 0.8235,
+            'normalisasi_kecepatan_gpu' => 0.2288,
             'normalisasi_kapasitas_ram' => 0.125,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.2122
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.469
         ]);
         
         Alternatif::Create([
@@ -40218,13 +40226,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 6895963,
+            'image' => 'sffpc-images/9.jpg',
             'link' => 'https://www.newegg.com/p/1VK-001E-3XF06?Item=9SIAKWUCAR1660',
-            'normalisasi_kecepatan_cpu' => 0.625,
-            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kecepatan_cpu' => 0.7353,
+            'normalisasi_kecepatan_gpu' => 0.2288,
             'normalisasi_kapasitas_ram' => 1,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.2228
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.4924
         ]);
         
         Alternatif::Create([
@@ -40236,103 +40245,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 7045879,
+            'image' => 'sffpc-images/10.jpg',
             'link' => 'https://www.newegg.com/intel-nuc8i3beh-business-desktops-workstations/p/1VK-004K-02MP9?Item=9SIAA0SHUK8564',
-            'normalisasi_kecepatan_cpu' => 0.75,
-            'normalisasi_kecepatan_gpu' => 0.1299,
+            'normalisasi_kecepatan_cpu' => 0.8824,
+            'normalisasi_kecepatan_gpu' => 0.1961,
             'normalisasi_kapasitas_ram' => 0.125,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.2181
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'HP Z210',
-            'kecepatan_cpu' => 848,
-            'kecepatan_gpu' => 1348,
-            'kapasitas_ram' => 8,
-            'kapasitas_ssd' => 160,
-            'kapasitas_hdd' => 1024,
-            'harga' => 2566773,
-            'link' => 'https://www.ebay.com/itm/284286130493?hash=item4230c6193d:g:ERAAAOSwlWhglStf',
-            'normalisasi_kecepatan_cpu' => 0.775,
-            'normalisasi_kecepatan_gpu' => 0.1948,
-            'normalisasi_kapasitas_ram' => 0.125,
-            'normalisasi_kapasitas_ssd' => 0.1563,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.5986
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'HP Z230',
-            'kecepatan_cpu' => 1083,
-            'kecepatan_gpu' => 1217,
-            'kapasitas_ram' => 16,
-            'kapasitas_ssd' => 250,
-            'kapasitas_hdd' => 1024,
-            'harga' => 4107110,
-            'link' => 'https://www.ebay.com/itm/154922736869?hash=item24121d5ce5:g:McsAAOSwLaBiRCxP',
-            'normalisasi_kecepatan_cpu' => 0.85,
-            'normalisasi_kecepatan_gpu' => 0.2338,
-            'normalisasi_kapasitas_ram' => 0.25,
-            'normalisasi_kapasitas_ssd' => 0.2441,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.3741
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'Lenovo M910s',
-            'kecepatan_cpu' => 1099,
-            'kecepatan_gpu' => 2633,
-            'kapasitas_ram' => 16,
-            'kapasitas_ssd' => 512,
-            'kapasitas_hdd' => 1024,
-            'harga' => 9266127,
-            'link' => 'https://www.ebay.com/itm/175151508587?hash=item28c7d7ec6b:g:DV0AAOSwbV9f4RMZ',
-            'normalisasi_kecepatan_cpu' => 0.9,
-            'normalisasi_kecepatan_gpu' => 0.316,
-            'normalisasi_kapasitas_ram' => 0.25,
-            'normalisasi_kapasitas_ssd' => 0.5,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.1658
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'Dell 5050',
-            'kecepatan_cpu' => 811,
-            'kecepatan_gpu' => 1578,
-            'kapasitas_ram' => 16,
-            'kapasitas_ssd' => 120,
-            'kapasitas_hdd' => 1024,
-            'harga' => 6160666,
-            'link' => 'https://www.ebay.com/itm/224884341179?hash=item345c26b9bb:g:-74AAOSwUTliLhIm',
-            'normalisasi_kecepatan_cpu' => 0.8,
-            'normalisasi_kecepatan_gpu' => 0.4416,
-            'normalisasi_kapasitas_ram' => 0.25,
-            'normalisasi_kapasitas_ssd' => 0.1172,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.2494
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'Compact Gaming PC 10th Gen Intel with GT1030',
-            'kecepatan_cpu' => 1746,
-            'kecepatan_gpu' => 1710,
-            'kapasitas_ram' => 8,
-            'kapasitas_ssd' => 64,
-            'kapasitas_hdd' => 250,
-            'harga' => 6036138,
-            'link' => 'https://www.ebay.com/itm/303785707262?hash=item46bb0a06fe:g:TvMAAOSwFa9fwLQE',
-            'normalisasi_kecepatan_cpu' => 1,
-            'normalisasi_kecepatan_gpu' => 0.5316,
-            'normalisasi_kapasitas_ram' => 0.125,
-            'normalisasi_kapasitas_ssd' => 0.0625,
-            'normalisasi_kapasitas_hdd' => 0.0407,
-            'normalisasi_harga' => 0.2545
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.4819
         ]);
         
         Alternatif::Create([
@@ -40344,85 +40264,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 11843175,
+            'image' => 'sffpc-images/11.jpg',
             'link' => 'https://www.newegg.com/asus-pn50-business-desktops-workstations/p/1VK-001S-00KY1',
-            'normalisasi_kecepatan_cpu' => 0.5,
-            'normalisasi_kecepatan_gpu' => 0.1299,
+            'normalisasi_kecepatan_cpu' => 0.5882,
+            'normalisasi_kecepatan_gpu' => 0.1961,
             'normalisasi_kapasitas_ram' => 0.5,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.1297
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'DELL OPTIPLEX 7040',
-            'kecepatan_cpu' => 811,
-            'kecepatan_gpu' => 2541,
-            'kapasitas_ram' => 16,
-            'kapasitas_ssd' => 256,
-            'kapasitas_hdd' => 4096,
-            'harga' => 7480783,
-            'link' => 'https://www.ebay.com/itm/184652849798?hash=item2afe2ae286:g:iN0AAOSwAuVgHrai',
-            'normalisasi_kecepatan_cpu' => 0.8,
-            'normalisasi_kecepatan_gpu' => 0.3896,
-            'normalisasi_kapasitas_ram' => 0.25,
-            'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.6667,
-            'normalisasi_harga' => 0.2054
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'HP PRODESK 600 G3',
-            'kecepatan_cpu' => 819,
-            'kecepatan_gpu' => 1563,
-            'kapasitas_ram' => 16,
-            'kapasitas_ssd' => 256,
-            'kapasitas_hdd' => 6144,
-            'harga' => 8979938,
-            'link' => 'https://www.ebay.com/itm/184684618378?hash=item2b000fa28a:g:E9AAAOSwyf9gOWx2',
-            'normalisasi_kecepatan_cpu' => 0.85,
-            'normalisasi_kecepatan_gpu' => 0.413,
-            'normalisasi_kapasitas_ram' => 0.25,
-            'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 1,
-            'normalisasi_harga' => 0.1711
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'NEW Intel I5 11th Gen Gaming & Editing Desktop w/ Keyboard and Mouse',
-            'kecepatan_cpu' => 896,
-            'kecepatan_gpu' => 2887,
-            'kapasitas_ram' => 8,
-            'kapasitas_ssd' => 256,
-            'kapasitas_hdd' => 500,
-            'harga' => 13492245,
-            'link' => 'https://www.ebay.com/itm/393919970134?hash=item5bb775bb56:g:n6gAAOSwIIxiAn4G',
-            'normalisasi_kecepatan_cpu' => 0.65,
-            'normalisasi_kecepatan_gpu' => 1,
-            'normalisasi_kapasitas_ram' => 0.125,
-            'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.0814,
-            'normalisasi_harga' => 0.1139
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'HP Workstation Z210',
-            'kecepatan_cpu' => 1113,
-            'kecepatan_gpu' => 1286,
-            'kapasitas_ram' => 16,
-            'kapasitas_ssd' => 128,
-            'kapasitas_hdd' => 2048,
-            'harga' => 2998160,
-            'link' => 'https://www.ebay.com/itm/224195797289?hash=item34331c6129:g:QEkAAOSwDO5fgKME',
-            'normalisasi_kecepatan_cpu' => 0.85,
-            'normalisasi_kecepatan_gpu' => 0.2771,
-            'normalisasi_kapasitas_ram' => 0.25,
-            'normalisasi_kapasitas_ssd' => 0.125,
-            'normalisasi_kapasitas_hdd' => 0.3333,
-            'normalisasi_harga' => 0.5124
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.2867
         ]);
         
         Alternatif::Create([
@@ -40434,13 +40283,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 1024,
             'kapasitas_hdd' => 1024,
             'harga' => 10419127,
+            'image' => 'sffpc-images/12.jpg',
             'link' => 'https://www.newegg.com/p/1VK-01U9-00H67?quicklink=true',
-            'normalisasi_kecepatan_cpu' => 0.45,
-            'normalisasi_kecepatan_gpu' => 0.458,
+            'normalisasi_kecepatan_cpu' => 0.5294,
+            'normalisasi_kecepatan_gpu' => 0.6915,
             'normalisasi_kapasitas_ram' => 0.125,
             'normalisasi_kapasitas_ssd' => 1,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.1475
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.3259
         ]);
         
         Alternatif::Create([
@@ -40452,67 +40302,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 19504007,
+            'image' => 'sffpc-images/13.jpg',
             'link' => 'https://www.newegg.com/p/1VK-01U9-00F34?quicklink=true',
-            'normalisasi_kecepatan_cpu' => 0.75,
-            'normalisasi_kecepatan_gpu' => 0.6429,
+            'normalisasi_kecepatan_cpu' => 0.8824,
+            'normalisasi_kecepatan_gpu' => 0.9706,
             'normalisasi_kapasitas_ram' => 0.125,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.0788
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'HP EliteDesk 800 G3',
-            'kecepatan_cpu' => 1099,
-            'kecepatan_gpu' => 2078,
-            'kapasitas_ram' => 32,
-            'kapasitas_ssd' => 512,
-            'kapasitas_hdd' => 2048,
-            'harga' => 11468536,
-            'link' => 'https://www.ebay.com/itm/184321652196?hash=item2aea6d35e4:g:3XsAAOSwjDpe3hH1',
-            'normalisasi_kecepatan_cpu' => 0.9,
-            'normalisasi_kecepatan_gpu' => 0.1515,
-            'normalisasi_kapasitas_ram' => 0.5,
-            'normalisasi_kapasitas_ssd' => 0.5,
-            'normalisasi_kapasitas_hdd' => 0.3333,
-            'normalisasi_harga' => 0.134
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'CUK Mantis Professional Student Desktop PC',
-            'kecepatan_cpu' => 885,
-            'kecepatan_gpu' => 1677,
-            'kapasitas_ram' => 16,
-            'kapasitas_ssd' => 512,
-            'kapasitas_hdd' => 2048,
-            'harga' => 21164321,
-            'link' => 'https://www.ebay.com/itm/393933402704?hash=item5bb842b250:g:GRYAAOSwo3NhrOoZ',
-            'normalisasi_kecepatan_cpu' => 0.725,
-            'normalisasi_kecepatan_gpu' => 0.5861,
-            'normalisasi_kapasitas_ram' => 0.25,
-            'normalisasi_kapasitas_ssd' => 0.5,
-            'normalisasi_kapasitas_hdd' => 0.3333,
-            'normalisasi_harga' => 0.0726
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'HP ProDesk 600 G3',
-            'kecepatan_cpu' => 819,
-            'kecepatan_gpu' => 2078,
-            'kapasitas_ram' => 8,
-            'kapasitas_ssd' => 256,
-            'kapasitas_hdd' => 1024,
-            'harga' => 4527103,
-            'link' => 'https://www.ebay.com/itm/HP-ProDesk-600-G3-SFF-i5-7500-8GB-RAM-1TB-HDD-256GB-SSD-Seller-Refurbished-S-/154735301277?_trksid=p2349526.m4383.l4275.c10#viTabs_0',
-            'normalisasi_kecepatan_cpu' => 0.85,
-            'normalisasi_kecepatan_gpu' => 0.1515,
-            'normalisasi_kapasitas_ram' => 0.125,
-            'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.3394
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.1741
         ]);
         
         Alternatif::Create([
@@ -40524,13 +40321,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 1024,
             'harga' => 8830023,
+            'image' => 'sffpc-images/14.jpg',
             'link' => 'https://www.newegg.com/intel-nuc-kit/p/1VK-004K-00EZ8',
-            'normalisasi_kecepatan_cpu' => 0.55,
-            'normalisasi_kecepatan_gpu' => 0.4762,
+            'normalisasi_kecepatan_cpu' => 0.6471,
+            'normalisasi_kecepatan_gpu' => 0.719,
             'normalisasi_kapasitas_ram' => 0.0625,
             'normalisasi_kapasitas_ssd' => 0.5,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.174
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.3846
         ]);
         
         Alternatif::Create([
@@ -40542,13 +40340,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 16655462,
+            'image' => 'sffpc-images/15.jpg',
             'link' => 'https://www.newegg.com/p/1VK-01U9-00KJ6',
-            'normalisasi_kecepatan_cpu' => 0.575,
-            'normalisasi_kecepatan_gpu' => 0.6429,
+            'normalisasi_kecepatan_cpu' => 0.6765,
+            'normalisasi_kecepatan_gpu' => 0.9706,
             'normalisasi_kapasitas_ram' => 0.125,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.0922
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.2039
         ]);
         
         Alternatif::Create([
@@ -40560,85 +40359,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 1024,
             'kapasitas_hdd' => 1024,
             'harga' => 16670604,
+            'image' => 'sffpc-images/16.jpg',
             'link' => 'https://www.newegg.com/p/1VK-01U9-00NU7',
-            'normalisasi_kecepatan_cpu' => 0.55,
-            'normalisasi_kecepatan_gpu' => 0.6623,
+            'normalisasi_kecepatan_cpu' => 0.6471,
+            'normalisasi_kecepatan_gpu' => 1,
             'normalisasi_kapasitas_ram' => 0.125,
             'normalisasi_kapasitas_ssd' => 1,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.0922
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'Lenovo ThinkCentre M710s',
-            'kecepatan_cpu' => 1099,
-            'kecepatan_gpu' => 2078,
-            'kapasitas_ram' => 16,
-            'kapasitas_ssd' => 256,
-            'kapasitas_hdd' => 1024,
-            'harga' => 5133717,
-            'link' => 'https://www.ebay.com/itm/185362378826?hash=item2b2875704a:g:1MoAAOSwyohiQraM',
-            'normalisasi_kecepatan_cpu' => 0.9,
-            'normalisasi_kecepatan_gpu' => 0.1515,
-            'normalisasi_kapasitas_ram' => 0.25,
-            'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.2993
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'Dell OptiPlex 5070 SFF',
-            'kecepatan_cpu' => 834,
-            'kecepatan_gpu' => 2086,
-            'kapasitas_ram' => 32,
-            'kapasitas_ssd' => 256,
-            'kapasitas_hdd' => 2048,
-            'harga' => 6160494,
-            'link' => 'https://www.ebay.com/itm/175219485543?hash=item28cbe52b67:g:7uYAAOSwP-5iQs1o',
-            'normalisasi_kecepatan_cpu' => 0.75,
-            'normalisasi_kecepatan_gpu' => 0.1515,
-            'normalisasi_kapasitas_ram' => 0.5,
-            'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.3333,
-            'normalisasi_harga' => 0.2494
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'Lenovo ThinkCentre Desktop PC V520S',
-            'kecepatan_cpu' => 817,
-            'kecepatan_gpu' => 2078,
-            'kapasitas_ram' => 4,
-            'kapasitas_ssd' => 500,
-            'kapasitas_hdd' => 500,
-            'harga' => 1536387,
-            'link' => 'https://www.ebay.com/p/21033721624?iid=154835356155&rt=nc',
-            'normalisasi_kecepatan_cpu' => 0.75,
-            'normalisasi_kecepatan_gpu' => 0.1515,
-            'normalisasi_kapasitas_ram' => 0.0625,
-            'normalisasi_kapasitas_ssd' => 0.4883,
-            'normalisasi_kapasitas_hdd' => 0.0814,
-            'normalisasi_harga' => 1
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'Lenovo M710S',
-            'kecepatan_cpu' => 1099,
-            'kecepatan_gpu' => 2078,
-            'kapasitas_ram' => 16,
-            'kapasitas_ssd' => 128,
-            'kapasitas_hdd' => 1024,
-            'harga' => 4584391,
-            'link' => 'https://www.ebay.com/itm/255471067332?hash=item3b7b4320c4:g:qwoAAOSwoDNiSuuI',
-            'normalisasi_kecepatan_cpu' => 0.9,
-            'normalisasi_kecepatan_gpu' => 0.1515,
-            'normalisasi_kapasitas_ram' => 0.25,
-            'normalisasi_kapasitas_ssd' => 0.125,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.3351
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.2037
         ]);
         
         Alternatif::Create([
@@ -40650,49 +40378,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 1024,
             'harga' => 12373576,
+            'image' => 'sffpc-images/17.jpg',
             'link' => 'https://www.newegg.com/intel-nuc-nuc8i3cysn-business-desktops-workstations/p/1VK-004K-04V04',
-            'normalisasi_kecepatan_cpu' => 0.55,
-            'normalisasi_kecepatan_gpu' => 0.4242,
+            'normalisasi_kecepatan_cpu' => 0.6471,
+            'normalisasi_kecepatan_gpu' => 0.6405,
             'normalisasi_kapasitas_ram' => 0.0625,
             'normalisasi_kapasitas_ssd' => 0.5,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.1242
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'Fujitsu ESPRIMO D556/E85+',
-            'kecepatan_cpu' => 808,
-            'kecepatan_gpu' => 2064,
-            'kapasitas_ram' => 8,
-            'kapasitas_ssd' => 120,
-            'kapasitas_hdd' => 500,
-            'harga' => 2737902,
-            'link' => 'https://www.ebay.com/itm/194522064094?hash=item2d4a6b24de:g:3fEAAOSwnLVhm96f',
-            'normalisasi_kecepatan_cpu' => 0.675,
-            'normalisasi_kecepatan_gpu' => 0.1515,
-            'normalisasi_kapasitas_ram' => 0.125,
-            'normalisasi_kapasitas_ssd' => 0.1172,
-            'normalisasi_kapasitas_hdd' => 0.0814,
-            'normalisasi_harga' => 0.5612
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'Fujitsu ESPRIMO D556/E85+',
-            'kecepatan_cpu' => 808,
-            'kecepatan_gpu' => 2064,
-            'kapasitas_ram' => 4,
-            'kapasitas_ssd' => 500,
-            'kapasitas_hdd' => 250,
-            'harga' => 2053555,
-            'link' => 'https://www.ebay.com/itm/144224045361?hash=item21946c4931:g:Si4AAOSwNbdhVCgc',
-            'normalisasi_kecepatan_cpu' => 0.675,
-            'normalisasi_kecepatan_gpu' => 0.1515,
-            'normalisasi_kapasitas_ram' => 0.0625,
-            'normalisasi_kapasitas_ssd' => 0.4883,
-            'normalisasi_kapasitas_hdd' => 0.0407,
-            'normalisasi_harga' => 0.7482
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.2744
         ]);
         
         Alternatif::Create([
@@ -40704,49 +40397,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 15276389,
+            'image' => 'sffpc-images/18.jpg',
             'link' => 'https://www.newegg.com/p/1VK-01U9-00NR2',
-            'normalisasi_kecepatan_cpu' => 0.55,
-            'normalisasi_kecepatan_gpu' => 0.6519,
+            'normalisasi_kecepatan_cpu' => 0.6471,
+            'normalisasi_kecepatan_gpu' => 0.9843,
             'normalisasi_kapasitas_ram' => 0.125,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.1006
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'HP EliteDesk 800G1',
-            'kecepatan_cpu' => 1083,
-            'kecepatan_gpu' => 2023,
-            'kapasitas_ram' => 16,
-            'kapasitas_ssd' => 256,
-            'kapasitas_hdd' => 500,
-            'harga' => 5116775,
-            'link' => 'https://www.ebay.com/p/1962787100?iid=384534425816&rt=nc',
-            'normalisasi_kecepatan_cpu' => 0.85,
-            'normalisasi_kecepatan_gpu' => 0.2814,
-            'normalisasi_kapasitas_ram' => 0.25,
-            'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.0814,
-            'normalisasi_harga' => 0.3003
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'HP Computer Package 800',
-            'kecepatan_cpu' => 811,
-            'kecepatan_gpu' => 2064,
-            'kapasitas_ram' => 8,
-            'kapasitas_ssd' => 128,
-            'kapasitas_hdd' => 500,
-            'harga' => 7957355,
-            'link' => 'https://www.ebay.com/itm/284533001522?hash=item423f7d0d32:g:ahYAAOSwTFZhlFkA',
-            'normalisasi_kecepatan_cpu' => 0.8,
-            'normalisasi_kecepatan_gpu' => 0.1515,
-            'normalisasi_kapasitas_ram' => 0.125,
-            'normalisasi_kapasitas_ssd' => 0.125,
-            'normalisasi_kapasitas_hdd' => 0.0814,
-            'normalisasi_harga' => 0.1931
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.2223
         ]);
         
         Alternatif::Create([
@@ -40758,49 +40416,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 14796510,
+            'image' => 'sffpc-images/19.jpg',
             'link' => 'https://www.newegg.com/p/1VK-01U9-00KE6',
-            'normalisasi_kecepatan_cpu' => 0.575,
-            'normalisasi_kecepatan_gpu' => 0.6519,
+            'normalisasi_kecepatan_cpu' => 0.6765,
+            'normalisasi_kecepatan_gpu' => 0.9843,
             'normalisasi_kapasitas_ram' => 0.125,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.1038
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'Lenovo ThinkCentre M720',
-            'kecepatan_cpu' => 825,
-            'kecepatan_gpu' => 2086,
-            'kapasitas_ram' => 8,
-            'kapasitas_ssd' => 512,
-            'kapasitas_hdd' => 1024,
-            'harga' => 4296084,
-            'link' => 'https://www.ebay.com/p/21032723299?iid=224766710234&rt=nc',
-            'normalisasi_kecepatan_cpu' => 0.425,
-            'normalisasi_kecepatan_gpu' => 0.1515,
-            'normalisasi_kapasitas_ram' => 0.125,
-            'normalisasi_kapasitas_ssd' => 0.5,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.3576
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'Lenovo M900',
-            'kecepatan_cpu' => 811,
-            'kecepatan_gpu' => 2064,
-            'kapasitas_ram' => 8,
-            'kapasitas_ssd' => 256,
-            'kapasitas_hdd' => 500,
-            'harga' => 5546724,
-            'link' => 'https://www.ebay.com/itm/284571891038?hash=item4241ce755e:g:hjMAAOSwjl9hvA7b&var=586168633090',
-            'normalisasi_kecepatan_cpu' => 0.8,
-            'normalisasi_kecepatan_gpu' => 0.1515,
-            'normalisasi_kapasitas_ram' => 0.125,
-            'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.0814,
-            'normalisasi_harga' => 0.277
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.2295
         ]);
         
         Alternatif::Create([
@@ -40812,31 +40435,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 500,
             'harga' => 10271011,
+            'image' => 'sffpc-images/20.jpg',
             'link' => 'https://www.newegg.com/intel-nuc-nuc8i5inhx-business-desktops-workstations/p/1VK-004K-04D91?quicklink=true',
-            'normalisasi_kecepatan_cpu' => 0.4,
-            'normalisasi_kecepatan_gpu' => 0.4242,
+            'normalisasi_kecepatan_cpu' => 0.4706,
+            'normalisasi_kecepatan_gpu' => 0.6405,
             'normalisasi_kapasitas_ram' => 0.125,
             'normalisasi_kapasitas_ssd' => 0.125,
-            'normalisasi_kapasitas_hdd' => 0.0814,
-            'normalisasi_harga' => 0.1496
-        ]);
-        
-        Alternatif::Create([
-            'penjual_id' => 1,
-            'nama' => 'HP 800 G3',
-            'kecepatan_cpu' => 811,
-            'kecepatan_gpu' => 2064,
-            'kapasitas_ram' => 8,
-            'kapasitas_ssd' => 256,
-            'kapasitas_hdd' => 500,
-            'harga' => 6255524,
-            'link' => 'https://www.ebay.com/itm/203827724899?hash=item2f75144263:g:nU8AAOSwhUBhaITy',
-            'normalisasi_kecepatan_cpu' => 0.8,
-            'normalisasi_kecepatan_gpu' => 0.1515,
-            'normalisasi_kapasitas_ram' => 0.125,
-            'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.0814,
-            'normalisasi_harga' => 0.2456
+            'normalisasi_kapasitas_hdd' => 0.2441,
+            'normalisasi_harga' => 0.3306
         ]);
         
         Alternatif::Create([
@@ -40848,13 +40454,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 128,
             'kapasitas_hdd' => 1024,
             'harga' => 7975505,
+            'image' => 'sffpc-images/21.jpg',
             'link' => 'https://www.newegg.com/p/1VK-01U9-008U9?Item=9SIAK3U93X3146',
-            'normalisasi_kecepatan_cpu' => 0.4,
-            'normalisasi_kecepatan_gpu' => 0.0866,
+            'normalisasi_kecepatan_cpu' => 0.4706,
+            'normalisasi_kecepatan_gpu' => 0.1307,
             'normalisasi_kapasitas_ram' => 0.125,
             'normalisasi_kapasitas_ssd' => 0.125,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.1926
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.4258
         ]);
         
         Alternatif::Create([
@@ -40866,13 +40473,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 10044189,
+            'image' => 'sffpc-images/22.jpg',
             'link' => 'https://www.newegg.com/intel-nuc10i5fnhn/p/1VK-004K-01DA3?Item=9SIAA0SFNJ8343&quicklink=true',
-            'normalisasi_kecepatan_cpu' => 0.4,
-            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kecepatan_cpu' => 0.4706,
+            'normalisasi_kecepatan_gpu' => 0.2288,
             'normalisasi_kapasitas_ram' => 0.25,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.153
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.3381
         ]);
         
         Alternatif::Create([
@@ -40884,13 +40492,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 1024,
             'harga' => 9174829,
+            'image' => 'sffpc-images/23.jpg',
             'link' => 'https://www.newegg.com/p/1VK-01U9-009E6?Item=9SIAK3U93X4476',
-            'normalisasi_kecepatan_cpu' => 0.4,
-            'normalisasi_kecepatan_gpu' => 0.0866,
+            'normalisasi_kecepatan_cpu' => 0.4706,
+            'normalisasi_kecepatan_gpu' => 0.1307,
             'normalisasi_kapasitas_ram' => 0.25,
             'normalisasi_kapasitas_ssd' => 0.5,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.1675
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.3701
         ]);
         
         Alternatif::Create([
@@ -40902,13 +40511,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 1024,
             'harga' => 7795606,
+            'image' => 'sffpc-images/24.jpg',
             'link' => 'https://www.newegg.com/p/1VK-01U9-00FX2?Item=9SIAK3UFGC6437',
-            'normalisasi_kecepatan_cpu' => 0.5,
-            'normalisasi_kecepatan_gpu' => 0.1299,
+            'normalisasi_kecepatan_cpu' => 0.5882,
+            'normalisasi_kecepatan_gpu' => 0.1961,
             'normalisasi_kapasitas_ram' => 0.25,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.1667,
-            'normalisasi_harga' => 0.1971
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.4356
         ]);
         
         Alternatif::Create([
@@ -40920,13 +40530,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 512,
             'kapasitas_hdd' => 500,
             'harga' => 8994780,
+            'image' => 'sffpc-images/25.jpg',
             'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01G91?Item=9SIAA0SG2M1796',
-            'normalisasi_kecepatan_cpu' => 0.525,
-            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kecepatan_cpu' => 0.6176,
+            'normalisasi_kecepatan_gpu' => 0.2288,
             'normalisasi_kapasitas_ram' => 0.25,
             'normalisasi_kapasitas_ssd' => 0.5,
-            'normalisasi_kapasitas_hdd' => 0.0814,
-            'normalisasi_harga' => 0.1708
+            'normalisasi_kapasitas_hdd' => 0.2441,
+            'normalisasi_harga' => 0.3775
         ]);
         
         Alternatif::Create([
@@ -40938,13 +40549,14 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
             'harga' => 9744358,
+            'image' => 'sffpc-images/26.jpg',
             'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01G88?Item=9SIAA0SG2M1791',
-            'normalisasi_kecepatan_cpu' => 0.525,
-            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kecepatan_cpu' => 0.6176,
+            'normalisasi_kecepatan_gpu' => 0.2288,
             'normalisasi_kapasitas_ram' => 0.5,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.0814,
-            'normalisasi_harga' => 0.1577
+            'normalisasi_kapasitas_hdd' => 0.2441,
+            'normalisasi_harga' => 0.3485
         ]);
         
         Alternatif::Create([
@@ -40956,13 +40568,451 @@ class DatabaseSeeder extends Seeder
             'kapasitas_ssd' => 256,
             'kapasitas_hdd' => 500,
             'harga' => 8694949,
+            'image' => 'sffpc-images/27.jpg',
             'link' => 'https://www.newegg.com/intel-nuc10i3fnhn-business-desktops-workstations/p/1VK-004K-01GA5?Item=9SIAA0SG2M1810&quicklink=true',
-            'normalisasi_kecepatan_cpu' => 0.525,
-            'normalisasi_kecepatan_gpu' => 0.1515,
+            'normalisasi_kecepatan_cpu' => 0.6176,
+            'normalisasi_kecepatan_gpu' => 0.2288,
             'normalisasi_kapasitas_ram' => 0.25,
             'normalisasi_kapasitas_ssd' => 0.25,
-            'normalisasi_kapasitas_hdd' => 0.0814,
-            'normalisasi_harga' => 0.1767
+            'normalisasi_kapasitas_hdd' => 0.2441,
+            'normalisasi_harga' => 0.3905
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'Intel NUC Kit BOXNUC8I3CYSN2',
+            'kecepatan_cpu' => 673,
+            'kecepatan_gpu' => 2773,
+            'kapasitas_ram' => 4,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 1024,
+            'harga' => 10398801.4,
+            'image' => 'sffpc-images/28.jpg',
+            'link' => 'https://www.newegg.com/intel-nuc-kit/p/1VK-004K-00F12?quicklink=true',
+            'normalisasi_kecepatan_cpu' => 0.6471,
+            'normalisasi_kecepatan_gpu' => 0.719,
+            'normalisasi_kapasitas_ram' => 0.0625,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.3265
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'HP Z240 MT',
+            'kecepatan_cpu' => 1095,
+            'kecepatan_gpu' => 1738,
+            'kapasitas_ram' => 32,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 1024,
+            'harga' => 8557353.274,
+            'image' => 'sffpc-images/29.jpg',
+            'link' => 'https://www.newegg.com/p/1VK-001E-467D5',
+            'normalisasi_kecepatan_cpu' => 1,
+            'normalisasi_kecepatan_gpu' => 0.7033,
+            'normalisasi_kapasitas_ram' => 0.5,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.3968
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'HP Z240 MT',
+            'kecepatan_cpu' => 811,
+            'kecepatan_gpu' => 1738,
+            'kapasitas_ram' => 32,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 1024,
+            'harga' => 7953649.274,
+            'image' => 'sffpc-images/30.jpg',
+            'link' => 'https://www.newegg.com/p/1VK-001E-467D6',
+            'normalisasi_kecepatan_cpu' => 0.9412,
+            'normalisasi_kecepatan_gpu' => 0.7033,
+            'normalisasi_kapasitas_ram' => 0.5,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.4269
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'Dell Optiplex 7040 MiniTower',
+            'kecepatan_cpu' => 811,
+            'kecepatan_gpu' => 1755,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 5855928.8,
+            'image' => 'sffpc-images/31.jpg',
+            'link' => 'https://www.newegg.com/dell-optiplex-7040-twr-gaming-entertainment/p/1VK-0001-5NF06',
+            'normalisasi_kecepatan_cpu' => 0.9412,
+            'normalisasi_kecepatan_gpu' => 0.6915,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.5799
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'Dell Precision 3420',
+            'kecepatan_cpu' => 1244,
+            'kecepatan_gpu' => 1650,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 1024,
+            'harga' => 6927503.4,
+            'image' => 'sffpc-images/32.jpg',
+            'link' => 'https://www.newegg.com/dell-precision-3420-business-desktops-workstations/p/1VK-0001-5P768',
+            'normalisasi_kecepatan_cpu' => 0.8235,
+            'normalisasi_kecepatan_gpu' => 0.6915,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.4902
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'Hp ProDesk 600 G1',
+            'kecepatan_cpu' => 792,
+            'kecepatan_gpu' => 1710,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 500,
+            'kapasitas_hdd' => 500,
+            'harga' => 5131333.074,
+            'image' => 'sffpc-images/33.jpg',
+            'link' => 'https://www.newegg.com/hp-prodesk-600-g1-gaming-entertainment/p/1VK-001E-40266',
+            'normalisasi_kecepatan_cpu' => 0.9412,
+            'normalisasi_kecepatan_gpu' => 0.8026,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.4883,
+            'normalisasi_kapasitas_hdd' => 0.2441,
+            'normalisasi_harga' => 0.6618
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'HP Z220',
+            'kecepatan_cpu' => 865,
+            'kecepatan_gpu' => 2704,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 128,
+            'kapasitas_hdd' => 2048,
+            'harga' => 4829481.074,
+            'image' => 'sffpc-images/34.jpg',
+            'link' => 'https://www.newegg.com/hp-z220-gaming-entertainment/p/N82E16883451031?quicklink=true',
+            'normalisasi_kecepatan_cpu' => 0.9412,
+            'normalisasi_kecepatan_gpu' => 0.719,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.125,
+            'normalisasi_kapasitas_hdd' => 1,
+            'normalisasi_harga' => 0.7031
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'HP Pavilion - TP01-1127c',
+            'kecepatan_cpu' => 885,
+            'kecepatan_gpu' => 2704,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 11143168.43,
+            'image' => 'sffpc-images/35.jpg',
+            'link' => 'https://www.newegg.com/hp-pavilion-tp01-1127c-business-desktops-workstations/p/1VK-001E-4FE70',
+            'normalisasi_kecepatan_cpu' => 0.8529,
+            'normalisasi_kecepatan_gpu' => 0.719,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.3047
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'Dell OptiPlex 3000 3080',
+            'kecepatan_cpu' => 887,
+            'kecepatan_gpu' => 2633,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 256,
+            'harga' => 16033925.46,
+            'image' => 'sffpc-images/36.jpg',
+            'link' => 'https://www.newegg.com/dell-optiplex-3080-sff-desktop-business-desktops-workstations/p/1VK-0001-5S6P3',
+            'normalisasi_kecepatan_cpu' => 0.9118,
+            'normalisasi_kecepatan_gpu' => 0.4771,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.125,
+            'normalisasi_harga' => 0.2118
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'Dell Precision T3450',
+            'kecepatan_cpu' => 899,
+            'kecepatan_gpu' => 1735,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 500,
+            'harga' => 24023796.98,
+            'image' => 'sffpc-images/37.jpg',
+            'link' => 'https://www.newegg.com/dell-precision-t3450-sff-desktop-business-desktops-workstations/p/1VK-0001-5Z7V6',
+            'normalisasi_kecepatan_cpu' => 0.7941,
+            'normalisasi_kecepatan_gpu' => 0.8275,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.2441,
+            'normalisasi_harga' => 0.1413
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'Dell OptiPlex 7000 7080',
+            'kecepatan_cpu' => 887,
+            'kecepatan_gpu' => 1569,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 1024,
+            'kapasitas_hdd' => 512,
+            'harga' => 25506494,
+            'image' => 'sffpc-images/38.jpg',
+            'link' => 'https://www.newegg.com/dell-optiplex-7080-desktop-business-desktops-workstations/p/1VK-0001-5NV52',
+            'normalisasi_kecepatan_cpu' => 0.9118,
+            'normalisasi_kecepatan_gpu' => 0.4575,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 1,
+            'normalisasi_kapasitas_hdd' => 0.25,
+            'normalisasi_harga' => 0.1331
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'MSI Vortex W25 8SL-060',
+            'kecepatan_cpu' => 1103,
+            'kecepatan_gpu' => 1775,
+            'kapasitas_ram' => 32,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 1024,
+            'harga' => 46183205.07,
+            'image' => 'sffpc-images/39.jpg',
+            'link' => 'https://www.newegg.com/msi-vortex-w25-8sl-060-business-desktops-workstations/p/N82E16883152383',
+            'normalisasi_kecepatan_cpu' => 0.9412,
+            'normalisasi_kecepatan_gpu' => 0.802,
+            'normalisasi_kapasitas_ram' => 0.5,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.0735
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'HUNSN BM23b',
+            'kecepatan_cpu' => 1290,
+            'kecepatan_gpu' => 1679,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 128,
+            'kapasitas_hdd' => 1024,
+            'harga' => 13266244.47,
+            'image' => 'sffpc-images/40.jpg',
+            'link' => 'https://www.newegg.com/p/1VK-01U9-00KT7',
+            'normalisasi_kecepatan_cpu' => 0.8235,
+            'normalisasi_kecepatan_gpu' => 0.9843,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.125,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.256
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'Dell OptiPlex 5060',
+            'kecepatan_cpu' => 1103,
+            'kecepatan_gpu' => 2086,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 11168373.07,
+            'image' => 'sffpc-images/41.jpg',
+            'link' => 'https://www.newegg.com/dell-optiplex-5060-business-desktops-workstations/p/1VK-0001-66001',
+            'normalisasi_kecepatan_cpu' => 0.9412,
+            'normalisasi_kecepatan_gpu' => 0.2288,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.304
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'Lenovo ThinkCentre M720s',
+            'kecepatan_cpu' => 826,
+            'kecepatan_gpu' => 2086,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 1024,
+            'harga' => 10845391.43,
+            'image' => 'sffpc-images/42.jpg',
+            'link' => 'https://www.newegg.com/ibm-thinkcentre-10st002fus-business-desktops-workstations/p/1VK-0003-1J702?quicklink=true',
+            'normalisasi_kecepatan_cpu' => 0.8824,
+            'normalisasi_kecepatan_gpu' => 0.2288,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.3131
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'Dell OptiPlex 3080',
+            'kecepatan_cpu' => 887,
+            'kecepatan_gpu' => 2086,
+            'kapasitas_ram' => 8,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 11545688.07,
+            'image' => 'sffpc-images/43.jpg',
+            'link' => 'https://www.newegg.com/dell-optiplex-3080-business-desktops-workstations/p/1VK-0001-60393',
+            'normalisasi_kecepatan_cpu' => 0.9118,
+            'normalisasi_kecepatan_gpu' => 0.2288,
+            'normalisasi_kapasitas_ram' => 0.125,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.2941
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'Dell Optiplex 7040',
+            'kecepatan_cpu' => 1095,
+            'kecepatan_gpu' => 2064,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 256,
+            'kapasitas_hdd' => 1024,
+            'harga' => 7741447.318,
+            'image' => 'sffpc-images/44.jpg',
+            'link' => 'https://www.newegg.com/dell-optiplex-7040-business-desktops-workstations/p/1VK-0001-5N4J0',
+            'normalisasi_kecepatan_cpu' => 1,
+            'normalisasi_kecepatan_gpu' => 0.2288,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.25,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.4386
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'EliteDesk 800 G2',
+            'kecepatan_cpu' => 814,
+            'kecepatan_gpu' => 2064,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 2048,
+            'harga' => 5572489.772,
+            'image' => 'sffpc-images/45.jpg',
+            'link' => 'https://www.newegg.com/hp-elitedesk-800-g2-business-desktops-workstations/p/N82E16883997915',
+            'normalisasi_kecepatan_cpu' => 0.9706,
+            'normalisasi_kecepatan_gpu' => 0.2288,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 1,
+            'normalisasi_harga' => 0.6094
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'ProDesk 400 G1',
+            'kecepatan_cpu' => 1,
+            'kecepatan_gpu' => 2035,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 1024,
+            'kapasitas_hdd' => 1024,
+            'harga' => 6157629.874,
+            'image' => 'sffpc-images/46.jpg',
+            'link' => 'https://www.newegg.com/hp-prodesk-400-g1/p/N82E16883997723',
+            'normalisasi_kecepatan_cpu' => 0.2941,
+            'normalisasi_kecepatan_gpu' => 0.2288,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 1,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.5515
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'ProDesk 600 G2',
+            'kecepatan_cpu' => 811,
+            'kecepatan_gpu' => 2064,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 512,
+            'kapasitas_hdd' => 1024,
+            'harga' => 3395684.074,
+            'image' => 'sffpc-images/47.jpg',
+            'link' => 'https://www.newegg.com/hp-prodesk-600-g2/p/N82E16883997746',
+            'normalisasi_kecepatan_cpu' => 0.9412,
+            'normalisasi_kecepatan_gpu' => 0.2288,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.5,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 1
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'OptiPlex 3040',
+            'kecepatan_cpu' => 811,
+            'kecepatan_gpu' => 2064,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 1024,
+            'kapasitas_hdd' => 256,
+            'harga' => 4527629.074,
+            'image' => 'sffpc-images/48.jpg',
+            'link' => 'https://www.newegg.com/p/N82E16883461232',
+            'normalisasi_kecepatan_cpu' => 0.9412,
+            'normalisasi_kecepatan_gpu' => 0.2288,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 1,
+            'normalisasi_kapasitas_hdd' => 0.125,
+            'normalisasi_harga' => 0.75
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'ProDesk 600 G3',
+            'kecepatan_cpu' => 811,
+            'kecepatan_gpu' => 2064,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 500,
+            'kapasitas_hdd' => 256,
+            'harga' => 3923925.074,
+            'image' => 'sffpc-images/49.jpg',
+            'link' => 'https://www.newegg.com/p/N82E16883451364',
+            'normalisasi_kecepatan_cpu' => 0.9412,
+            'normalisasi_kecepatan_gpu' => 0.2288,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 0.4883,
+            'normalisasi_kapasitas_hdd' => 0.125,
+            'normalisasi_harga' => 0.8654
+        ]);
+        
+        Alternatif::Create([
+            'penjual_id' => 1,
+            'nama' => 'ProDesk 400 G1',
+            'kecepatan_cpu' => 796,
+            'kecepatan_gpu' => 2035,
+            'kapasitas_ram' => 16,
+            'kapasitas_ssd' => 1024,
+            'kapasitas_hdd' => 1024,
+            'harga' => 6157629.874,
+            'image' => 'sffpc-images/50.jpg',
+            'link' => 'https://www.newegg.com/hp-prodesk-400-g1/p/N82E16883997723?quicklink=true',
+            'normalisasi_kecepatan_cpu' => 0.9706,
+            'normalisasi_kecepatan_gpu' => 0.2288,
+            'normalisasi_kapasitas_ram' => 0.25,
+            'normalisasi_kapasitas_ssd' => 1,
+            'normalisasi_kapasitas_hdd' => 0.5,
+            'normalisasi_harga' => 0.5515
         ]);
     }
 }

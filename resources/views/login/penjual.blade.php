@@ -1,8 +1,8 @@
 @extends('layouts.main')
 @section('container')
-<div class="row justify-content-center">
-    <div class="col-md-4">
-        <main class="form-login w-100 m-auto">
+<div class="row justify-content-center h-100">
+    <div class="col-md-4 d-flex">
+        <main class="form-login w-100 m-auto bg-white p-3 rounded shadow">
             @if(session()->has('success'))
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
                     {{ session('success') }}

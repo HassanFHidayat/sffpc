@@ -32,7 +32,6 @@ class TingkatKepentinganController extends Controller
      */
     public function create()
     {
-        // $this->authorize('done');
         if(auth()->user()->done == false) {
             return view('pembeli.tingkat_kepentingan.create', [
                 "title" => "SPK SFF-PC | Create",
@@ -41,8 +40,6 @@ class TingkatKepentinganController extends Controller
         } else {
             abort(403);
         }
-
-        // Membuat tabel yang berisikan skala untuk ditampilkan didalam file create
     }
 
     /**
@@ -53,79 +50,82 @@ class TingkatKepentinganController extends Controller
      */
     public function store(Request $request)
     {
-        $validatedData = $request->validate([
-            'cpu_lokal' => 'required',
-            'gpu_lokal' => 'required',
-            'ram_lokal' => 'required',
-            'storage_lokal' => 'required',
-            'ssd_lokal' => 'required',
-            'hdd_lokal' => 'required',
-            'harga_lokal' => 'required'
-        ]);
-
-        $bobotKriteriaLokal = $validatedData['cpu_lokal'] + 
-                                $validatedData['gpu_lokal'] + 
-                                $validatedData['ram_lokal'] + 
-                                $validatedData['storage_lokal'] + 
-                                $validatedData['harga_lokal'];
-
-        $bobotSubKriteriaLokal = $validatedData['ssd_lokal'] + $validatedData['hdd_lokal'];
-
-        $bobotKriteria = [
-            $validatedData['cpu_lokal']/$bobotKriteriaLokal,
-            $validatedData['gpu_lokal']/$bobotKriteriaLokal,
-            $validatedData['ram_lokal']/$bobotKriteriaLokal,
-            $validatedData['storage_lokal']/$bobotKriteriaLokal,
-            $validatedData['harga_lokal']/$bobotKriteriaLokal
-        ];
-        
-        $bobotSubKriteria = [
-            $validatedData['ssd_lokal']/$bobotSubKriteriaLokal,
-            $validatedData['hdd_lokal']/$bobotSubKriteriaLokal
-        ];
-
-        $bobotGlobal = [
-            $bobotKriteria[0],
-            $bobotKriteria[1],
-            $bobotKriteria[2],
-            $bobotSubKriteria[0]*$bobotKriteria[3],
-            $bobotSubKriteria[1]*$bobotKriteria[3],
-            $bobotKriteria[4]
-        ];
-
-        
-        $validatedData['pembeli_id'] = auth()->user()->id;
-        $validatedData['cpu_global'] = $bobotGlobal[0];
-        $validatedData['gpu_global'] = $bobotGlobal[1];
-        $validatedData['ram_global'] = $bobotGlobal[2];
-        $validatedData['ssd_global'] = $bobotGlobal[3];
-        $validatedData['hdd_global'] = $bobotGlobal[4];
-        $validatedData['harga_global'] = $bobotGlobal[5];
-
-        $collection = collect([
-            $validatedData['cpu_lokal'],
-            $validatedData['gpu_lokal'],
-            $validatedData['ram_lokal'],
-            $validatedData['storage_lokal'],
-            $validatedData['ssd_lokal'],
-            $validatedData['hdd_lokal'],
-            $validatedData['harga_lokal']
-        ]);
-        // $collection = collect([3, 5, 3, 2, 4, 2, 5]);
-        $diff = $collection->duplicates();
-        if($diff->count() >= 6) {
-            return back()->withInput()->with('error', 'Semua tingkat kepentingan tidak boleh sama');
-        } else {
-            TingkatKepentingan::create($validatedData);
-
-            User::where('id', auth()->user()->id)
-            ->update(['done' => true]);
-
-            return redirect('/rekomendasi')->with('success', 'New has ben added');
+        // if tingkat kepentingan ada then redirect
+        $tk = TingkatKepentingan::where('pembeli_id', auth()->user()->id)->get();
+        if($tk->isEmpty()) {
+            $validatedData = $request->validate([
+                'cpu_lokal' => 'required',
+                'gpu_lokal' => 'required',
+                'ram_lokal' => 'required',
+                'storage_lokal' => 'required',
+                'ssd_lokal' => 'required',
+                'hdd_lokal' => 'required',
+                'harga_lokal' => 'required'
+            ]);
+    
+            $bobotKriteriaLokal = $validatedData['cpu_lokal'] + 
+                                    $validatedData['gpu_lokal'] + 
+                                    $validatedData['ram_lokal'] + 
+                                    $validatedData['storage_lokal'] + 
+                                    $validatedData['harga_lokal'];
+    
+            $bobotSubKriteriaLokal = $validatedData['ssd_lokal'] + $validatedData['hdd_lokal'];
+    
+            $bobotKriteria = [
+                $validatedData['cpu_lokal']/$bobotKriteriaLokal,
+                $validatedData['gpu_lokal']/$bobotKriteriaLokal,
+                $validatedData['ram_lokal']/$bobotKriteriaLokal,
+                $validatedData['storage_lokal']/$bobotKriteriaLokal,
+                $validatedData['harga_lokal']/$bobotKriteriaLokal
+            ];
             
-            // return redirect('/rekomendasi')->with('success', 'Data has ben updated');
+            $bobotSubKriteria = [
+                $validatedData['ssd_lokal']/$bobotSubKriteriaLokal,
+                $validatedData['hdd_lokal']/$bobotSubKriteriaLokal
+            ];
+    
+            $bobotGlobal = [
+                $bobotKriteria[0],
+                $bobotKriteria[1],
+                $bobotKriteria[2],
+                $bobotSubKriteria[0]*$bobotKriteria[3],
+                $bobotSubKriteria[1]*$bobotKriteria[3],
+                $bobotKriteria[4]
+            ];
+    
+            
+            $validatedData['pembeli_id'] = auth()->user()->id;
+            $validatedData['cpu_global'] = $bobotGlobal[0];
+            $validatedData['gpu_global'] = $bobotGlobal[1];
+            $validatedData['ram_global'] = $bobotGlobal[2];
+            $validatedData['ssd_global'] = $bobotGlobal[3];
+            $validatedData['hdd_global'] = $bobotGlobal[4];
+            $validatedData['harga_global'] = $bobotGlobal[5];
+    
+            $collection = collect([
+                $validatedData['cpu_lokal'],
+                $validatedData['gpu_lokal'],
+                $validatedData['ram_lokal'],
+                $validatedData['storage_lokal'],
+                $validatedData['ssd_lokal'],
+                $validatedData['hdd_lokal'],
+                $validatedData['harga_lokal']
+            ]);
+            
+            $diff = $collection->duplicates();
+            if($diff->count() >= 6) {
+                return back()->withInput()->with('error', 'Semua tingkat kepentingan tidak boleh sama');
+            } else {
+                TingkatKepentingan::create($validatedData);
+    
+                User::where('id', auth()->user()->id)
+                ->update(['done' => true]);
+    
+                return redirect('/rekomendasi')->with('success', 'Data has ben added');
+            }
+        } else {
+            return redirect('/rekomendasi');
         }
-        //menghitung bobot global kemudian baru disimpan
     }
 
     /**
@@ -136,7 +136,30 @@ class TingkatKepentinganController extends Controller
      */
     public function show(TingkatKepentingan $rekomendasi)
     {
-        //
+        // $validatedData['cpu_lokal'] = 1;
+        // $validatedData['gpu_lokal'] = 1;
+        // $validatedData['ram_lokal'] = 1;
+        // $validatedData['storage_lokal'] = 1;
+        // $validatedData['ssd_lokal'] = 1;
+        // $validatedData['hdd_lokal'] = 1;
+        // $validatedData['harga_lokal'] = 1;
+        
+        // $validatedData['pembeli_id'] = auth()->user()->id;
+        // $validatedData['cpu_global'] = 0;
+        // $validatedData['gpu_global'] = 0;
+        // $validatedData['ram_global'] = 0;
+        // $validatedData['ssd_global'] = 0;
+        // $validatedData['hdd_global'] = 0;
+        // $validatedData['harga_global'] = 0;
+
+        // TingkatKepentingan::where('id', $rekomendasi->id)
+        //     ->update($validatedData);
+
+        // return view('pembeli.tingkat_kepentingan.index', [
+        //     "title" => "SPK SFF-PC | Index",
+        //     "tks" => TingkatKepentingan::where('pembeli_id', auth()->user()->id)->get(),
+        //     'alternatif' => Alternatif::all()
+        // ]);
     }
 
     /**
@@ -245,8 +268,10 @@ class TingkatKepentinganController extends Controller
      */
     public function destroy(TingkatKepentingan $rekomendasi)
     {
-
         TingkatKepentingan::destroy($rekomendasi->id);
+        
+        User::where('id', auth()->user()->id)
+            ->update(['done' => false]);
 
         return redirect('/rekomendasi')->with('success', 'TK has ben deleted');
     }

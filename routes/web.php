@@ -30,7 +30,7 @@ Route::get('/', function () {
 });
 
 Route::resource('/list', ListController::class)->except('create', 'store', 'edit', 'update', 'destroy')->middleware('pembeli');
-
+Route::post('/list/sort', [ListController::class, 'sort']);
 // Route::get('/hitung', [TingkatKepentinganController::class, 'index']);
 
 Route::resource('/rekomendasi', TingkatKepentinganController::class)->except('show')->middleware('pembeli');

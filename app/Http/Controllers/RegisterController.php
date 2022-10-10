@@ -29,7 +29,7 @@ class RegisterController extends Controller
         $validatedData['password'] = Hash::make($validatedData['password']);
 
         if(User::where('username', '=', $validatedData['username'])->exists()) {
-            return redirect('/register')->with('registerError', 'Gagal register, username sudah digunakan');
+            return back()->with('registerError', 'Gagal register, username sudah digunakan')->withInput();
         } else {
             User::Create($validatedData);
             return redirect('/login')->with('success', 'Berhasil register, silahkan login');

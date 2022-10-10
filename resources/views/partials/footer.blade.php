@@ -6,14 +6,9 @@
         <div class="col d-flex justify-content-end">
             @guest
             <span class="text-muted">
-                <a href="/login/penjual" class="text-decoration-none text-muted">Login Penjual</a>
+                <a href="/register/penjual" class="text-decoration-none text-muted">Registrasi Penjual</a>
             </span>
             @endguest
-            @can('penjual')
-            <span class="text-muted">
-                <a href="/dashboard" class="text-decoration-none text-muted">Dashboard</a>
-            </span>
-            @endcan
         </div>
     </div>
 </footer>

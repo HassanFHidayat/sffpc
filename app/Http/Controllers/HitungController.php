@@ -204,7 +204,12 @@ class HitungController extends Controller
             // foreach($jumlah as $j) {
             //     $jumlahHasil = $jumlah->jumlah;
             // }
-            // dd($jumlah);
+            // $i = 0;
+            // foreach($alt as $a) {
+            //     $alta[$i] = $a->hasil;
+            //     $i++;
+            // }
+            // dd($alta);
 
             return view('pembeli.tingkat_kepentingan.hasil', [
                 'title' => 'SPK SFF-PC | Hasil',

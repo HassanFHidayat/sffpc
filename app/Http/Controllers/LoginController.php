@@ -25,9 +25,9 @@ class LoginController extends Controller
 
             // kalau penjual redirect ke dashboard
             if(auth()->user()->role === 'pembeli') {
-                return redirect()->intended('/');
+                return redirect()->intended('/rekomendasi');
             } else {
-                return redirect()->intended('/dashboard');
+                return redirect()->intended('/dashboard/alternatif');
             }
         }
 

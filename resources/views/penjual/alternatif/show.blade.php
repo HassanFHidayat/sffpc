@@ -1,11 +1,16 @@
 @extends('penjual.layouts.main')
 @section('container')
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Alternatif</h1>
+        <h1 class="h2">SFF-PC</h1>
     </div>
     <table class="table mt-2">
         <tbody>
             @foreach ($alternatif as $a)
+            <tr>
+                <td colspan="3">
+                    <img src="{{ asset('storage/'.$a->image) }}" alt="{{ $a->nama }}" class="img-preview img-fluid mb-3 col-sm-5 d-block">
+                </td>
+            </tr>
             <tr>
                 <td>Nama</td>
                 <td>:</td>
@@ -53,5 +58,5 @@
             @endforeach
         </tbody>
     </table>
-    <a href="{{ url()->previous() }}" class="btn btn-primary">Kembali</a>
+    <a href="{{ url()->previous() }}" class="btn btn-primary mb-3">Kembali</a>
 @endsection

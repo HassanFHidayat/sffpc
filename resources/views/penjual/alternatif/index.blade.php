@@ -1,7 +1,7 @@
 @extends('penjual.layouts.main')
 @section('container')
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Alternatif</h1>
+        <h1 class="h2">SFF-PC</h1>
     </div>
     @if(session()->has('success'))
         <div class="alert alert-success" role="alert">
@@ -17,6 +17,7 @@
         <thead class="table-dark text-center">
             <tr>
                 <th scope="col">#</th>
+                {{-- <th scope="col">Nama</th> --}}
                 <th scope="col">CPU</th>
                 <th scope="col">GPU</th>
                 <th scope="col">RAM</th>
@@ -31,6 +32,7 @@
             @foreach ($alt as $a)
             <tr>
                 <th scope="row">{{ $loop->iteration }}</th>
+                {{-- <td>{{ $a->nama }}</td> --}}
                 <td>{{ $a->cpu->nama }}</td>
                 <td>{{ $a->gpu->nama }}</td>
                 <td class="text-center">{{ $a->kapasitas_ram }}GB</td>
