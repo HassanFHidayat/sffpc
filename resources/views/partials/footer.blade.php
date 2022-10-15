@@ -1,3 +1,5 @@
+@if(Request::is('perhitungan*'))
+@else
 <footer class="footer mt-auto py-3 bg-light">
     <div class="container d-flex">
         <div class="col">
@@ -12,3 +14,4 @@
         </div>
     </div>
 </footer>
+@endif

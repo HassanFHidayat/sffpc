@@ -12,6 +12,7 @@
                 @can('pembeli')
                     <a class="nav-link {{ Request::is('rekomendasi*') ? 'active' : '' }}" href="/rekomendasi">Find Your Build!</a>
                     <a class="nav-link {{ Request::is('list*') ? 'active' : '' }}" href="/list">List</a>
+                    <a class="nav-link {{ Request::is('perhitungan*') ? 'active' : '' }}" href="/perhitungan">Perhitungan</a>
                 @endcan
                 @can('penjual')
                     <a class="nav-link {{ Request::is('dashboard*') ? 'active' : '' }}" href="/dashboard">Dashboard</a>

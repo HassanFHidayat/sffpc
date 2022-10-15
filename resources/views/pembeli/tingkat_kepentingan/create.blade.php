@@ -4,7 +4,7 @@
     <div class="col">
         <div class="card shadow">
             <div class="card-body">
-                <h3 class="text-center">Tambah Tingkat Kepentingan</h3>
+                <h3 class="text-center">Tambah Bobot Kriteria</h3>
                 @if(session()->has('error'))
                     <div class="alert alert-danger" role="alert">
                         {{ session('error') }}

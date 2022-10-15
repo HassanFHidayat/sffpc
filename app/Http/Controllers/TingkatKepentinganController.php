@@ -228,6 +228,7 @@ class TingkatKepentinganController extends Controller
             $bobotKriteria[4]
         ];
 
+        dd($bobotKriteria, $bobotSubKriteria, $bobotGlobal);
         
         $validatedData['pembeli_id'] = auth()->user()->id;
         $validatedData['cpu_global'] = $bobotGlobal[0];
